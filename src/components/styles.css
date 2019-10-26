@@ -159,6 +159,14 @@ img.infographic {
     width: auto;
     padding-right: 32px;
 }
+.mockup img {
+    display: inline-block;
+    width: 48%;
+    box-shadow: 3px 3px 6px 1px var(--light-outline);
+}
+img.left {
+    margin-right: 4%;
+}
 
 
 /* -----footer----*/

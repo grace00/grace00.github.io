@@ -3,6 +3,8 @@ import './styles.css';
 import surveystats from './surveygraphic@2x.png'
 import laptopmockup from './laptopmockup@2x.png'
 import contentoverview from './contentoverview.png'
+import teencenter from './teencenter@2x.png'
+import genzcenter from './genzcenter@2x.png'
 
 function WebMD() {
     return (
@@ -65,10 +67,17 @@ function WebMD() {
             <p>In terms of business, I learned that the Gen Z page could help diversify revenue streams. WebMD struggles to engage with consumer packaged goods advertising, but including more wellness content could get more views to attract these brands.
 </p>
 <h3>Design</h3>
-<p></p>
-
+<p>After finding content Gen Z would enjoy, I helped design the interface it could be housed in. I studied sites popular with Gen Zers such as BuzzFeed and Huffington Post to see how they attract an audience. I noted that these sites prioritize relatable article content and had easy-to-understand categories such as “Trending Now.”
+</p>
+<p>For the site’s design, I chose the colors yellow, blue, and pink so it could have broad appeal while seeming youthful and positive. I brainstormed and wrote headlines with medium to high SEO potential that address the topics Gen Z is most interested in, incorporating words like “you” where appropriate. Because Gen Z is the most diverse generation, I found images that reflected that. I sent all of this content to the designer, communicating that I wanted the mockup to emphasize article content and have clear categories.
+</p>
+<p>Here was the final mockup (for comparison, the current Teen Health Center is on the left).</p>
+<div className="mockup">
+<img className="left" src={teencenter} />
+<img src={genzcenter} />
+</div>
             <h2>What I Learned</h2>
-            <p>For the majority of the project, I actually didn’t know much about “UI/UX." If you mentioned affinity maps to me, I would’ve just pictured two globes kissing. What I did know was that I loved gathering data and making design and content decisions with them. I have always enjoyed immersing myself in different subjects, whether that be SEO or behavioral economics, and after this project I gained a better understanding of Gen Z’s relationships to health information. My most valuable lesson from this project was that what I loved doing -- researching and designing things with the potential to help people -- was actually called something.</p>
+            <p>For the majority of the project, I actually didn’t know much about “UI/UX"; if you mentioned affinity maps to me, I would’ve just pictured two globes kissing. What I did know was that I loved gathering data and making design and content decisions with them. I have always enjoyed immersing myself in different subjects, whether that be SEO or behavioral economics, and after this project I gained a better understanding of Gen Z’s relationships to health information. My most valuable lesson from this project was that what I loved doing -- researching and designing things with the potential to help people -- was actually called something.</p>
         
         </div>
     );
