@@ -54,6 +54,7 @@ a:hover img {
     color: var(--main-light-black);
 }
 .subtitle {
+    text-align: center;
     width: 70%;
     margin: 0 auto 24px auto;
 }
@@ -114,15 +115,24 @@ nav ul li a:hover, nav ul li a:focus {
     width: 60%;
     margin: 0 auto;
 }
+.project img {
+    width: 100%;
+}
 .projTitle {
     font-size: 40px;
     text-align: center;
 }
+.bannerContainer img {
+    width: 100%;
+}
 h1, h2, h3, h4 {
     font-family: Libre Baskerville;
     margin-top: 40px;
-    line-height: 8px;
     font-weight: 700;
+}
+ul li {
+    padding-top: 8px;
+    font-size: 18px;
 }
 .project p {
     font-size: 18px;
@@ -141,9 +151,8 @@ h1, h2, h3, h4 {
     color: var(--darker-blue);
     font-weight: 600;
 }
-.infographic {
-    margin-top: 8px;
-    width: 100%;
+img.infographic {
+    width: 60%;
 }
 .competition img {
     height: 48px;
@@ -156,6 +165,29 @@ h1, h2, h3, h4 {
 .footer {
     clear: both;
     margin-bottom: 16px;
-    margin-top: 16px;
+    margin-top: 40px;
     text-align: center;
+}
+
+
+nav {
+    background-color: ;
+}
+@media only screen and (max-width : 1270px) {
+    nav {
+        background: ;  
+    }    
+    .item {
+        float: none;
+        width: 100%;
+        margin: 0 auto 56px auto;
+    }
+}
+@media only screen and (max-width : 900px) {
+    nav {
+        background: ;  
+    }    
+    .project {
+        width: 100%;
+    }
 }

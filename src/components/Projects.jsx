@@ -21,7 +21,7 @@ function Projects() {
 			<div class="item">
 				<Link to="/webmd-gen-z">
 					<div className="overlay">
-						<img src={oryx} />
+						<img src={oryx}/>
 					</div>
 					<h1>WebMD: A Gen Z-entric Site</h1>
 					<p className="subtitle">When it comes to health, what is Gen Z interested in? WebMD interns find out.</p>

@@ -1,10 +1,13 @@
 import React from 'react';
 import './styles.css';
-import surveystats from './surveystats@2x.png'
+import surveystats from './surveygraphic@2x.png'
+import laptopmockup from './laptopmockup@2x.png'
+import contentoverview from './contentoverview.png'
 
 function WebMD() {
     return (
         <div className="project">
+            <img src={laptopmockup} />
             <h1 className="projTitle">WebMD</h1>
             <p className="subtitle">Researching what Gen Zers want in a health site and creating a landing page on WebMD to make health information more appealing to them.</p>
 
@@ -13,7 +16,7 @@ function WebMD() {
                     <h4>Duration:</h4><p>2 months</p>
                 </div>
                 <div className="column">
-                <h4>Teammates:</h4><p>3 interns</p>
+                    <h4>Teammates:</h4><p>3 interns</p>
                 </div>
             </div>
 
@@ -45,8 +48,28 @@ function WebMD() {
             <p>We conducted a 21-question survey on Gen Z’s health habits, how they receive health information, and their opinions of WebMD. It received 202 total responses, and here were few of the insights: </p>
             <img className="infographic" src={surveystats} />
 
+
+            <h2>Problem Definition</h2>
+            <p>From our research, we learned that the majority of Gen Zers identify as healthy and are interested in wellness topics like fitness and nutrition. As a result, they may shy away from WebMD because they associate the site with illness, particularly cancer. </p>
+            <p>Gen Zers also expressed a desire for a redesigned homepage that is “cleaner,” “easier to navigate,” and has a “more dynamic, social-media-esque layout.”</p>
+            <p>The current WebMD homepage emphasizes medical conditions and appears cluttered to Gen Zers, which may discourage them from visiting the site more often.</p>
+
+            <h2>Solution: Creating a Landing Page for Gen Zers</h2>
+            <p>After brainstorming recommendations to attract Gen Zers to WebMD, we each took one to develop and present. I chose to work on fleshing out the concept of a landing page (also called health centers) on WebMD’s site aimed at the Gen Z demographic.
+</p>
+            <h3>Content Strategy</h3>
+            <p>Drawing on our survey results and my SEO knowledge, I created a possible strategy for the landing page’s content.
+</p>
+            <img src={contentoverview} />
+            <p>To provide a more specific picture of the page’s content, I came up with over 20 possible pitches. I also wanted each pitch to have high SEO potential, so I analyzed keyword volume, competition, and content gaps using Keywords Everywhere and seoClarity. </p>
+            <p>In terms of business, I learned that the Gen Z page could help diversify revenue streams. WebMD struggles to engage with consumer packaged goods advertising, but including more wellness content could get more views to attract these brands.
+</p>
+<h3>Design</h3>
+<p></p>
+
             <h2>What I Learned</h2>
             <p>For the majority of the project, I actually didn’t know much about “UI/UX." If you mentioned affinity maps to me, I would’ve just pictured two globes kissing. What I did know was that I loved gathering data and making design and content decisions with them. I have always enjoyed immersing myself in different subjects, whether that be SEO or behavioral economics, and after this project I gained a better understanding of Gen Z’s relationships to health information. My most valuable lesson from this project was that what I loved doing -- researching and designing things with the potential to help people -- was actually called something.</p>
+        
         </div>
     );
 }
