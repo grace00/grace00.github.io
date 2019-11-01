@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router basename="/portfolio">
           <NavBar />
             <Switch>
               <Route exact path='/' component={Projects} />
@@ -23,6 +23,7 @@ class App extends React.Component {
               <Route exact path='/sound-off' component={SoundOff} />
               <Route exact path='/about' component={About} />
               <Route exact path='/writing' component={Writing} />
+              <Route path='*' component={Projects} />
             </Switch>
           <Footer />
         </Router>
