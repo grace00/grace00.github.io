@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import landingpage from './images/jobslandingpage@2x.png'
 
 function JobsBoard() {
     return (
@@ -15,7 +16,9 @@ function JobsBoard() {
                     <h4>Teammates:</h4><p>Just me</p>
                 </div>
             </div>
-            <p>Full case study coming soon! In the meantime, please check out a demo of what I've coded so far <a href="https://thestanforddaily.github.io/jobs-board/#/">here</a>!</p>
+            <p>Full case study coming soon! In the meantime, please check out a demo of what I've coded so far <a href="https://thestanforddaily.github.io/jobs-board/#/">here</a> and the mockup for the landing page below!</p>
+            
+            <img src={landingpage} />
         </div>
     );
 }

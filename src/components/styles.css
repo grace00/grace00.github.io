@@ -175,9 +175,9 @@ img.infographic {
     width: 60%;
 }
 .competition img {
-    height: 48px;
+    height: 60px;
     width: auto;
-    padding-right: 32px;
+    padding-right: 40px;
 }
 .mockup img {
     display: inline-block;
@@ -187,11 +187,7 @@ img.infographic {
 img.left {
     margin-right: 4%;
 }
-.project ul {
-    width: 100%;
-    display: flex;
-    list-style: none;
-}
+
 .resources img {
     height: 176px;
     width: auto;
