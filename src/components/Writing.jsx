@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './styles.css';
-import whizkid from './whizkid.png'
+import whizkid from './images/whizkid.png'
 import oryx from './oryx.png'
 
 function Writing() {

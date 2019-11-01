@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:regular,semibold,bold,italic&subset=latin,latin-ext');
+
 :root {
     --main-black: #0F0F0F;
     --main-blue: #A3DDEB;
@@ -15,15 +17,10 @@ body {
     width: 75%;
     margin: 0 auto;
 }
-.item {
-    float: left;
-    width: 50%;
-    margin-bottom: 56px;
-    text-align: center;
-}
 a {
     text-decoration: none;
-    color: var(--main-black);
+    font-weight: 600;
+    color: var(--darker-blue);
 }
 h1 {
     font-size: 24px;
@@ -69,6 +66,7 @@ nav {
 }
 nav a {
     color: var(--main-black);
+    font-weight: 400;
     text-decoration: none;
 }
 .name {
@@ -109,6 +107,17 @@ nav ul li a:hover, nav ul li a:focus {
     line-height: 36px;
 }
 
+/* -----Projects----*/
+.item {
+    float: left;
+    width: 50%;
+    margin-bottom: 56px;
+    text-align: center;
+}
+.item a {
+    font-weight: 400;
+    color: var(--main-black);
+}
 
 /* -----project pages----*/
 .project {
@@ -125,8 +134,19 @@ nav ul li a:hover, nav ul li a:focus {
 .bannerContainer img {
     width: 100%;
 }
+.prologue {
+    font-style: italic;
+}
+.quote {
+    font-size: 28px;
+    line-height: 44px;
+    width: 90%;
+    margin: 0 auto;
+    color: var(--darker-blue);
+    font-style: italic;
+}
 h1, h2, h3, h4 {
-    font-family: Libre Baskerville;
+    font-family: 'Libre Baskerville', serif;
     margin-top: 40px;
     font-weight: 700;
 }
@@ -167,8 +187,18 @@ img.infographic {
 img.left {
     margin-right: 4%;
 }
-
-
+.project ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.resources img {
+    height: 176px;
+    width: auto;
+    margin-top: 8px;
+    margin-right: 32px;
+    box-shadow: 3px 3px 6px 1px var(--light-outline);
+}
 /* -----footer----*/
 .footer {
     clear: both;

@@ -5,6 +5,9 @@ import NavBar from './components/NavBar';
 import Writing from './components/Writing';
 import Projects from './components/Projects';
 import WebMD from './components/WebMD.jsx';
+import WhizKid from './components/WhizKid.jsx';
+import JobsBoard from './components/JobsBoard.jsx';
+import SoundOff from './components/SoundOff';
 
 class App extends React.Component {
   render() {
@@ -15,6 +18,9 @@ class App extends React.Component {
             <Switch>
               <Route exact path='/' component={Projects} />
               <Route exact path='/webmd-gen-z' component={WebMD} />
+              <Route exact path='/daily-job-site' component={JobsBoard} />
+              <Route exact path='/whiz-kid' component={WhizKid} />
+              <Route exact path='/sound-off' component={SoundOff} />
               <Route exact path='/about' component={About} />
               <Route exact path='/writing' component={Writing} />
             </Switch>

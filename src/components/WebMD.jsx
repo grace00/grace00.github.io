@@ -11,7 +11,7 @@ function WebMD() {
         <div className="project">
             <img src={laptopmockup} />
             <h1 className="projTitle">WebMD</h1>
-            <p className="subtitle">Researching what Gen Zers want in a health site and creating a landing page on WebMD to make health information more appealing to them.</p>
+            <p className="subtitle">When it comes to health online, what is Gen Z interested in? WebMD interns find out.</p>
 
             <div className="row">
                 <div className="column">
