@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:regular,semibold,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Nunito:regular,semibold,bold,italic&subset=latin,latin-ext');
+
 
 :root {
-    --main-black: #0F0F0F;
-    --main-blue: #A3DDEB;
-    --darker-blue: #93c7d4;
+    --main-black: #222222;
+    --main-blue: rgb(192, 212, 236);
+    --darker-blue: rgb(114, 162, 221);
     --main-light-black: #777777;
     --light-outline: #E8E8E8;
 }
 body {
     margin: 0;
-    font-family: Calibre, Arial, Helvetica;
+    font-family: Nunito, Arial, Helvetica;
     color: var(--main-black);
     padding: 0 80px;
 }
@@ -47,6 +48,7 @@ a:hover img {
     -webkit-transition: all .3s ease;
 }
 .smallText {
+    margin-top: 4px;
     font-size: 14px;
     color: var(--main-light-black);
 }
@@ -97,19 +99,26 @@ nav ul li a:hover, nav ul li a:focus {
 
 
 /* -----about----*/
-.about {
+.outline {
     border: 4px solid var(--main-blue);
     border-radius: 12px;
-    padding: 16px 24px;
+    padding: 0px 24px;
     margin: 0 auto 0 auto;
-    width: 50%;
-    font-size: 24px;
-    line-height: 36px;
+    width: 70%;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 /* -----Projects----*/
+.introduction {
+    text-align: center;
+}
+.allProjects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
 .item {
-    float: left;
     width: 50%;
     margin-bottom: 56px;
     text-align: center;
@@ -141,26 +150,25 @@ nav ul li a:hover, nav ul li a:focus {
     font-size: 28px;
     line-height: 44px;
     width: 90%;
-    margin: 0 auto;
+    margin: 32px auto 0 auto;
     color: var(--darker-blue);
     font-style: italic;
 }
 h1, h2, h3, h4 {
-    font-family: 'Libre Baskerville', serif;
-    margin-top: 40px;
+    margin-top: 48px;
     font-weight: 700;
 }
 ul li {
     padding-top: 8px;
     font-size: 18px;
 }
-.project p {
+.project p, ol li, ul li {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 32px;
 }
 .column {
     float: left;
-    width: 50%;
+    width: 33%;
 }
 .row:after {
     content: "";
@@ -173,6 +181,9 @@ ul li {
 }
 img.infographic {
     width: 60%;
+}
+img.shadow {
+    box-shadow: 3px 3px 6px 1px var(--light-outline);
 }
 .competition img {
     height: 60px;
@@ -187,20 +198,74 @@ img.infographic {
 img.left {
     margin-right: 4%;
 }
-
-.resources img {
+img.center-image {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+img.reduce-size {
+    width: 50%;
+}
+.image-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.image-row img {
     height: 176px;
     width: auto;
-    margin-top: 8px;
-    margin-right: 32px;
-    box-shadow: 3px 3px 6px 1px var(--light-outline);
+    box-shadow: 1px 2px 6px 1px var(--light-outline);
 }
+.wireframe .image-row img {
+    height: 392px;
+}
+.overflow {
+    width: 90vw;
+    position: relative;
+    left: calc(-45vw + 50%);
+}
+.design img {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    box-shadow: 1px 2px 6px 1px var(--light-outline);
+}
+.center-text {
+    text-align: center;
+}
+
+
 /* -----footer----*/
 .footer {
     clear: both;
     margin-bottom: 16px;
     margin-top: 40px;
     text-align: center;
+}
+
+/* -----tables----*/
+table {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-collapse: collapse;
+    border: 1px solid var(--main-blue);
+    width: 100%;
+}
+td {
+    border: 1px solid var(--main-blue);
+    padding: 16px;
+    text-align: left;
+}​
+th { /* for some reason this is neccessary to not mess up table formatting */
+}
+th {
+    padding: 8px 16px;
+    text-align: left;
+    background-color: var(--main-blue);
+    color: var(--main-black);
+}
+td div {
+    margin-top: 8px;
 }
 
 

@@ -23,22 +23,25 @@ function WebMD() {
                 <div className="column">
                     <h4>Length:</h4><p>105 pages</p>
                 </div>
+                <div className="column">
+                    <h4>Role:</h4><p>Writer</p>
+                </div>
                 <p className="prologue">COMEDY. ROMANCE/HORNY TEENS. TIGER PARENTS. It’s the high school coming-of-age story that no one has dared to put on screen (for good reason). Instead of football, there’s math team. Instead of mean girls, there are judgmental genius teens horny for the Ivy Leagues. Instead of bullying, there’s racism against Asians. Instead of insane parties with alcohol, there are nights of studying that are equally long and exhausting. A major motivation of mine was to depict a version of high school/teendom that is far more realistic to me but I haven’t seen much in today’s popular culture. I explore the insanely stressful culture high school can cultivate, the role social media (particularly Instagram) plays in teenagers’ lives, and what coming-of-age can look like for Asian-Americans. Also, I look for the humor in these situations.
                 </p>
                 <p>I brainstormed, outlined, and wrote a full-length script from June through August 2018 as part of the Screenwriters Network’s first screenplay competition.
                 </p>
-                <div className="quote">Logline: Lena Yang struggles to become extraordinary in her junior year of high school after realizing she’s fallen behind her peers and that her parents are disappointed in her.</div>
-
+            
                 <h2>Researching, Learning, Watching</h2>
                 <p>Before the contest officially began, I learned how to structure and write screenplays by reading books like <i>Screenwriter’s Bible</i> and <i>Save the Cat</i>. I knew I wanted to write a comedy about an Asian-American girl surviving high school, so I also re-watched and read the screenplays of <i>Eighth Grade</i>, <i>Mean Girls</i>, and <i>Bridesmaids</i>. Studying these helped me solidify my logline and character list.
                 </p>
-                <div className="resources">
+                <div className="image-row">
                 <img src={screenwritersbible} />
                 <img src={savethecat} />
                 <img src={eighthgrade} />
                 <img src={meangirls} />
                 <img src={bridesmaids} />
                 </div>
+                <div className="quote">Logline: Lena Yang struggles to become extraordinary in her junior year of high school after realizing she’s fallen behind her peers and that her parents are disappointed in her.</div>
 
                 <h2>Outlining and Defining</h2>
                 <p>To flesh out the main characters, I thought carefully about their flaws, possible character arcs, and goals in addition to their general personality traits. What do they want at the beginning of the story? What needs of theirs are fulfilled in the end? After writing their biographies, I then brainstormed possible scenes and ordered them into a detailed outline of the three acts. </p>

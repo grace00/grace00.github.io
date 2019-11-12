@@ -15,16 +15,16 @@ class App extends React.Component {
       <div>
         <Router basename="/portfolio">
           <NavBar />
-            <Switch>
-              <Route exact path='/' component={Projects} />
-              <Route exact path='/webmd-gen-z' component={WebMD} />
-              <Route exact path='/daily-job-site' component={JobsBoard} />
-              <Route exact path='/whiz-kid' component={WhizKid} />
-              <Route exact path='/sound-off' component={SoundOff} />
-              <Route exact path='/about' component={About} />
-              <Route exact path='/writing' component={Writing} />
-              <Route path='*' component={Projects} />
-            </Switch>
+          <Switch>
+            <Route exact path='/' component={Projects} />
+            <Route exact path='/webmd-gen-z' component={WebMD} />
+            <Route exact path='/daily-job-site' component={JobsBoard} />
+            <Route exact path='/whiz-kid' component={WhizKid} />
+            <Route exact path='/sound-off' component={SoundOff} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/writing' component={Writing} />
+            <Route path='*' component={Projects} />
+          </Switch>
           <Footer />
         </Router>
       </div >
@@ -36,10 +36,12 @@ export default App;
 
 function About() {
   return (
-    <div className="about">
-      As a kid, I would fold paper and draw buttons on them to create my dream computers. Now, I’m a computer science student at Stanford
-      who loves design and development. In my free time, you’ll catch me watching Coursera lectures, writing film reviews,
-      and trying to conjure up the will to exercise.
+    <div className="project">
+      <div className="outline">
+      <p>Hi, I’m Grace! As a kid, I would fold paper and draw buttons on them to create my dream computers. Now, I’m a computer science student at Stanford who loves designing things and bringing them to life with code. As a marketing design director for BASES, one of the largest student-run entrepreneurship organizations in the world, I’m a proponent of design solutions that meet business as well as user needs. My previous internships in writing, editing, and SEO have taught me how to write, design, and deliver worthwhile content.</p>
+      <p>Plus, I played viola for seven years. Not really sure how I’ll connect this to my design work yet, but I’ll find a way.</p>
+      <p>I’m currently immersing myself in human-computer interaction research and virtual reality development. Outside of design, you’ll catch me watching <i>Buffy the Vampire Slayer</i>, writing film reviews, and trying to conjure up the will to exercise.</p>
+    </div>
     </div>
   )
 }

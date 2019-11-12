@@ -10,6 +10,10 @@ import vrgame from './images/vrgame@2x.png'
 function Projects() {
 	return (
 		<div className="container">
+			<div className="introduction">
+			<h1>Hi, I'm Grace!</h1>
+			</div>
+			<div className="allProjects">
 			<div class="item">
 				<Link to="/webmd-gen-z">
 					<div className="overlay">
@@ -28,7 +32,7 @@ function Projects() {
 					</div>
 					<h1>Job Tree</h1>
 					<p className="subtitle">Designing and developing a more personalized jobs search experience for Stanford students.</p>
-					<div className="smallText">React.js, Adobe XD, PHP</div>
+					<div className="smallText">React, HTML/CSS, JavaScript, PHP, Adobe XD, Balsamiq</div>
 				</Link>
             </div>
 
@@ -62,6 +66,7 @@ function Projects() {
 					<p className="subtitle">A VR sound game for kids.</p>
 					<div className="smallText">Unity</div>
 				</Link>
+			</div>
 			</div>
 		</div >
 	);

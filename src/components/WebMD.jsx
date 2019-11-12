@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.css';
 import surveystats from './surveygraphic@2x.png'
 import laptopmockup from './laptopmockup@2x.png'
-import contentoverview from './contentoverview.png'
 import teencenter from './teencenter@2x.png'
 import genzcenter from './genzcenter@2x.png'
 
@@ -10,7 +9,7 @@ function WebMD() {
     return (
         <div className="project">
             <img src={laptopmockup} />
-            <h1 className="projTitle">WebMD</h1>
+            <h1 className="projTitle">WebMD: A Gen Z-entric Site</h1>
             <p className="subtitle">When it comes to health online, what is Gen Z interested in? WebMD interns find out.</p>
 
             <div className="row">
@@ -19,6 +18,9 @@ function WebMD() {
                 </div>
                 <div className="column">
                     <h4>Teammates:</h4><p>3 interns</p>
+                </div>
+                <div className="column">
+                    <h4>Role:</h4><p>Content strategy, SEO, design, research</p>
                 </div>
             </div>
 
@@ -54,7 +56,9 @@ function WebMD() {
             <h2>Problem Definition</h2>
             <p>From our research, we learned that the majority of Gen Zers identify as healthy and are interested in wellness topics like fitness and nutrition. As a result, they may shy away from WebMD because they associate the site with illness, particularly cancer. </p>
             <p>Gen Zers also expressed a desire for a redesigned homepage that is “cleaner,” “easier to navigate,” and has a “more dynamic, social-media-esque layout.”</p>
-            <p>The current WebMD homepage emphasizes medical conditions and appears cluttered to Gen Zers, which may discourage them from visiting the site more often.</p>
+            <div className="outline">
+                <p>The current WebMD homepage emphasizes medical conditions and appears cluttered to Gen Zers, which discourages them from visiting the site more often.</p>
+            </div>
 
             <h2>Solution: Creating a Landing Page for Gen Zers</h2>
             <p>After brainstorming recommendations to attract Gen Zers to WebMD, we each took one to develop and present. I chose to work on fleshing out the concept of a landing page (also called health centers) on WebMD’s site aimed at the Gen Z demographic.
@@ -62,25 +66,42 @@ function WebMD() {
             <h3>Content Strategy</h3>
             <p>Drawing on our survey results and my SEO knowledge, I created a possible strategy for the landing page’s content.
 </p>
-            <img src={contentoverview} />
+            <table>
+                <tr>
+                    <td width="20%">Target audience</td>
+                    <td>18-25 (population: 30 million)</td>
+                </tr>
+                <tr>
+                    <td>Content formats</td>
+                    <td>Articles and videos</td>
+                </tr>
+                <tr>
+                    <td>Content topics</td>
+                    <td>Fitness, nutrition, mental health, body positivity, skincare, beauty, sexual/reproductive health, disease prevention</td>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td>Address the audience directly with second-person language to come across as more inviting and understanding</td>
+                </tr>
+            </table>
             <p>To provide a more specific picture of the page’s content, I came up with over 20 possible pitches. I also wanted each pitch to have high SEO potential, so I analyzed keyword volume, competition, and content gaps using Keywords Everywhere and seoClarity. </p>
             <p>In terms of business, I learned that the Gen Z page could help diversify revenue streams. WebMD struggles to engage with consumer packaged goods advertising, but including more wellness content could get more views to attract these brands.
 </p>
-<h3>Design</h3>
-<p>After finding content Gen Z would enjoy, I helped design the interface it could be housed in. I studied sites popular with Gen Zers such as BuzzFeed and Huffington Post to see how they attract an audience. I noted that these sites prioritize relatable article content and had easy-to-understand categories such as “Trending Now.”
+            <h3>Design</h3>
+            <p>After finding content Gen Z would enjoy, I helped design the interface it could be housed in. I studied sites popular with Gen Zers such as BuzzFeed and Huffington Post to see how they attract an audience. I noted that these sites prioritize relatable article content and had easy-to-understand categories such as “Trending Now.”
 </p>
-<p>For the site’s design, I chose the colors yellow, blue, and pink so it could have broad appeal while seeming youthful and positive. I brainstormed and wrote headlines that address the topics Gen Z is most interested in, incorporating words like “you” where appropriate. Because Gen Z is the most diverse generation, I found images that reflected that. I sent all of this content to the designer, communicating that I wanted the mockup to emphasize article content and have clear categories.
+            <p>For the site’s design, I chose the colors yellow, blue, and pink so it could have broad appeal while seeming youthful and positive. I brainstormed and wrote headlines that address the topics Gen Z is most interested in, incorporating words like “you” where appropriate. Because Gen Z is the most diverse generation, I found images that reflected that. I sent all of this content to the designer, communicating that I wanted the mockup to emphasize article content and have clear categories.
 </p>
-<p>Here was the final mockup (for comparison, the current Teen Health Center is on the left).</p>
-<div className="mockup">
-<img className="left" src={teencenter} />
-<img src={genzcenter} />
-</div>
-            <h2>What I Learned</h2>
+            <p>Here was the final mockup (for comparison, the current Teen Health Center is on the left).</p>
+            <div className="mockup overflow">
+                <img className="left" src={teencenter} />
+                <img src={genzcenter} />
+            </div>
+            <h2>Reflection</h2>
             <p>For the majority of the project, I actually didn’t know much about “UI/UX” (if you mentioned affinity maps to me, I probably would’ve just pictured two globes kissing). What I did know was that I loved gathering data and making design and content decisions with them.</p>
             <p>After we presented the project, a member of the SEO team congratulated us and said, "You essentially did the whole UX process."
                 My most valuable lesson from this project was that what I loved doing -- researching and designing things with the potential to help people -- was actually called something.</p>
-        
+
         </div>
     );
 }
