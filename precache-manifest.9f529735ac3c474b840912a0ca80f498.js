@@ -1,31 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c481de36264eb085df092ddc72b5debc",
+    "revision": "dcc3234dce90a6c93f4ddf9bc3aedfff",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "18ed597866a3a7d8b36e",
-    "url": "/portfolio/static/css/main.8abc6e84.chunk.css"
+    "revision": "33822d0c3599a98709a7",
+    "url": "/portfolio/static/css/main.34871f5b.chunk.css"
   },
   {
-    "revision": "34145e6e38d5a735e793",
-    "url": "/portfolio/static/js/2.ba4ca5ba.chunk.js"
+    "revision": "7c6d713092896f1a356a",
+    "url": "/portfolio/static/js/2.b423842e.chunk.js"
   },
   {
-    "revision": "18ed597866a3a7d8b36e",
-    "url": "/portfolio/static/js/main.a3e18614.chunk.js"
+    "revision": "33822d0c3599a98709a7",
+    "url": "/portfolio/static/js/main.b5a2f79b.chunk.js"
   },
   {
     "revision": "9916aa5016a36c80a421",
     "url": "/portfolio/static/js/runtime-main.f84e4eb0.js"
   },
   {
+    "revision": "22b03cd86d883ffb7a9c013835142109",
+    "url": "/portfolio/static/media/advice.22b03cd8.png"
+  },
+  {
+    "revision": "8389613a5c154156d4ea098de261b5c7",
+    "url": "/portfolio/static/media/advicewireframe.8389613a.png"
+  },
+  {
     "revision": "20f4bf7ac474e106b31c19f4ab1c4b3d",
     "url": "/portfolio/static/media/bridesmaids.20f4bf7a.jpg"
   },
   {
-    "revision": "de4cc60272c3a963d8eeb65fa906ebc2",
-    "url": "/portfolio/static/media/contentoverview.de4cc602.png"
+    "revision": "57396d35a8f4af0dcaa4bd3cb7afa76c",
+    "url": "/portfolio/static/media/classifieds.57396d35.jpg"
+  },
+  {
+    "revision": "04d768a1e99890fb7918993bd9c0d7da",
+    "url": "/portfolio/static/media/detailswireframe.04d768a1.png"
   },
   {
     "revision": "4f62e19541e7a9b8b28df98d28f44bba",
@@ -40,12 +52,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/genzcenter@2x.6c3dc36f.png"
   },
   {
-    "revision": "086b95da92baa5e94bed8567ef9d9e3c",
-    "url": "/portfolio/static/media/jobmockup@2x.086b95da.png"
+    "revision": "9f6c587f56bf89fc0690a9825ed39f24",
+    "url": "/portfolio/static/media/jobcompetitors.9f6c587f.png"
   },
   {
-    "revision": "0bd07f13f072e3eaa80bd560ffc3dae8",
-    "url": "/portfolio/static/media/jobslandingpage@2x.0bd07f13.png"
+    "revision": "109264d4da54b466317fb6e6d7a55411",
+    "url": "/portfolio/static/media/jobcomputer@2x.109264d4.png"
+  },
+  {
+    "revision": "f0eed2872e103537a5ebe6deb2d7158a",
+    "url": "/portfolio/static/media/jobdetails.f0eed287.png"
+  },
+  {
+    "revision": "4cf2b99782c8061f0dec6eb725ad7b62",
+    "url": "/portfolio/static/media/jobflow.4cf2b997.png"
+  },
+  {
+    "revision": "9add8a30eb515e6f84a7721781987356",
+    "url": "/portfolio/static/media/jobmockup@2x.9add8a30.png"
+  },
+  {
+    "revision": "c13f077c7822cc19bbac9c1dfa146322",
+    "url": "/portfolio/static/media/jobslist.c13f077c.png"
+  },
+  {
+    "revision": "3ac91777afd903999ccd1ce25b018bf6",
+    "url": "/portfolio/static/media/jobwireframe.3ac91777.png"
+  },
+  {
+    "revision": "5b49e54e42b5f212fb9c74b437216c3b",
+    "url": "/portfolio/static/media/landing.5b49e54e.png"
+  },
+  {
+    "revision": "6c41513febb985683f7cb2d4f8f5b0fe",
+    "url": "/portfolio/static/media/landingwireframe.6c41513f.png"
   },
   {
     "revision": "36e28aacc9db0145181a0f056e9d3634",
@@ -56,8 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/meangirls.a0ec6557.jpg"
   },
   {
+    "revision": "961d43a7763c3f14443f48057e767637",
+    "url": "/portfolio/static/media/oldjobsboard.961d43a7.png"
+  },
+  {
     "revision": "43653f1ed34abf0f5065d7b8b6f59859",
     "url": "/portfolio/static/media/oryx.43653f1e.png"
+  },
+  {
+    "revision": "5035080a8a042d3eb275cae4ae564b7c",
+    "url": "/portfolio/static/media/postjob.5035080a.png"
   },
   {
     "revision": "162ede46520e05e01976d7706a317725",
@@ -98,5 +146,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e322ab2df884e7fc744854bacdc550de",
     "url": "/portfolio/static/media/whizkid3.e322ab2d.png"
+  },
+  {
+    "revision": "fda2f4ef7a3e0a0b104b9b08e921a981",
+    "url": "/portfolio/static/media/youngme.fda2f4ef.png"
   }
 ]);
