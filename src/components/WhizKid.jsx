@@ -52,11 +52,13 @@ function WebMD() {
             <h2>Result</h2>
             <p>The contest started with 123 writers; 21 finished. My screenplay was voted by Screenwriters Network members to end up in the top 10 (what?!). Two people messaged me their suggestions and notes for my screenplay, which was incredibly generous of them. The best surprise, however, was finding this message in my inbox months after the contest had ended:</p>
             <img src={discordcomment} />
+            <div className="smallText center-text">Even <i>I'd</i> think I made this up</div>
             <p>I didn’t expect anyone to take the time to read my screenplay all the way through, so I was shocked that someone had good things to say about it. </p>
 
             <h2>Takeaways</h2>
             <p>Experiencing the screenwriting process has changed the way I look at movies -- and people -- forever. I’ve internalized the three-act story structure and become familiar with the kinds of twists that can occur. I’ve learned how to better understand people’s desires and frustrations as well as how these drive them to certain actions. And I’ve gotten better at tackling large creative tasks in a relatively short amount of time.</p>
             <img src={whizkid3} />
+            <div className="smallText center-text">SPOILER ALERT!!! Wait, how do you put this above the image?</div>
         </div>
     );
 }

@@ -35,7 +35,7 @@ function WebMD() {
                 <li><span className="stat">61%</span>  believe exercise is of major importance</li>
                 <li><span className="stat">60%</span>  think getting enough sleep is also critical</li>
             </ul>
-            <p className="smallText">Z: A Generation Redefining Health and Wellness, AdAge</p>
+            <div className="smallText">Z: A Generation Redefining Health and Wellness, AdAge</div>
 
             <div className="competition">
                 <h2>Competitive Analysis</h2>

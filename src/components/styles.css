@@ -49,6 +49,7 @@ a:hover img {
 }
 .smallText {
     margin-top: 4px;
+    text-align: center;
     font-size: 14px;
     color: var(--main-light-black);
 }
@@ -112,6 +113,10 @@ nav ul li a:hover, nav ul li a:focus {
 /* -----Projects----*/
 .introduction {
     text-align: center;
+    margin-bottom: 80px;
+}
+.introduction h1 {
+    font-size: 40px;
 }
 .allProjects {
     display: flex;
@@ -120,12 +125,15 @@ nav ul li a:hover, nav ul li a:focus {
 }
 .item {
     width: 50%;
-    margin-bottom: 56px;
+    margin-bottom: 80px;
     text-align: center;
 }
 .item a {
     font-weight: 400;
     color: var(--main-black);
+}
+.item h1 {
+    margin-top: 32px;
 }
 
 /* -----project pages----*/
@@ -241,6 +249,9 @@ img.reduce-size {
     margin-bottom: 16px;
     margin-top: 40px;
     text-align: center;
+}
+.footer img {
+    width: 14px;
 }
 
 /* -----tables----*/

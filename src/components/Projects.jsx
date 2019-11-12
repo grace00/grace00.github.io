@@ -12,6 +12,8 @@ function Projects() {
 		<div className="container">
 			<div className="introduction">
 			<h1>Hi, I'm Grace!</h1>
+			<p>I'm a programmer, writer, and aspiring designer. </p>
+			<p>Read about my projects below. Or forget about them and check out my <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a>.</p>
 			</div>
 			<div className="allProjects">
 			<div class="item">

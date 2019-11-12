@@ -8,6 +8,8 @@ import WebMD from './components/WebMD.jsx';
 import WhizKid from './components/WhizKid.jsx';
 import JobsBoard from './components/JobsBoard.jsx';
 import SoundOff from './components/SoundOff';
+import handicon from './components/images/handicon.png';
+import eyeicon from './components/images/eyeicon.png';
 
 class App extends React.Component {
   render() {
@@ -49,7 +51,7 @@ function About() {
 function Footer() {
   return (
     <div className="footer">
-      Site designed & coded by Grace
+      Coded with <img src={handicon} /> & <img src={eyeicon} /> by Grace
     </div>
   )
 }
