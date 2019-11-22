@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import './index.css';
 import NavBar from './components/NavBar';
@@ -40,7 +41,7 @@ export default App;
 function About() {
   return (
     <div className="project">
-      <img src={youngme} style={{width: "300px", display: "block", margin: "0 auto"}}/>
+      <img src={youngme} style={{width: "300px", display: "block", margin: "0 auto", borderRadius: "10px"}}/>
       <p>Hi, I’m Grace! As a kid, I would fold paper and draw buttons on them to create my dream computers. Now, I’m a computer science/HCI student at Stanford who loves designing things and bringing them to life with code. As a marketing designer for BASES, one of the largest student-run entrepreneurship organizations in the world, I’m a proponent of design solutions that meet business as well as user needs. My previous internships in writing, editing, and SEO have taught me how to write, design, and deliver worthwhile content.</p>
       <p>Plus, I played viola for seven years. Not really sure how I’ll connect this to my design work yet, but I’ll find a way.</p>
       <p>I’m currently immersing myself in human-computer interaction research and virtual reality development. Outside of design, you’ll catch me watching <i>Buffy the Vampire Slayer</i>, writing film reviews, and trying to conjure up the will to exercise.</p>
@@ -54,4 +55,9 @@ function Footer() {
       Coded with <img src={handicon} /> & <img src={eyeicon} /> by Grace
     </div>
   )
+}
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-153162012-1');
+  ReactGA.pageview('/home');
 }
