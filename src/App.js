@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import './index.css';
 import NavBar from './components/NavBar';
@@ -12,6 +13,14 @@ import SoundOff from './components/SoundOff';
 import handicon from './components/images/handicon.png';
 import eyeicon from './components/images/eyeicon.png';
 import youngme from './components/images/youngme.png';
+
+const history = createBrowserHistory();
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 class App extends React.Component {
   render() {
@@ -57,7 +66,3 @@ function Footer() {
   )
 }
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-153162012-1');
-  ReactGA.pageview('/home');
-}
