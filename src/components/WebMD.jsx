@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles.css';
-import surveystats from './surveygraphic@2x.png'
-import laptopmockup from './laptopmockup@2x.png'
-import teencenter from './teencenter@2x.png'
-import genzcenter from './genzcenter@2x.png'
+import surveystats from './images/surveygraphic@2x.png'
+import laptopmockup from './images/laptopmockup@2x.png'
+import teencenter from './images/teencenter@2x.png'
+import genzcenter from './images/genzcenter@2x.png'
 
 function WebMD() {
     return (
@@ -88,9 +88,9 @@ function WebMD() {
             <p>In terms of business, I learned that the Gen Z page could help diversify revenue streams. WebMD struggles to engage with consumer packaged goods advertising, but including more wellness content could get more views to attract these brands.
 </p>
             <h3>Design</h3>
-            <p>After finding content Gen Z would enjoy, I helped design the interface it could be housed in. I studied sites popular with Gen Zers such as BuzzFeed and Huffington Post to see how they attract an audience. I noted that these sites prioritize relatable article content and had easy-to-understand categories such as “Trending Now.”
+            <p>After finding content Gen Z would enjoy, I helped with designing the interface it could be housed in. I studied sites popular with Gen Zers such as BuzzFeed and Huffington Post to see how they attract an audience. I noted that these sites prioritize relatable article content and had easy-to-understand categories such as “Trending Now.”
 </p>
-            <p>For the site’s design, I chose the colors yellow, blue, and pink so it could have broad appeal while seeming youthful and positive. I brainstormed and wrote headlines that address the topics Gen Z is most interested in, incorporating words like “you” where appropriate. Because Gen Z is the most diverse generation, I found images that reflected that. I sent all of this content to the designer, communicating that I wanted the mockup to emphasize article content and have clear categories.
+            <p>For the site’s design, I chose the colors yellow, blue, and pink so it could have broad appeal while seeming youthful and positive. I brainstormed and wrote headlines that address the topics Gen Z is most interested in, incorporating words like “you” where appropriate. Because Gen Z is the most diverse generation, I found images that reflected that. I sent all of this content to the designer and communicated my design recommendations.
 </p>
             <p>Here was the final mockup (for comparison, the current Teen Health Center is on the left).</p>
             <div className="mockup overflow">
@@ -98,9 +98,12 @@ function WebMD() {
                 <img src={genzcenter} />
             </div>
             <h2>Reflection</h2>
+            <h3>Design with Business in Mind</h3>
+            <p>Working on this project taught me the importance of developing solutions that meet user and business needs. An idea can be incredibly useful and beautifully executed, but to increase its chances of survival it should benefit the company in some way. If I were to do this project again I would work on aligning the product to better support WebMD’s business goals while keeping user needs in mind.</p>
+            <h3>What UX Is</h3>
             <p>For the majority of the project, I actually didn’t know much about “UI/UX” (if you mentioned affinity maps to me, I probably would’ve just pictured two globes kissing). What I did know was that I loved gathering data and making design and content decisions with them.</p>
             <p>After we presented the project, a member of the SEO team congratulated us and said, "You essentially did the whole UX process."
-                My most valuable lesson from this project was that what I loved doing -- researching and designing things with the potential to help people -- was actually called something.</p>
+                A lesson I took away from this project was that what I loved doing -- researching and designing things with the potential to help people -- was actually called something.</p>
 
         </div>
     );

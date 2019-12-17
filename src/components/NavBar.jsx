@@ -1,16 +1,16 @@
 import React from 'react';
 import './styles.css';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
     <div>
         <nav>
-          <Link to="/" className="name">Grace Zhou</Link>
+          <NavLink to="/" className="name">Grace Zhou</NavLink>
           <ul>
-            <li><Link to="/">projects</Link></li>
+            <li><NavLink to="/" className="underline" exact={true} activeClassName='is-active'>projects</NavLink></li>
             {/*<li><Link to="/writing">writing</Link></li>*/}
-            <li><Link to="/about">about</Link></li>
+            <li><Link to="/about" className="underline">about</Link></li>
           </ul>
         </nav>
     </div>

@@ -2,53 +2,77 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './styles.css';
 import whizkid from './images/whizkid.png'
-import oryx from './oryx.png'
-import webmd from './webmdpreview@2x.png'
+import webmd from './images/webmdpreview@2x.png'
 import jobsite from './images/jobmockup@2x.png'
 import vrgame from './images/vrgame@2x.png'
+import leaflet from './images/leafletmockup@2x.png'
+import bias from './images/belongingbias@2x.png'
+import art from './images/creativity.png'
+import code from './images/browser.png'
 
 function Projects() {
 	return (
 		<div className="container">
 			<div className="introduction">
-			<h1>Hi, I'm Grace!</h1>
-			<p>I'm a programmer, writer, and aspiring designer. </p>
-			<p>Read about my projects below. Or forget about them and check out my <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a>.</p>
+				<h1>Hi, I'm Grace!</h1>
+        <div className="flex-container">
+        <img src={art} />
+				<p>I'm a <b><span className="designer-font">designer</span></b> who also <b><span className="programmer-font">codes</span></b> and <b><span className="writer-font">writes</span></b> things. </p>
+				<img src={code} />
+        </div>
+        {/*<p>Read about my projects below, or check out my <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a>.</p>*/}
 			</div>
 			<div className="allProjects">
-			<div class="item">
-				<Link to="/webmd-gen-z">
-					<div className="overlay">
-						<img src={webmd}/>
-					</div>
-					<h1>WebMD: A Gen Z-entric Site</h1>
-					<p className="subtitle">When it comes to health online, what is Gen Z interested in? WebMD interns find out.</p>
-					<div className="smallText">Survey research, SEO</div>
-				</Link>
-			</div>
-
-			<div class="item">
-				<Link to="/daily-job-site">
-					<div className="overlay">
-						<img src={jobsite} />
-					</div>
-					<h1>Job Tree</h1>
-					<p className="subtitle">Designing and developing a more personalized jobs search experience for Stanford students.</p>
-					<div className="smallText">React, HTML/CSS, JavaScript, PHP, Adobe XD, Balsamiq</div>
-				</Link>
-            </div>
-
-
-			<div class="item">
-				<Link to="/whiz-kid">
-					<div className="overlay">
-						<img src={whizkid} />
-					</div>
-					<h1>Whiz Kid</h1>
-					<p className="subtitle">Writing my first full-length screenplay.</p>
-					<div className="smallText">WriterDuet</div>
-				</Link>
-				{/*}
+				<div class="item">
+					<Link to="/leaflet">
+						<div className="overlay green">
+							<img src={leaflet} />
+						</div>
+						<h1>Leaflet</h1>
+						<p className="subtitle">Creating a transcription application for journalists.</p>
+						<div className="smallText">Design, full-stack development, UX research</div> {/*React, Python, Figma*/}
+					</Link>
+				</div>
+				<div class="item">
+					<Link to="/daily-job-site">
+						<div className="overlay purple">
+							<img src={jobsite} />
+						</div>
+						<h1>Job Tree</h1>
+						<p className="subtitle">Developing a jobs search site for Stanford students.</p>
+						<div className="smallText">Design, full-stack development, UX research</div> {/*React, Adobe XD, PHP*/}
+					</Link>
+				</div>
+        <div class="item">
+					<Link to="/hci-research">
+						<div className="overlay blue">
+							<img src={bias} />
+						</div>
+						<h1>Human-Computer Interaction Research</h1>
+						<p className="subtitle">Researching the effects of biased web design.</p>
+						<div className="smallText">Research, design, frontend development</div>
+					</Link>
+				</div>
+        <div class="item">
+					<Link to="/webmd-gen-z">
+						<div className="overlay yellow">
+							<img src={webmd} />
+						</div>
+						<h1>WebMD</h1>
+						<p className="subtitle">Envisioning a health page for Gen Z.</p>
+						<div className="smallText">Research, SEO, content strategy, design</div>
+					</Link>
+				</div>
+				<div class="item">
+					<Link to="/whiz-kid">
+						<div className="overlay">
+							<img src={whizkid} />
+						</div>
+						<h1>Whiz Kid</h1>
+						<p className="subtitle">Writing my first full-length screenplay.</p>
+						<div className="smallText">Screenwriting</div>
+					</Link>
+					{/*}
 				<Link to={Oryx}>
 					<div className="overlay">
 						<img src={whizkid} />
@@ -58,17 +82,17 @@ function Projects() {
 					<div className="smallText">Prototyping, Adobe XD</div>
 				</Link>
 				*/}
-			</div>
-			<div class="item">
-				<Link to="/sound-off">
-					<div className="overlay">
-						<img src={vrgame} />
-					</div>
-					<h1>SoundOff</h1>
-					<p className="subtitle">A VR sound game for kids.</p>
-					<div className="smallText">Unity</div>
-				</Link>
-			</div>
+				</div>
+				<div class="item">
+					<Link to="/sound-off">
+						<div className="overlay">
+							<img src={vrgame} />
+						</div>
+						<h1>SoundOff</h1>
+						<p className="subtitle">A VR sound game for kids.</p>
+						<div className="smallText">VR design</div>
+					</Link>
+				</div>
 			</div>
 		</div >
 	);

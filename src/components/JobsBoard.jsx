@@ -25,18 +25,19 @@ function JobsBoard() {
 
       <div className="row">
         <div className="column">
-          <h4>Duration:</h4><p>In progress</p>
-        </div>
-        <div className="column">
-          <h4>Teammates:</h4><p>Stanford Daily CTO</p>
+          <h4>Duration:</h4><p>March 2019 - present</p>
         </div>
         <div className="column">
           <h4>Role:</h4><p>Solo designer, developer, and researcher</p>
         </div>
+        <div className="column">
+          <h4>Tools/Languages:</h4><p>React, Adobe XD, PHP, Balsamiq</p>
+        </div>
       </div>
-      <p>Classified advertising used to be a way businesses hired employees; today, they often find potential hires through the internet. My school’s newspaper, The Stanford Daily, wondered if we could revamp the classifieds by creating a jobs site for students. This would connect students to career opportunities and attract funding for the paper.</p>
-      <p>Here’s a secret: there exists a classifieds section on the site, but The Daily has little control over what is advertised and almost no one knows about it. We needed an online destination that we could manage ourselves and that students would actually visit.</p>
-      <p>I volunteered to bring this idea to life towards the end of my freshman year. I had never designed or developed a website before then.</p>
+      <a href="https://thestanforddaily.github.io/jobs-board/#/" target="_blank" className="btn-big">View Demo</a>
+      <p>Classified advertising used to be a way businesses hired employees; today, they often find potential hires through the internet. My school’s newspaper, The Stanford Daily, wanted to revamp the classifieds by creating a jobs site for students. This would connect students to career opportunities and attract funding for the paper.</p>
+      {/*<p>Here’s a secret: there exists a classifieds section on the site, but The Daily has little control over what is advertised and almost no one knows about it. We needed an online destination that we could manage ourselves and that students would actually visit.</p>
+      */}<p>I volunteered to bring this idea to life towards the end of my freshman year. I had never designed or developed a website before then.</p>
       <h2>The First Attempt</h2>
       <p>After taking on the project, my first instinct was to look at job sites for inspiration and then dive into coding. Whenever I wanted to change the color of a button or adjust spacing between elements, I went into my CSS file, fiddled with the code, and prayed to the heavens before refreshing the page.</p>
       <img src={oldjobsboard} className="shadow" />
@@ -58,7 +59,7 @@ function JobsBoard() {
       <div className="outline"><p>Applying to jobs is a taxing process and largely dependent on having connections to the right people, which many students do not have.</p></div>
 
       <h2>Identifying Needs and Opportunities</h2>
-      <p>Drawing on my research, I identified the major needs for job seekers and the Stanford Daily and how my product could address them. Since I knew I was going to be coding each solution myself, I had to brainstorm solutions that were feasible for me to implement in a reasonable amount of time as a first-time web developer. For example, as much as I’d love to provide job recommendations for each user, I know my machine learning skills aren’t quite up to par.
+      <p>Drawing on my research, I identified the major needs for job seekers and the Stanford Daily and how my product could address them. Since I knew I was going to be coding each solution myself, I had to brainstorm solutions that were feasible for me to implement in a reasonable amount of time as a first-time web developer. (For example, as much as I’d love to provide job recommendations for each user, I know my machine learning skills aren’t quite up to par.)
 </p>
       <h3>Job Seeker</h3>
       <table>
@@ -102,7 +103,7 @@ function JobsBoard() {
       </table>
 
       <h2>Competitive Analysis</h2>
-      <p>I analyzed popular job search sites for Stanford students to analyze what needs they met or did not meet.
+      <p>I analyzed popular job search sites for Stanford students to analyze what needs they met.
   </p>
       <img src={jobcompetitors} />
       <p>Many of the sites had robust filters and provided extra information such as company reviews to better inform prospective applicants. The majority, however, tended to provide somewhat impersonal experiences: click on a job, fill out a form, submit it into the void, and repeat. Handshake stood out by providing upbeat advice written by my school’s career center, information about school career events, and personalized advice about different careers. I found that none of the sites provided advice written by students themselves.</p>
@@ -124,13 +125,14 @@ function JobsBoard() {
       <h2>Style Decisions</h2>
       <div className="design">
         <img src={landing} />
-        <p>For the UI of the site, I aimed for it to have a youthful, welcoming appearance while feeling cleanly professional. I wanted the site to be associated with Stanford without feeling academic and instructional, so I chose red and green as the main colors but brightened them to provide a friendlier tone and avoid reminding students of their looming pile of p-sets. I didn’t want the red to instill a sense of alarm or danger, so I calmed it to be more pink-like.
+        <p>For the final UI of the site, I aimed for it to have a youthful, welcoming appearance while feeling cleanly professional. I wanted the site to be associated with Stanford without feeling academic and instructional, so I chose red and green as the main colors but brightened them to provide a friendlier tone and avoid reminding students of their looming pile of p-sets. I didn’t want the red to instill a sense of alarm or danger, so I calmed it to be more pink-like.
 </p>
         <p>I chose the font Source Sans Pro for the body to make the job descriptions and titles seem less intimidating and more inviting.</p>
       </div>
 
-      <h2>Developed Designs</h2>
-      <p>After creating high-fidelity prototypes in Adobe XD, I have been developing the website using React, HTML/CSS, JavaScript, and PHP. I am still working on the back-end development, but the front-end is very close to the finalized appearance. Check out the current demo <a href="https://thestanforddaily.github.io/jobs-board/#/" target="_blank">here</a>.</p>
+      <h2>Developed Features</h2>
+      <p>After creating high-fidelity prototypes in Adobe XD, I developed the website using React, HTML/CSS, JavaScript, and PHP. Once I receive the official job opportunities from the business team (I'm currently using test jobs), the site will be ready to deploy for students to use.</p>
+      <a href="https://thestanforddaily.github.io/jobs-board/#/" target="_blank" className="btn-big">View Demo</a>
 
       <h3>Jobs List</h3>
       <p>As the application process is time-consuming enough, I wanted to make it as fast as possible for the user to find the jobs they are interested in. Users can search, filter, and quickly scan each job for important details.
@@ -139,8 +141,7 @@ function JobsBoard() {
       <div className="smallText center-text">Click me!</div>
       <h3>Jobs Details</h3>
       <p>Students can learn more about each job by viewing the job description, company website, application instructions, and more.</p>
-      <img src={jobdetails} className="center-image shadow" />
-      <div className="smallText center-text">Details pulled from GitHub Jobs API</div>
+      <a href="https://jobs.stanforddaily.com/#/jobs/683ae113-dc17-4232-b586-a16035f8e45b" target="_blank"><img src={jobdetails} className="center-image shadow" /></a>
       <h3>Advice</h3>
       <p>When taking a break from job-seeking, users can read articles related to jobs and internships to get the honest perspectives of other students.
 </p>
@@ -151,16 +152,13 @@ function JobsBoard() {
       <a href="https://thestanforddaily.github.io/jobs-board/#/post" target="_blank"><img src={postjob} className="center-image shadow reduce-size" /></a>
       <h3>Behind-the-Scenes Development Details:</h3>
       <ul>
-        <li>The page currently pulls job data from the GitHub Jobs API for display.  It doesn’t have a category for “industry,” so I’ve set them all to be “technology.”</li>
-        <li>I implemented the search bar and location filter. I’m currently working on connecting the “Post Job” form fields to the WordPress API so I can make the other filters work.
-</li>
+        <li>I'm currently using test jobs, industries, locations, etc. to make sure the filters work.</li>
         <li>I made the site responsive -- try it on your phone!</li>
-        <li>The online job posting form contains placeholder information to help me test it more efficiently.</li>
         <li>To get the Daily articles, I identified posts with tags such as “career,” “job,” “internship,” etc. </li>
       </ul>
 
       <h2>The Future</h2>
-      <p>I’m currently finishing up the development of the site. The business team will handle advertising, finding companies, etc., and I’ve been working with them to ensure the product aligns with the Stanford Daily business.
+      <p>The business team is handling advertising, finding companies, etc., and I’ve been working with them to ensure the product aligns with the Stanford Daily business. I'm waiting to get the actual job posts and for authentication to be implemented so only Stanford students can access them.
 </p>
 
       <h2>Reflection</h2>
