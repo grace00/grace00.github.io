@@ -11,14 +11,14 @@ function BelongingBias() {
             <p className="subtitle">Studying the impact of biased web design on women in computer science.</p>
 
             <div className="row">
-                <div className="column">
-                    <h4>Duration:</h4><p>10 weeks</p>
+                <div className="column-left">
+                    <h4>Timeline</h4><span className="proj-detail">August 2019 - December 2019 (10 weeks)</span>
                 </div>
                 <div className="column">
-                    <h4>Languages:</h4><p>HTML/CSS, R, LaTeX</p>
+                    <h4>Languages</h4><span className="proj-detail">HTML/CSS, R, LaTeX</span>
                 </div>
                 <div className="column">
-                    <h4>Tools:</h4><p>Figma, Qualtrics, Amazon Mechanical Turk, RStudio</p>
+                    <h4>Tools</h4><span className="proj-detail">Figma, Qualtrics, Amazon Mechanical Turk, RStudio</span>
                 </div>
             </div>
         

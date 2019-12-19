@@ -24,14 +24,14 @@ function JobsBoard() {
       <p className="subtitle">Designing and developing a more personalized jobs search experience for Stanford students.</p>
 
       <div className="row">
-        <div className="column">
-          <h4>Duration:</h4><p>March 2019 - present</p>
+        <div className="column-left">
+          <h4>Timeline</h4><span className="proj-detail">March 2019 - present</span>
         </div>
         <div className="column">
-          <h4>Role:</h4><p>Solo designer, developer, and researcher</p>
+          <h4>Role</h4><span className="proj-detail">Solo designer, developer, and researcher</span>
         </div>
         <div className="column">
-          <h4>Tools/Languages:</h4><p>React, Adobe XD, PHP, Balsamiq</p>
+          <h4>Tools/Languages</h4><span className="proj-detail">React, Adobe XD, PHP, Balsamiq</span>
         </div>
       </div>
       <a href="https://thestanforddaily.github.io/jobs-board/#/" target="_blank" className="btn-big">View Demo</a>

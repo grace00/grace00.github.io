@@ -13,14 +13,14 @@ function WebMD() {
             <p className="subtitle">When it comes to health online, what is Gen Z interested in? WebMD interns find out.</p>
 
             <div className="row">
-                <div className="column">
-                    <h4>Duration:</h4><p>2 months</p>
+                <div className="column-left">
+                    <h4>Timeline</h4><span className="proj-detail">June 2019 - August 2019 (2 months)</span>
                 </div>
                 <div className="column">
-                    <h4>Teammates:</h4><p>3 interns</p>
+                    <h4>Teammates</h4><span className="proj-detail">3 interns</span>
                 </div>
                 <div className="column">
-                    <h4>Role:</h4><p>Content strategy, SEO, design, research</p>
+                    <h4>Role</h4><span className="proj-detail">Content strategy, SEO, design, research</span>
                 </div>
             </div>
 

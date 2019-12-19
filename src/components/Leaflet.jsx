@@ -12,15 +12,15 @@ function Leaflet() {
       <p className="subtitle">Designing and developing a transcription application aimed at journalists</p>
 
       <div className="row">
-        <div className="column">
-          <h4>Duration:</h4><p>10 weeks</p>
-        </div>
-        <div className="column-center">
-          <h4>Languages:</h4><p>React (JavaScript, HTML, CSS), Python/Flask</p>
+        <div className="column-left">
+          <h4>Timeline</h4><span className="proj-detail">August 2019 - December 2019 (10 weeks)</span>
         </div>
         <div className="column">
-          <h4>Tools:</h4><p>Figma, Google Speech-to-Text, Microsoft Computer Vision, Semantic UI
-</p>
+          <h4>Languages</h4><span className="proj-detail">React (JavaScript, HTML, CSS), Python/Flask</span>
+        </div>
+        <div className="column">
+          <h4>Tools</h4><span className="proj-detail">Figma, Google Speech-to-Text, Microsoft Computer Vision, Semantic UI
+          </span>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ function Leaflet() {
         <li>Conducted competitive analysis, interviews, ideation, and user testing</li>
         <li>Created journey map, paper sketches, and Figma prototypes</li>
         <li>Programmed these features: automated speech-to-text transcription, audio playback tools, handwritten-to-digital notes conversion, quote bank, export functions, and related news search</li>
-        <li>Coded the UI for aforementioned features and more
+        <li>Coded majority of the user interface
 </li>
       </ul>
       <a href={Report} target="_blank" className="btn-big">Full Report</a>

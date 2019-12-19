@@ -6,6 +6,7 @@
     --main-black: #222222;
     --main-blue: rgb(192, 212, 236);
     --darker-blue: rgb(114, 162, 221);
+    --darkest-blue: rgb(96, 137, 187);
     --main-light-black: #777777;
     --light-outline: #E8E8E8;
 }
@@ -28,6 +29,9 @@ h1 {
     font-size: 24px;
     font-weight: 500;
 }
+h2 {
+    font-size: 28px;
+}
 p {
     font-size: 16px;
     line-height: 24px;
@@ -38,7 +42,6 @@ img {
 }
 .overlay {
     margin: 0 auto;
-    background-color: var(--main-blue);
     width: 424px;
     height: 254px;
     border-radius: 8px;
@@ -224,9 +227,21 @@ nav ul li {
 .project img {
     width: 100%;
 }
+.project a:hover {
+    color: var(--darkest-blue);
+}
 .projTitle {
     font-size: 40px;
     text-align: center;
+}
+.row {
+    margin-bottom: 40px;
+}
+.row h4 {
+    margin-bottom: 8px;
+}
+.proj-detail {
+    font-size: 16px;
 }
 .bannerContainer img {
     width: 100%;
@@ -254,17 +269,14 @@ ul li {
     font-size: 18px;
     line-height: 32px;
 }
+.column-left {
+    float: left;
+    width: 30%;
+}
 .column {
     float: left;
-    width: 33%;
-}
-.column-2 {
-    float: left;
-    width: 66%;
-}
-.column-center {
-    float: left;
-    width: 31%;
+    width: 30%;
+    margin-left: 5%;
 }
 .row:after {
     content: "";
@@ -272,8 +284,8 @@ ul li {
     clear: both;
 }
 .stat {
-    color: var(--darker-blue);
-    font-weight: 600;
+    color: var(--main-black);
+    font-weight: 700;
 }
 img.infographic {
     width: 60%;
@@ -334,8 +346,8 @@ img.reduce-size {
 /* -----footer----*/
 .footer {
     clear: both;
-    margin-bottom: 16px;
-    margin-top: 40px;
+    margin-bottom: 24px;
+    margin-top: 48px;
     text-align: center;
 }
 .footer img {

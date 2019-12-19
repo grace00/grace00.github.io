@@ -10,11 +10,8 @@ function JobsBoard() {
             <p className="subtitle">A VR sound game for kids.</p>
 
             <div className="row">
-                <div className="column">
-                    <h4>Duration:</h4><p>3 weeks</p>
-                </div>
-                <div className="column">
-                    <h4>Teammates:</h4><p>Just me</p>
+                <div className="column-left">
+                    <h4>Timeline</h4><span className="proj-detail">3 weeks</span>
                 </div>
             </div>
             <p>I believe the strongest emotional reactions to films are evoked with sound. The harp weeping as a character dies, the violins swelling during a kiss. But in movies, sound can be constrained to a flat screen. VR headsets like the Oculus Go, on the other hand, offer powerful spatial audio in addition to 360 visuals. When it came time to create a project in my class CS11: Intro to VR Design & Development, I wondered how I could make a VR experience with sound at its core.
