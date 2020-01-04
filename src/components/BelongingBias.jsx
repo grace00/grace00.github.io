@@ -7,7 +7,7 @@ function BelongingBias() {
     return (
         <div className="project">
             <img src={bias} />
-<h1 className="projTitle">CS197: Introduction to CS Research</h1>
+<h1 className="projTitle">CS197: Computer Science Research</h1>
             <p className="subtitle">Studying the impact of biased web design on women in computer science.</p>
 
             <div className="row">

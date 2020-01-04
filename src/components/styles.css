@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:regular,semibold,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Muli:regular,semibold,bold,italic&subset=latin,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Baskervville|Handlee|Source+Code+Pro&display=swap');
 
 
@@ -12,7 +12,7 @@
 }
 body {
     margin: 0;
-    font-family: Nunito, Arial, Helvetica;
+    font-family: Muli, Arial, Helvetica;
     color: var(--main-black);
     padding: 0 80px;
 }
@@ -58,6 +58,9 @@ img {
 .overlay.yellow {
     background-color: #f9c986;
 }
+.overlay.novi {
+    background-color: #FA979A;
+}
 a img {
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -101,7 +104,8 @@ a:hover img {
 /* -----header/nav----*/
 nav {
     display: inline-block;
-    width: 100%;
+    width: 90%;
+    margin: 0 5%;
     margin-bottom: 32px;
 }
 nav a {
@@ -112,7 +116,7 @@ nav a {
 .name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 104px;
+    line-height: 80px;
 }
 nav ul {
     float: right;
@@ -121,9 +125,9 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-left: 32px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 56px;
+    line-height: 32px;
 }
 .is-active {
     border-bottom: 2px solid var(--main-blue);
@@ -218,6 +222,11 @@ nav ul li {
 .item h1 {
     margin-top: 32px;
 }
+.fix-height img {
+    margin: 4% auto;
+    max-height: 90%;
+    width: auto;
+}
 
 /* -----project pages----*/
 .project {
@@ -242,6 +251,7 @@ nav ul li {
 }
 .proj-detail {
     font-size: 16px;
+    line-height: 24px;
 }
 .bannerContainer img {
     width: 100%;
@@ -318,6 +328,7 @@ img.reduce-size {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 .image-row img {
     height: 176px;

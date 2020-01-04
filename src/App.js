@@ -5,9 +5,10 @@ import ScrollToTop from 'react-router-scroll-top'
 import './index.css';
 import NavBar from './components/NavBar';
 import Leaflet from './components/Leaflet.jsx';
-import Research from './components/BelongingBias';
+import Research from './components/Novi';
 import Projects from './components/Projects';
 import WebMD from './components/WebMD.jsx';
+import Novi from './components/Novi.jsx';
 import WhizKid from './components/WhizKid.jsx';
 import JobsBoard from './components/JobsBoard.jsx';
 import SoundOff from './components/SoundOff';
@@ -33,6 +34,7 @@ class App extends React.Component {
               <Route exact path='/webmd-gen-z' component={WebMD} />
               <Route exact path='/daily-job-site' component={JobsBoard} />
               <Route exact path='/whiz-kid' component={WhizKid} />
+              <Route exact path='/novi-app' component={Novi} />
               <Route exact path='/sound-off' component={SoundOff} />
               <Route exact path='/about' component={About} />
               <Route path='*' component={Projects} />
