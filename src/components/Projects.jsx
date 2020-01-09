@@ -13,13 +13,13 @@ import code from './images/browser.png'
 
 function Projects() {
 	return (
-		<div className="container">
+		<div>
 			<div className="introduction">
-				<h1>Hi, I'm Grace!</h1>
+				<h1>Hello, World! I'm Grace.</h1>
         <div className="flex-container">
-        <img src={art} />
-				<p>I'm a designer who also codes + writes things. </p>
-				<img src={code} />
+        {/*<img src={art} /> <img src={code} />*/}
+				<p>I'm a designer who codes 👩‍💻 and occasionally writes <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a> 😝. </p>
+				
         </div>
         {/*<p>Read about my projects below, or check out my <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a>.</p>*/}
 			</div>
@@ -97,7 +97,7 @@ function Projects() {
 				</Link>
 				
 				</div>*/}
-				<div class="item">
+				{/*<div class="item">
 					<Link to="/sound-off">
 						<div className="overlay">
 							<img src={vrgame} />
@@ -106,7 +106,7 @@ function Projects() {
 						<p className="subtitle">A VR sound game for kids.</p>
 						<div className="smallText">VR design</div>
 					</Link>
-				</div>
+			</div>*/}
 			</div>
 		</div >
 	);
