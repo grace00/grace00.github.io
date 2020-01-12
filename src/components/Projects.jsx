@@ -27,30 +27,30 @@ function Projects() {
 				<div class="item">
 					<Link to="/leaflet">
 						<div className="overlay green">
-							<img src={leaflet} />
+						<span class="vertical-helper"></span><img src={leaflet} />
 						</div>
 						<h1>Leaflet</h1>
-						<p className="subtitle">Creating a transcription application for journalists.</p>
+						<p>Creating a transcription application for journalists.</p>
 						<div className="smallText">Design, full-stack development, UX research</div> {/*React, Python, Figma*/}
 					</Link>
 				</div>
 				<div class="item">
 					<Link to="/daily-job-site">
 						<div className="overlay purple">
-							<img src={jobsite} />
+						<span class="vertical-helper"></span><img src={jobsite} />
 						</div>
 						<h1>Job Tree</h1>
-						<p className="subtitle">Developing a jobs search site for Stanford students.</p>
+						<p>Developing a jobs search site for Stanford students.</p>
 						<div className="smallText">Design, full-stack development, UX research</div> {/*React, Adobe XD, PHP*/}
 					</Link>
 				</div>
 				<div class="item">
 					<Link to="/novi-app">
-						<div className="overlay novi fix-height">
-							<img src={news}/>
+						<div className="overlay novi">
+						<span class="vertical-helper"></span><img src={news}/>
 						</div>
 						<h1>Novi</h1>
-						<p className="subtitle">Making a social news app for young adults.</p>
+						<p>Making a social news app for young adults.</p>
 						<div className="smallText">UI/UX design</div>
 					</Link>
 				</div>
@@ -58,20 +58,20 @@ function Projects() {
         <div class="item">
 					<Link to="/webmd-gen-z">
 						<div className="overlay yellow">
-							<img src={webmd} />
+						<span class="vertical-helper"></span><img src={webmd} />
 						</div>
 						<h1>WebMD</h1>
-						<p className="subtitle">Envisioning a health page for Gen Z.</p>
+						<p>Envisioning a health page for Gen Z.</p>
 						<div className="smallText">Research, SEO, content strategy, design</div>
 					</Link>
 				</div>
 				<div class="item">
 					<Link to="/hci-research">
 						<div className="overlay blue">
-							<img src={bias} />
+						<span class="vertical-helper"></span><img src={bias} />
 						</div>
 						<h1>Human-Computer Interaction Research</h1>
-						<p className="subtitle">Researching the effects of biased web design.</p>
+						<p>Researching the effects of biased web design.</p>
 						<div className="smallText">Research, design, frontend development</div>
 					</Link>
 				</div>
