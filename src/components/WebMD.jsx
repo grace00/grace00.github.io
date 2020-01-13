@@ -2,13 +2,14 @@ import React from 'react';
 import './styles.css';
 import surveystats from './images/surveygraphic@2x.png'
 import laptopmockup from './images/laptopmockup@2x.png'
-import teencenter from './images/teencenter@2x.png'
-import genzcenter from './images/genzcenter@2x.png'
+import genzmock from './images/genz-mock@2x.png'
 
 function WebMD() {
     return (
         <div className="project">
+            <div className="overlay yellow full-width">
             <img src={laptopmockup} />
+            </div>
             <h1 className="projTitle">WebMD: A Gen Z-entric Site</h1>
             <p className="subtitle">When it comes to health online, what is Gen Z interested in? WebMD interns find out.</p>
 
@@ -23,48 +24,63 @@ function WebMD() {
                     <h4>Role</h4><span className="proj-detail">Content strategy, SEO, design, research</span>
                 </div>
             </div>
-
-            <p>WebMD has been one of the most visited health sites sites since 1998 (fun fact: approximately half of its page views come from me). Recently, the rise of competitors that target younger audiences has put a strain on the company’s traffic statistics. When I worked there last summer, I and the other interns embarked on a group project to find out what our generation is looking for in a health site and what WebMD can do to be more Gen Z-friendly.</p>
-            <p>I was in charge of envisioning a compelling Gen Z-focused landing page. I outlined a potential content strategy and worked with WebMD’s design manager to mockup the site. I also did the data analysis for our survey results and taught the interns how to craft keyword-optimized pitches.</p>
+            <h2>Challenge</h2>
+            <p>Competitors that target younger audiences have recently begun to put a strain on WebMD’s traffic statistics. When I worked there last summer, I and the other interns worked on a project to advise the company about how they can better appeal Gen Z.
+</p>
+<h2>My Contribution</h2>
+            <p>I took charge of envisioning a compelling health center aimed at Gen Z. The center provides wellness and lifestyle information that is important, interesting, and relevant to Gen Z. I led the content strategy, worked a designer to mockup the site, and taught the interns how to craft SEO-friendly pitches. I also helped write the survey and conducted the data analysis.</p>
 
             <h2>Background Research</h2>
-            <p>To learn more about, well, ourselves, we read studies to get some context on how our generation regards health. Some key findings were:</p>
+            <p>To gain context about how our generation regards health, we pored over studies. Some key findings were:</p>
             <ul>
-                <li><span className="stat">72%</span>  state their most important health concern is managing stress and mental health</li>
-                <li><span className="stat">68%</span>  say a well-balanced diet is critical</li>
-                <li><span className="stat">61%</span>  believe exercise is of major importance</li>
-                <li><span className="stat">60%</span>  think getting enough sleep is also critical</li>
+                <li>Our biggest health concern is managing stress and mental health
+</li>
+                <li>Having a well-balanced diet, exercising, and getting enough sleep are also important
+</li>
+                <li>We feel the need for acceptance and belonging
+</li>
+                <li>We’re the most ethnically diverse generation in the US so far
+</li>
             </ul>
-            <div className="smallText">Z: A Generation Redefining Health and Wellness, AdAge</div>
-
+            <div className="smallText">Z: A Generation Redefining Health and Wellness, Into Z Future</div>
+            <p>It seemed our biggest concerns are lifestyle-related rather than tied to specific medical conditions. WebMD is more known for expertise in the latter.
+</p>
             <div className="competition">
-                <h2>Competitive Analysis</h2>
+                <h2>Studying Competitors</h2>
                 <img src="https://corporate-wordpress-proxy-stage.healthline.com/wp-content/uploads/2019/08/Healthline-Black-Lockup-1.png" alt=""></img>
                 <img src="https://pmdbeauty.com/wp-content/uploads/2014/07/self-magazine-logo.jpg" alt=""></img>
                 <img src="http://jj-la.com/wp-content/uploads/2019/04/mbg-full-logo-black.png" alt=""></img>
                 <img src="https://katiebressack.com/wp-content/uploads/2017/02/28-4449-page/mbg-logo-300x152.png" alt=""></img>
                 <img src="https://www.media24.com/wp-content/uploads/2019/03/Womenshealth_logo.png" alt=""></img>
                 <img src="https://pbs.twimg.com/profile_images/966067059913183232/owoXoAMB_400x400.jpg" alt=""></img>
-                <p>We looked at six competing health information and news sites to see how they appeal to Gen Zers and where WebMD could improve. We found that sites aimed at a young adult demographic like Healthline curate more wellness- and lifestyle-focused content and write with more relatable voices. They also emphasize diverse imagery, include LGBTQ health information, and exhibit young people’s medical stories more than WebMD. More established publishers such as MayoClinic and CNN Health had the advantage of high perceived credibility.</p>
+                <p>We looked at six other health information and news sites to see how they appeal to Gen Z. We found that sites aimed at a young adult demographic like Healthline curate more wellness- and lifestyle-focused content and write with more relatable voices. They also emphasize diverse imagery, include LGBTQ health information, and exhibit young people’s medical stories more than WebMD. 
+</p>
             </div>
 
             <h2>User Research</h2>
-            <p>We conducted a 21-question survey on Gen Z’s health habits, how they receive health information, and their opinions of WebMD. It received 202 total responses, and here were few of the insights: </p>
-            <img className="infographic" src={surveystats} />
+            <p>We conducted a survey on Gen Z’s health habits, how they receive health information, and their perception of WebMD. It had 202 respondents, most between 20-22 years old. These were some key insights:
+</p>
+<div class="box-container">
+  <div class="box"><div>Gen Z generally identifies as <b>healthy</b> and is most interested in food and diet, mental health, fitness, and body positivity.</div>
+</div>
+  <div class="box"><div>Gen Z wants a <b>redesigned</b> homepage that is “cleaner,” “easier to navigate,” and has a “more dynamic, social-media-esque layout.”
+</div></div>
+  <div class="box"><div>The current WebMD website emphasizes illnesses like <b>cancer</b> (their biggest fear by far), which <b>discourages</b> them from visiting the site more often. </div></div>
+  <div class="box"><div>They most prefer getting health information in <b>article</b> form, followed by <b>video</b>.
+</div></div>
+</div>
+<a href={surveystats} target="_blank" className="btn-big">See More Results</a>
 
-
-            <h2>Problem Definition</h2>
-            <p>From our research, we learned that the majority of Gen Zers identify as healthy and are interested in wellness topics like fitness and nutrition. As a result, they may shy away from WebMD because they associate the site with illness, particularly cancer. </p>
-            <p>Gen Zers also expressed a desire for a redesigned homepage that is “cleaner,” “easier to navigate,” and has a “more dynamic, social-media-esque layout.”</p>
             <div className="outline">
                 <p>The current WebMD homepage emphasizes medical conditions and appears cluttered to Gen Zers, which discourages them from visiting the site more often.</p>
             </div>
 
-            <h2>Solution: Creating a Landing Page for Gen Zers</h2>
-            <p>After brainstorming recommendations to attract Gen Zers to WebMD, we each took one to develop and present. I chose to work on fleshing out the concept of a landing page (also called health centers) on WebMD’s site aimed at the Gen Z demographic.
+            <h2>Solution: Creating a Gen Z Health Center
+</h2>
+            <p>After brainstorming recommendations to attract Gen Z to WebMD, we each chose one to develop and present. I worked on creating a new health center (similar to a landing page) for WebMD’s site. It would target Gen Z’s interests in a way the rest of the site couldn’t
 </p>
             <h3>Content Strategy</h3>
-            <p>Drawing on our survey results and my SEO knowledge, I created a possible strategy for the landing page’s content.
+            <p>Drawing on our research and my SEO knowledge, I created a strategy for its content to best address Gen Z’s health concerns and interests.
 </p>
             <table>
                 <tr>
@@ -88,22 +104,16 @@ function WebMD() {
             <p>In terms of business, I learned that the Gen Z page could help diversify revenue streams. WebMD struggles to engage with consumer packaged goods advertising, but including more wellness content could get more views to attract these brands.
 </p>
             <h3>Design</h3>
-            <p>After finding content Gen Z would enjoy, I helped with designing the interface it could be housed in. I studied sites popular with Gen Zers such as BuzzFeed and Huffington Post to see how they attract an audience. I noted that these sites prioritize relatable article content and had easy-to-understand categories such as “Trending Now.”
+            <p>After finding content Gen Z would enjoy, I worked with a designer to mock up a clean interface to house it in. Here was the final mockup (for comparison, the current Women’s Health Center is on the left):
 </p>
-            <p>For the site’s design, I chose the colors yellow, blue, and pink so it could have broad appeal while seeming youthful and positive. I brainstormed and wrote headlines that address the topics Gen Z is most interested in, incorporating words like “you” where appropriate. Because Gen Z is the most diverse generation, I found images that reflected that. I sent all of this content to the designer and communicated my design recommendations.
-</p>
-            <p>Here was the final mockup (for comparison, the current Teen Health Center is on the left).</p>
             <div className="mockup overflow">
-                <img className="left" src={teencenter} />
-                <img src={genzcenter} />
+                <img src={genzmock} />
             </div>
             <h2>Reflection</h2>
             <h3>Design with Business in Mind</h3>
-            <p>Working on this project taught me the importance of developing solutions that meet user and business needs. An idea can be incredibly useful and beautifully executed, but to increase its chances of survival it should benefit the company in some way. If I were to do this project again I would work on aligning the product to better support WebMD’s business goals while keeping user needs in mind.</p>
+            <p>Working on this project taught me the importance of developing solutions that meet user and business needs. An idea can be incredibly useful and well executed, but to increase its chances of survival it should clearly benefit the company. If I were to do this project again I would work on aligning the final product to better support WebMD’s business goals while keeping user needs in mind.</p>
             <h3>What UX Is</h3>
-            <p>For the majority of the project, I actually didn’t know much about “UI/UX” (if you mentioned affinity maps to me, I probably would’ve just pictured two globes kissing). What I did know was that I loved gathering data and making design and content decisions with them.</p>
-            <p>After we presented the project, a member of the SEO team congratulated us and said, "You essentially did the whole UX process."
-                A lesson I took away from this project was that what I loved doing -- researching and designing things with the potential to help people -- was actually called something.</p>
+            <p>For the majority of the project, I actually didn’t know much about “UI/UX.” What I did know was that I loved gathering data and making design and content decisions with them. A valuable lesson I took away from this project was that what I loved doing -- researching and creating things with the potential to help people -- had a name. Oh, and don’t mention cancer around Gen Z.</p>
 
         </div>
     );

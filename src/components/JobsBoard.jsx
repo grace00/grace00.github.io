@@ -19,7 +19,9 @@ import advice from './images/advice.png'
 function JobsBoard() {
   return (
     <div className="project">
+      <div className="overlay purple full-width">
       <img src={jobsite} />
+      </div>
       <h1 className="projTitle">Stanford Job Tree</h1>
       <p className="subtitle">Designing and developing a more personalized jobs search experience for Stanford students.</p>
 

@@ -7,7 +7,9 @@ import demo from './images/Final_Demo.mov';
 function Leaflet() {
   return (
     <div className="project">
+      <div className="overlay green full-width">
       <img src={leaflet} />
+      </div>
       <h1 className="projTitle">Leaflet</h1>
       <p className="subtitle">Designing and developing a transcription application aimed at journalists</p>
 

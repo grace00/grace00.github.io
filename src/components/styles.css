@@ -4,6 +4,7 @@
 
 :root {
     --main-black: #222222;
+    --light-blue: rgb(234, 242, 253);
     --main-blue: rgb(192, 212, 236);
     --darker-blue: rgb(114, 162, 221);
     --darkest-blue: rgb(96, 137, 187);
@@ -12,27 +13,39 @@
 }
 body {
     margin: 0;
-    font-family: Muli, Arial, Helvetica;
+    font-family: Calibre, Arial, Helvetica;
+    font-size: 18px;
     color: var(--main-black);
 }
 .main-container {
     width: 85%;
     margin: 0 auto;
 }
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+}
 a {
     text-decoration: none;
     font-weight: 600;
     color: var(--darker-blue);
 }
+b {
+    font-weight: 600;
+}
+h1, h2, h3, h4 {
+    margin-top: 48px;
+    font-weight: 600;
+}
 h1 {
     font-size: 24px;
-    font-weight: 500;
 }
 h2 {
     font-size: 28px;
 }
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 img {
@@ -40,10 +53,11 @@ img {
 }
 .overlay {
     height: 71%;
+    padding: 8px 0;
     border-radius: 2px;
 }
 .overlay.blue {
-    background-color: #89cedd;
+    background-color: #76abdd;
 }
 .overlay.purple {
     background-color: #9ebdf7;
@@ -77,7 +91,7 @@ a:hover img {
 .smallText {
     margin-top: 4px;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--main-light-black);
 }
 .subtitle {
@@ -86,13 +100,15 @@ a:hover img {
 .btn-big {
     display: inline-block;
     margin: 16px 0;
-    padding: 12px 24px;
+    padding: 12px 24px 7px 24px;
     background-color: var(--darker-blue);
     color: white;
     border: 2px solid transparent;
     border-radius: 100px;
     transition: all .2s ease;
     -webkit-transition: all .2s ease;
+    font-size: 18px;
+    font-weight: 600;
 }
 .btn-big:hover {
     border: 2px solid var(--darker-blue);
@@ -107,7 +123,7 @@ a:hover img {
 nav {
     display: inline-block;
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
 }
 nav a {
     color: var(--main-black);
@@ -115,8 +131,8 @@ nav a {
     text-decoration: none;
 }
 .name {
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 24px;
     line-height: 80px;
 }
 nav ul {
@@ -126,7 +142,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-left: 32px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 32px;
 }
@@ -166,7 +182,7 @@ nav ul li {
 /* -----Projects----*/
 .introduction {
     margin-top: 16px;
-    margin-bottom: 80px;
+    margin-bottom: 56px;
 }
 .introduction h1 {
     margin-top: 0px;
@@ -224,7 +240,7 @@ nav ul li {
 
 /* -----project pages----*/
 .project {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 .project img {
@@ -232,6 +248,14 @@ nav ul li {
 }
 .project a:hover {
     color: var(--darkest-blue);
+}
+.full-width img {
+    height: 45vh;
+    width: auto;
+    padding: 16px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .projTitle {
     font-size: 40px;
@@ -261,17 +285,13 @@ nav ul li {
     color: var(--darker-blue);
     font-style: italic;
 }
-h1, h2, h3, h4 {
-    margin-top: 48px;
-    font-weight: 700;
-}
 ul li {
     padding-top: 8px;
     font-size: 18px;
 }
 .project p, ol li, ul li {
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
 }
 .column-left {
     float: left;
@@ -292,7 +312,7 @@ ul li {
     font-weight: 700;
 }
 img.infographic {
-    width: 60%;
+    width: 80%;
 }
 img.shadow {
     box-shadow: 3px 3px 6px 1px var(--light-outline);
@@ -303,9 +323,7 @@ img.shadow {
     padding-right: 40px;
 }
 .mockup img {
-    display: inline-block;
-    width: 48%;
-    box-shadow: 3px 3px 6px 1px var(--light-outline);
+
 }
 img.left {
     margin-right: 4%;
@@ -344,7 +362,22 @@ img.reduce-size {
 .center-text {
     text-align: center;
 }
-
+.box-container {
+    margin: 0px auto 24px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.box {
+    background-color: var(--light-blue);
+    padding: 24px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+}
 
 /* -----footer----*/
 .footer {
@@ -386,20 +419,19 @@ td div {
 nav {
     background-color: ;
 }
-@media only screen and (max-width : 1000px) {
+@media only screen and (max-width : 1200px) {
     nav {
         background: ;  
     }    
-    .item {
-        float: none;
-        width: 100%;
-        margin: 0 auto 56px auto;
+    .project {
+        width: 80%;
+        margin: 0 10%;
     }
 }
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 800px) {
     nav {
         background: ;  
-    }    
+    }   
     .main-container {
         width: 92%;
     }
@@ -407,5 +439,10 @@ nav {
         width: 100%;
         margin: 0;
         padding: 0;
+    } 
+    .item {
+        float: none;
+        width: 100%;
+        margin: 0 auto 56px auto;
     }
 }
