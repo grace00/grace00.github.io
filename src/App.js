@@ -55,7 +55,7 @@ function About() {
       <img src={youngme} style={{ width: "200px", display: "block", borderRadius: "2px"}} />
       <h1>Hi, I’m Grace!</h1>
       <p>I’m studying computer science and psychology at Stanford to understand the vast capabilities of technology and human behavior.
-      I aim to design beautiful experiences that promote psychological well-being, operate efficiently, and clearly communicate to the user. </p><p>As a marketing design director for BASES, one of the largest student-run entrepreneurship organizations in the world, I’m a proponent of design solutions that meet business as well as user needs. 
+      I aim to design beautiful experiences that promote psychological well-being, operate efficiently, and communicate clearly to the user. </p><p>As a marketing design director for BASES, one of the largest student-run entrepreneurship organizations in the world, I’m a proponent of design solutions that meet business as well as user needs. 
 My previous internships in writing, editing, and SEO have taught me how to write, design, and deliver valuable content.
 </p><p>I’m currently immersing myself in human-computer interaction research and augmented reality development. Outside of design, you’ll catch me watching <i>Buffy the Vampire Slayer</i>, writing film reviews, and trying to conjure up the will to exercise.
 </p></div>

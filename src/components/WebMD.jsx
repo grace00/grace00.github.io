@@ -8,7 +8,7 @@ function WebMD() {
     return (
         <div className="project">
             <div className="overlay yellow full-width">
-            <img src={laptopmockup} />
+                <img src={laptopmockup} />
             </div>
             <h1 className="projTitle">WebMD: A Gen Z-entric Site</h1>
             <p className="subtitle">When it comes to health online, what is Gen Z interested in? WebMD interns find out.</p>
@@ -25,17 +25,17 @@ function WebMD() {
                 </div>
             </div>
             <h2>Challenge</h2>
-            <p>Competitors that target younger audiences have recently begun to put a strain on WebMD’s traffic statistics. When I worked there last summer, I and the other interns worked on a project to advise the company about how they can better appeal Gen Z.
+            <p>Competitors that target younger audiences have recently begun to put a strain on WebMD’s traffic statistics. When I worked there last summer, I and the other interns worked on a project to advise the company about how they can better appeal Gen Z -- whether through an app, website, or anything else.
 </p>
-<h2>My Contribution</h2>
-            <p>I took charge of envisioning a compelling health center aimed at Gen Z. The center provides wellness and lifestyle information that is important, interesting, and relevant to Gen Z. I led the content strategy, worked a designer to mockup the site, and taught the interns how to craft SEO-friendly pitches. I also helped write the survey and conducted the data analysis.</p>
+            <h2>My Contribution</h2>
+            <p>I took charge of envisioning a health center (similar to a landing page) aimed at Gen Z. This center would provide wellness and lifestyle information that is important, interesting, and relevant to Gen Z. I led the content strategy, worked a designer to mockup the site, and taught the interns how to craft SEO-friendly pitches. I also helped write the survey and conducted the data analysis.</p>
 
             <h2>Background Research</h2>
-            <p>To gain context about how our generation regards health, we pored over studies. Some key findings were:</p>
+            <p>At the beginning of our process, we pored over studies to gain context about how our generation regards health. Some key findings were:</p>
             <ul>
                 <li>Our biggest health concern is managing stress and mental health
 </li>
-                <li>Having a well-balanced diet, exercising, and getting enough sleep are also important
+                <li>Having a balanced diet, exercising, and getting enough sleep are also important to us
 </li>
                 <li>We feel the need for acceptance and belonging
 </li>
@@ -43,41 +43,45 @@ function WebMD() {
 </li>
             </ul>
             <div className="smallText">Z: A Generation Redefining Health and Wellness, Into Z Future</div>
-            <p>It seemed our biggest concerns are lifestyle-related rather than tied to specific medical conditions. WebMD is more known for expertise in the latter.
+            <p>Our biggest health concerns were related to general lifestyle rather than specific medical conditions. 
 </p>
-            <div className="competition">
-                <h2>Studying Competitors</h2>
-                <img src="https://corporate-wordpress-proxy-stage.healthline.com/wp-content/uploads/2019/08/Healthline-Black-Lockup-1.png" alt=""></img>
-                <img src="https://pmdbeauty.com/wp-content/uploads/2014/07/self-magazine-logo.jpg" alt=""></img>
-                <img src="http://jj-la.com/wp-content/uploads/2019/04/mbg-full-logo-black.png" alt=""></img>
-                <img src="https://katiebressack.com/wp-content/uploads/2017/02/28-4449-page/mbg-logo-300x152.png" alt=""></img>
-                <img src="https://www.media24.com/wp-content/uploads/2019/03/Womenshealth_logo.png" alt=""></img>
-                <img src="https://pbs.twimg.com/profile_images/966067059913183232/owoXoAMB_400x400.jpg" alt=""></img>
-                <p>We looked at six other health information and news sites to see how they appeal to Gen Z. We found that sites aimed at a young adult demographic like Healthline curate more wellness- and lifestyle-focused content and write with more relatable voices. They also emphasize diverse imagery, include LGBTQ health information, and exhibit young people’s medical stories more than WebMD. 
-</p>
+
+            <h2>Studying Competitors</h2>
+            <div className="image-row">
+                <img className="competitor" src="https://corporate-wordpress-proxy-stage.healthline.com/wp-content/uploads/2019/08/Healthline-Black-Lockup-1.png" alt="" />
+                <img className="competitor" src="https://pmdbeauty.com/wp-content/uploads/2014/07/self-magazine-logo.jpg" alt=""/>
+                <img className="competitor" src="http://jj-la.com/wp-content/uploads/2019/04/mbg-full-logo-black.png" alt=""></img>
+                <img className="competitor" src="https://katiebressack.com/wp-content/uploads/2017/02/28-4449-page/mbg-logo-300x152.png" alt=""/>
+                <img className="competitor" src="https://www.media24.com/wp-content/uploads/2019/03/Womenshealth_logo.png" alt=""/>
+                <img className="competitor" src="https://pbs.twimg.com/profile_images/966067059913183232/owoXoAMB_400x400.jpg" alt=""/>
             </div>
+            <p>We looked at six other health information and news sites to study how they appeal to Gen Z. We learned that sites aimed at a young adult demographic like Healthline curate more wellness- and lifestyle-focused content and write with more relatable voices than WebMD does currently. They also incorporate more diverse imagery, include more LGBTQ health information, and exhibit more young people’s medical stories than WebMD. 
+</p>
+
 
             <h2>User Research</h2>
-            <p>We conducted a survey on Gen Z’s health habits, how they receive health information, and their perception of WebMD. It had 202 respondents, most between 20-22 years old. These were some key insights:
+            <p>We needed to know more about our target audience, so we conducted a survey on Gen Z’s health habits, how they receive health information, and their perception of WebMD. There were 202 respondents, most between 20-22 years old. Some of our key insights included:
 </p>
-<div class="box-container">
-  <div class="box"><div>Gen Z generally identifies as <b>healthy</b> and is most interested in food and diet, mental health, fitness, and body positivity.</div>
+            <div class="box-container">
+                <div class="box"><div>Gen Z is generally <b>healthy</b> and is most interested in the topics food and diet, mental health, fitness, and body positivity. 
 </div>
-  <div class="box"><div>Gen Z wants a <b>redesigned</b> homepage that is “cleaner,” “easier to navigate,” and has a “more dynamic, social-media-esque layout.”
+                </div>
+                <div class="box"><div>Gen Z wants a <b>redesigned</b> homepage that is “cleaner,” “easier to navigate,” and has a “more dynamic, social-media-esque layout.”
 </div></div>
-  <div class="box"><div>The current WebMD website emphasizes illnesses like <b>cancer</b> (their biggest fear by far), which <b>discourages</b> them from visiting the site more often. </div></div>
-  <div class="box"><div>They most prefer getting health information in <b>article</b> form, followed by <b>video</b>.
+                <div class="box"><div>The current WebMD website emphasizes illnesses like <b>cancer</b> (their biggest fear by far), which <b>discourages</b> them from visiting the site more often. </div></div>
+                <div class="box"><div>They most prefer getting health information in <b>article</b> form, followed by <b>video</b> -- and least prefer getting it from an app.
 </div></div>
-</div>
-<a href={surveystats} target="_blank" className="btn-big">See More Results</a>
+            </div>
+            <a href={surveystats} target="_blank" className="btn-big">See More Results</a>
 
             <div className="outline">
-                <p>The current WebMD homepage emphasizes medical conditions and appears cluttered to Gen Zers, which discourages them from visiting the site more often.</p>
+                <p>The results further emphasized that Gen Z enjoys learning about wellness and lifestyle topics. However, they associate WebMD with the very opposite: sickness and life-threatening diseases. On top of that, they don’t find the design appealing and easy to navigate. These findings motivated us to design a health center would better target our generation’s needs.
+</p>
             </div>
 
             <h2>Solution: Creating a Gen Z Health Center
 </h2>
-            <p>After brainstorming recommendations to attract Gen Z to WebMD, we each chose one to develop and present. I worked on creating a new health center (similar to a landing page) for WebMD’s site. It would target Gen Z’s interests in a way the rest of the site couldn’t
+            <p>After brainstorming multiple recommendations improve WebMD’s relationship with Gen Z, we each chose one to develop and present. I took on the idea of designing a new health center for WebMD’s website. It would target Gen Z’s interests in a way the rest of the site couldn’t.
 </p>
             <h3>Content Strategy</h3>
             <p>Drawing on our research and my SEO knowledge, I created a strategy for its content to best address Gen Z’s health concerns and interests.
@@ -104,7 +108,7 @@ function WebMD() {
             <p>In terms of business, I learned that the Gen Z page could help diversify revenue streams. WebMD struggles to engage with consumer packaged goods advertising, but including more wellness content could get more views to attract these brands.
 </p>
             <h3>Design</h3>
-            <p>After finding content Gen Z would enjoy, I worked with a designer to mock up a clean interface to house it in. Here was the final mockup (for comparison, the current Women’s Health Center is on the left):
+            <p>After finding content Gen Z would enjoy, I worked with a designer to mockup a clean interface to house it in. Here was the final mockup (for comparison, the current Women’s Health Center is on the left):
 </p>
             <div className="mockup overflow">
                 <img src={genzmock} />

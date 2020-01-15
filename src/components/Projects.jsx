@@ -16,18 +16,18 @@ function Projects() {
 		<div>
 			<div className="introduction">
 				<h1>Hello, World! I'm Grace.</h1>
-        <div className="flex-container">
-        {/*<img src={art} /> <img src={code} />*/}
-				<p>I'm a designer who codes 👩‍💻 and occasionally writes <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a> 😝. </p>
-				
-        </div>
-        {/*<p>Read about my projects below, or check out my <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a>.</p>*/}
+				<div className="flex-container">
+					{/*<img src={art} /> <img src={code} />*/}
+					<p>I'm a designer who codes 👩🏻‍💻 and occasionally writes <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a> 😝. </p>
+
+				</div>
+				{/*<p>Read about my projects below, or check out my <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a>.</p>*/}
 			</div>
 			<div className="allProjects">
 				<div class="item">
 					<Link to="/leaflet">
 						<div className="overlay green">
-						<span class="vertical-helper"></span><img src={leaflet} />
+							<span class="vertical-helper"></span><img src={leaflet} />
 						</div>
 						<h1>Leaflet</h1>
 						<p>Creating a transcription application for journalists.</p>
@@ -37,7 +37,7 @@ function Projects() {
 				<div class="item">
 					<Link to="/daily-job-site">
 						<div className="overlay purple">
-						<span class="vertical-helper"></span><img src={jobsite} />
+							<span class="vertical-helper"></span><img src={jobsite} />
 						</div>
 						<h1>Job Tree</h1>
 						<p>Developing a jobs search site for Stanford students.</p>
@@ -45,34 +45,33 @@ function Projects() {
 					</Link>
 				</div>
 				<div class="item">
-					<Link to="/novi-app">
-						<div className="overlay novi">
-						<span class="vertical-helper"></span><img src={news}/>
-						</div>
-						<h1>Novi</h1>
-						<p>Making a social news app for young adults.</p>
-						<div className="smallText">UI/UX design</div>
-					</Link>
-				</div>
-       
-        <div class="item">
-					<Link to="/webmd-gen-z">
-						<div className="overlay yellow">
-						<span class="vertical-helper"></span><img src={webmd} />
-						</div>
-						<h1>WebMD</h1>
-						<p>Envisioning a health page for Gen Z.</p>
-						<div className="smallText">Research, SEO, content strategy, design</div>
-					</Link>
-				</div>
-				<div class="item">
 					<Link to="/hci-research">
 						<div className="overlay blue">
-						<span class="vertical-helper"></span><img src={bias} />
+							<span class="vertical-helper"></span><img src={bias} />
 						</div>
 						<h1>Human-Computer Interaction Research</h1>
 						<p>Researching the effects of biased web design.</p>
 						<div className="smallText">Research, design, frontend development</div>
+					</Link>
+				</div>
+				<div class="item">
+					<Link to="/webmd-gen-z">
+						<div className="overlay yellow">
+							<span class="vertical-helper"></span><img src={webmd} />
+						</div>
+						<h1>WebMD</h1>
+						<p>Envisioning a health page for Gen Z.</p>
+						<div className="smallText">Content strategy, SEO, research, design</div>
+					</Link>
+				</div>
+				<div class="item">
+					<Link to="/novi-app">
+						<div className="overlay novi">
+							<span class="vertical-helper"></span><img src={news} />
+						</div>
+						<h1>Novi</h1>
+						<p>Making a social news app for young adults.</p>
+						<div className="smallText">UI/UX design</div>
 					</Link>
 				</div>
 				{/*}
@@ -86,7 +85,7 @@ function Projects() {
 						<div className="smallText">Screenwriting</div>
 					</Link>
 					*/}
-					{/*}
+				{/*}
 				<Link to={Oryx}>
 					<div className="overlay">
 						<img src={whizkid} />
