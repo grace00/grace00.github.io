@@ -51,6 +51,9 @@ p {
 img {
     width: 100%;
 }
+video {
+    box-shadow: 3px 3px 6px 1px var(--light-outline);
+}
 .overlay {
     height: 71%;
     padding: 8px 0;
@@ -391,11 +394,11 @@ table {
     margin-top: 16px;
     margin-bottom: 16px;
     border-collapse: collapse;
-    border: 1px solid var(--main-blue);
+    border: 2px solid var(--main-blue);
     width: 100%;
 }
 td {
-    border: 1px solid var(--main-blue);
+    border: 2px solid var(--main-blue);
     padding: 16px;
     text-align: left;
 }​
@@ -406,6 +409,7 @@ th {
     text-align: left;
     background-color: var(--main-blue);
     color: var(--main-black);
+    font-weight: 600;
 }
 td div {
     margin-top: 8px;
