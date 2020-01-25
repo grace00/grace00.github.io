@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactGA from 'react-ga';
-import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
+import { Switch, HashRouter, Route } from "react-router-dom";
 import ScrollToTop from 'react-router-scroll-top'
 import './index.css';
 import NavBar from './components/NavBar';
@@ -24,7 +24,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="main-container">
-        <Router basename="/portfolio" >
+        <HashRouter basename="/portfolio" >
           <ScrollToTop>
             <NavBar />
             <Switch>
@@ -41,7 +41,7 @@ class App extends React.Component {
             </Switch>
             <Footer />
           </ScrollToTop>
-        </Router>
+        </HashRouter>
       </div >
     );
   }

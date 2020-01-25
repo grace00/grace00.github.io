@@ -42,8 +42,15 @@ function Novi() {
                 </div>
             </div>
     */}
+    <p>Full case study coming soon! Here's a sneak peek:</p>
       <div className="wireframe overflow">
         <div className="image-row">
+          <img src={splash} />
+          <img src={home} />
+          <img src={articlediscussion} />
+          <img src={exploretrending} />
+          <img src={profile} />
+          {/*}
           <img src={splash} />
           <img src={followtopics} />
           <img src={home} />
@@ -61,10 +68,9 @@ function Novi() {
           <img src={exploretopics} />
           <img src={search} />
           <img src={notifications} />
-          <img src={profile} />
+  <img src={profile} />*/}
         </div>
       </div>
-      <p>Full case study coming soon!</p>
 
     </div>)
 }
