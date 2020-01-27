@@ -37,7 +37,7 @@ function JobsBoard() {
           <h4>Tools/Languages</h4><span className="proj-detail">React, Adobe XD, PHP, Balsamiq</span>
         </div>
       </div>
-      <a href="https://thestanforddaily.github.io/jobs-board/#/" target="_blank" className="btn-big">View Demo</a>
+      <a href="https://thestanforddaily.github.io/jobs-board/#/" target="_blank" className="btn-big">View Site</a>
 
       <h2>Problem</h2>
       <p>When I applied internships last year, I felt so alone. As I copy-pasted my resume into little boxes again and again, just hoping for a whiff of acknowledgement, I kept hearing about how others had landed amazing opportunities.
@@ -134,7 +134,7 @@ function JobsBoard() {
       <img src={jobsitemap} className="center-image" />
 
       <p>Using these diagrams, I developed low-fidelity wireframes.</p>
-      <div className="wireframe overflow">
+      <div className="large overflow">
         <div className="image-row">
           <img src={landingwireframe} />
           <img src={jobwireframe} />
@@ -152,7 +152,7 @@ function JobsBoard() {
 
       <h2>Developed Features</h2>
       <p>After creating high-fidelity prototypes in Adobe XD, I developed Job Tree using React, HTML/CSS, JavaScript, and PHP.</p>
-      <a href="https://thestanforddaily.github.io/jobs-board/#/" target="_blank" className="btn-big">View Demo</a>
+      <a href="https://thestanforddaily.github.io/jobs-board/#/" target="_blank" className="btn-big">View Site</a>
 
       <h3>Jobs List</h3>
       <p>As the application process is time-consuming enough, I wanted to make it as fast as possible for the user to find the jobs they are interested in. Users can search, filter, and quickly scan each job for important details.

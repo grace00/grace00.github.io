@@ -43,7 +43,7 @@ function Novi() {
             </div>
     */}
     <p>Full case study coming soon! Here's a sneak peek:</p>
-      <div className="wireframe overflow">
+      <div className="large overflow">
         <div className="image-row">
           <img src={splash} />
           <img src={home} />

@@ -93,6 +93,7 @@ a:hover img {
 }
 .smallText {
     margin-top: 4px;
+    margin-bottom: 12px;
     text-align: left;
     font-size: 16px;
     color: var(--main-light-black);
@@ -341,10 +342,10 @@ img.reduce-size {
     justify-content: space-between;
     margin-bottom: 24px;
 }
-.wireframe .image-row img {
-    height: 350px;
+.large .image-row img {
+    height: 420px;
     width: auto;
-    box-shadow: 1px 2px 6px 1px var(--light-outline);
+    box-shadow: 3px 3px 6px 1px var(--light-outline);
     margin-bottom: 24px;
 }
 .overflow {
