@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:regular,semibold,bold,italic&subset=latin,latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Baskervville|Handlee|Source+Code+Pro&display=swap');
-
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");*/
 
 :root {
     --main-black: #222222;
+    --light-black: #444444;
     --light-blue: rgb(234, 242, 253);
     --main-blue: rgb(192, 212, 236);
     --darker-blue: rgb(114, 162, 221);
@@ -13,7 +12,7 @@
 }
 body {
     margin: 0;
-    font-family: Calibre, Arial, Helvetica;
+    font-family: "Calibre Regular", Arial, Helvetica;
     font-size: 18px;
     color: var(--main-black);
 }
@@ -28,21 +27,28 @@ body {
 }
 a {
     text-decoration: none;
-    font-weight: 600;
+    font-family: 'Calibre Semibold';
     color: var(--darker-blue);
 }
 b {
-    font-weight: 600;
+    font-family: 'Calibre Semibold';
+    font-weight: normal;
 }
 h1, h2, h3, h4 {
-    margin-top: 48px;
-    font-weight: 600;
+    color: var(--light-black);
+    font-family: 'Calibre Semibold';
+    font-weight: normal;
 }
 h1 {
+    margin-top: 48px;
     font-size: 24px;
 }
 h2 {
+    margin-top: 48px;
     font-size: 28px;
+}
+h3 {
+    margin-top: 36px;
 }
 p {
     font-size: 18px;
@@ -60,7 +66,7 @@ video {
     border-radius: 2px;
 }
 .overlay.blue {
-    background-color: #76abdd;
+    background-color: #a7e5ff;
 }
 .overlay.purple {
     background-color: #9ebdf7;
@@ -71,9 +77,6 @@ video {
 .overlay.yellow {
     background-color: #f9c986;
 }
-.overlay.novi {
-    background-color: #FA979A;
-}
 .overlay img {
     vertical-align: middle;
 }
@@ -82,16 +85,16 @@ video {
     height: 100%;
     vertical-align: middle;
 }
-a img {
+.preview-image {
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
 }
-a:hover img {
+.preview-image:hover {
     opacity: 0.5;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
 }
-.smallText {
+.small-text {
     margin-top: 4px;
     margin-bottom: 12px;
     text-align: left;
@@ -111,7 +114,7 @@ a:hover img {
     transition: all .2s ease;
     -webkit-transition: all .2s ease;
     font-size: 18px;
-    font-weight: 600;
+    font-family: 'Calibre Semibold';
 }
 .btn-big:hover {
     background-color: var(--darkest-blue);
@@ -128,11 +131,11 @@ nav {
 }
 nav a {
     color: var(--main-black);
-    font-weight: 400;
+    font-family: "Calibre Regular";
     text-decoration: none;
 }
 .name {
-    font-weight: 500;
+    font-family: "Calibre Medium";
     font-size: 24px;
     line-height: 80px;
 }
@@ -144,7 +147,7 @@ nav ul li {
     display: inline-block;
     margin-left: 32px;
     font-size: 18px;
-    font-weight: 400;
+    font-family: "Calibre Regular";
     line-height: 32px;
 }
 .is-active {
@@ -213,7 +216,7 @@ nav ul li {
 .writer-font {
     font-family: "Handlee";
 }
-.allProjects {
+.all-projects {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -223,7 +226,7 @@ nav ul li {
     margin-bottom: 64px;
 }
 .item a {
-    font-weight: 400;
+    font-family: "Calibre Regular";
     color: var(--main-black);
 }
 .item h1 {
@@ -258,7 +261,7 @@ nav ul li {
     margin-left: auto;
     margin-right: auto;
 }
-.projTitle {
+.project-title {
     font-size: 40px;
     text-align: center;
 }
@@ -310,13 +313,13 @@ ul li {
 }
 .stat {
     color: var(--main-black);
-    font-weight: 700;
+    font-family: "Calibre Semibold";
 }
 img.infographic {
     width: 80%;
 }
 img.shadow {
-    box-shadow: 3px 3px 6px 1px var(--light-outline);
+    box-shadow: 2px 2px 4px 1px var(--light-outline);
 }
 img.competitor {
     height: 60px;
@@ -340,25 +343,42 @@ img.reduce-size {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 24px;
 }
-.large .image-row img {
-    height: 420px;
+.image-row img {
+    height: 400px;
     width: auto;
-    box-shadow: 3px 3px 6px 1px var(--light-outline);
+    box-shadow: 2px 2px 4px 1px var(--light-outline);
     margin-bottom: 24px;
 }
-.overflow {
+.large-overflow {
     width: 90vw;
     position: relative;
     left: calc(-45vw + 50%);
 }
-.design img {
+.medium-overflow {
+    width: 76vw;
+    position: relative;
+    left: calc(-38vw + 50%);
+}
+.small-overflow {
+    width: 62vw;
+    position: relative;
+    left: calc(-31vw + 50%);
+}
+.image-left img {
     float: left;
     width: 48%;
     margin-right: 4%;
-    box-shadow: 1px 2px 6px 1px var(--light-outline);
+    margin-bottom: 16px;
+    /* box-shadow: 1px 2px 6px 1px var(--light-outline); */
 }
+.image-left:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 .center-text {
     text-align: center;
 }
@@ -447,3 +467,114 @@ nav {
         margin: 0 auto 56px auto;
     }
 }
+
+@font-face {
+    font-family: 'Calibre Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Regular'), url('./fonts/CalibreRegular.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Regular Italic'), url('./fonts/CalibreRegularItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Thin'), url('./fonts/CalibreThin.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Thin Italic'), url('./fonts/CalibreThinItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Light'), url('./fonts/CalibreLight.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Light Italic'), url('./fonts/CalibreLightItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Medium'), url('./fonts/CalibreMedium.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Medium Italic'), url('./fonts/CalibreMediumItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Semibold'), url('./fonts/CalibreSemibold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Semibold Italic'), url('./fonts/CalibreSemiboldItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Bold'), url('./fonts/CalibreBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Bold Italic'), url('./fonts/CalibreBoldItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Black'), url('./fonts/CalibreBlack.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Calibre Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Black Italic'), url('./fonts/CalibreBlackItalic.woff') format('woff');
+    }
