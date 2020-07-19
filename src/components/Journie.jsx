@@ -19,6 +19,10 @@ import Onboard from './images/journie-onboard.gif';
 import Info from './images/journie-info.gif';
 import Join from './images/journie-join.gif';
 import Morning from './images/journie-morning.gif';
+import OnboardIteration from './images/journie-onboard.png';
+import InfoIteration from './images/journie-info.png';
+import CalendarIteration from './images/journie-calendar.png';
+import MorningIteration from './images/journie-morning.png';
 
 
 function Journie() {
@@ -181,8 +185,9 @@ function Journie() {
         With the feedback from our users, we incorporated many changes into the app.
       </p>
       <h4>Carpool Recommendations</h4>
+      <img src={OnboardIteration} />
       <ul>
-        <li>Users didn’t realize they could tap on a carpool’s card to view more information about it, so we added a small arrow to the right of the card to suggest more details were available.
+        <li>We wanted the cards to display the most important information that would help users choose between recommendations. Knowing the estimated time of arrival helped users to choose between carpools, so we added this information to the cards. Knowing the names of each carpool did not, so we removed them.
 </li>
         <li>
           We added Home and Work icons next to the location fields to clarify what locations to input.
@@ -190,20 +195,23 @@ function Journie() {
         <li>The meaning of a carpool’s leave time was unclear to users. We re-used the same Home and Work icons to more clearly indicate the time to leave home and estimated time of arrival.</li>
         </ul>
       <h4>Carpool Information</h4>
+      <img src={InfoIteration} />
       <ul>
         <li>We added member ratings because users were worried about joining a group of “bad people.”
 </li>
         <li>We moved the map to the bottom of the screen because the exact route was less immediately useful to users than a carpool’s information and logistics.</li>
       </ul>
       <h4>Calendar</h4>
+      <img src={CalendarIteration} />
       <ul>
         <li>A user thought they could add more than 2 rides in one day. We clarified that each day has room for only one morning carpool and one night carpool by adding sun and moon icons. 
 </li>
         <li>
-        The next user had no idea what was going on in this screen. The view was not familiar to them through an existing pattern, and it departed from previous screens. We decided to copy over the cards from the carpool listings to help the user recognize their function. As a result, further users were all able to understand what was happening.
+        The next user had no idea what was going on in the calendar. The view was not familiar to them through an existing pattern, and it departed from previous screens. We decided to copy over the cards from the carpool listings to help the user recognize their function. As a result, further users were all able to understand what was happening.
 </li>
         </ul>
         <h4>Live Carpool Information</h4>
+        <img src={MorningIteration} />
       <ul>
         <li>Users didn’t find the live location of the car useful or necessary, so we took it out.
 </li>
@@ -215,9 +223,9 @@ function Journie() {
 <li>We differentiated the two green buttons more so users wouldn’t accidentally tap the wrong one in a rush.</li>
         </ul>
 
-      <h3>Mood Board & Style Tile</h3>
+      {/* <h3>Mood Board & Style Tile</h3>
       <p>I created a mood board and style tile for our high-fidelity design.</p>
-      <img src={StyleTile} className="shadow" />
+      <img src={StyleTile} className="shadow" /> */}
 
       <h2>Final Design</h2>
       <div className="image-left">
