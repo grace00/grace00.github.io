@@ -27,7 +27,7 @@ function Leaflet() {
       <div className="overlay green full-width">
         <img src={leaflet} />
       </div>
-      <h1 className="project-title">Leaflet</h1>
+      <h1 className="projTitle">Leaflet</h1>
       <p className="subtitle">Designing and developing a transcription application aimed at journalists</p>
 
       <div className="row">
@@ -67,7 +67,7 @@ function Leaflet() {
         <source src={demo} type="video/mp4" />
         Your browser does not support HTML5 video.
 </video>
-      <div className="small-text">Note: Leaflet has already transcribed the reporter's audio file and converted a picture of their notes into digitized text using computer vision.</div>
+      <div className="smallText">Note: Leaflet has already transcribed the reporter's audio file and converted a picture of their notes into digitized text using computer vision.</div>
 
       <h2>Research</h2>
       <h3>Competitive Analysis</h3>
@@ -122,7 +122,7 @@ function Leaflet() {
 
       <h3>Prototypes</h3>
       <p>I created sketches and prototypes for our team to get an idea of the application’s visual structure and technical requirements.</p>
-      <div className="large-overflow">
+      <div className="large overflow">
         <div className="image-row">
           <img src={Sketch} className="shadow" />
           {/*<img src={LowFi} className="shadow" />*/}
@@ -134,9 +134,9 @@ function Leaflet() {
       <p>After beginning development, I conducted usability testing with journalists. I asked them to complete a series of tasks while expressing their thoughts out loud as well as questions about their experiences with transcribing audio.
 </p>
 <img src={Test1} className="shadow" />
-<div className="small-text">Interface presented to users in the first round of testing</div>
+<div className="smallText">Interface presented to users in the first round of testing</div>
 <img src={Test2} className="shadow" />
-<div className="small-text">Interface presented to users in the second round of testing</div>
+<div className="smallText">Interface presented to users in the second round of testing</div>
 
       <p>I found that:</p>
       <ul>

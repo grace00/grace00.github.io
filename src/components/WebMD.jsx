@@ -10,7 +10,7 @@ function WebMD() {
             <div className="overlay yellow full-width">
                 <img src={laptopmockup} />
             </div>
-            <h1 className="project-title">WebMD: A Gen Z-entric Site</h1>
+            <h1 className="projTitle">WebMD: A Gen Z-entric Site</h1>
             <p className="subtitle">When it comes to health online, what is Gen Z interested in? WebMD interns find out.</p>
 
             <div className="row">
@@ -42,7 +42,7 @@ function WebMD() {
                 <li>We’re the most <b>ethnically diverse</b> generation in the US so far
 </li>
             </ul>
-            <div className="small-text">Z: A Generation Redefining Health and Wellness, Into Z Future</div>
+            <div className="smallText">Z: A Generation Redefining Health and Wellness, Into Z Future</div>
             <p>Our top health priorities are related to <b>general lifestyle</b> rather than specific medical conditions. 
 </p>
 
