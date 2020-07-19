@@ -23,7 +23,7 @@ function JobsBoard() {
       <div className="overlay purple full-width">
         <img src={jobsite} />
       </div>
-      <h1 className="projTitle">Stanford Job Tree</h1>
+      <h1 className="project-title">Stanford Job Tree</h1>
       <p className="subtitle">Designing and developing a more personalized jobs search experience for Stanford students.</p>
 
       <div className="row">
@@ -53,7 +53,7 @@ function JobsBoard() {
       <p>I volunteered to create the site towards the end of my freshman year. I’d never designed or developed a website before, so my first instinct was to look at job sites for inspiration and then dive into coding. Whenever I wanted to change the color of a button or adjust spacing between elements, I went into my CSS file, fiddled with the code, and prayed to the heavens before refreshing the page.
 </p>
       <img src={oldjobsboard} className="shadow" />
-      <div className="smallText">This took an embarrassing amount of time!</div>
+      <div className="small-text">This took an embarrassing amount of time!</div>
       <h2>The Second Try: Survey Insights</h2>
       <p>I took a break from the project to intern at WebMD. When I came back, I realized I needed to approach the website differently in order to create one that was empathetic towards students like myself.
 </p>
@@ -134,7 +134,7 @@ function JobsBoard() {
       <img src={jobsitemap} className="center-image" />
 
       <p>Using these diagrams, I developed low-fidelity wireframes.</p>
-      <div className="large overflow">
+      <div className="large-overflow">
         <div className="image-row">
           <img src={landingwireframe} />
           <img src={jobwireframe} />
@@ -144,7 +144,7 @@ function JobsBoard() {
       </div>
 
       <h2>Style Decisions</h2>
-      <div className="design">
+      <div className="image-left">
         <img src={landing} />
         <p>I aimed for Job Tree to have a <b>youthful, welcoming appearance</b> while feeling cleanly professional. I wanted the site to be associated with Stanford without coming across as academic and instructional, so I chose red and green as the main colors but brightened them to provide a friendlier tone and avoid reminding students of their looming pile of psets. I didn’t want the red to instill a sense of alarm or danger, so I calmed it to be more pink-like.</p>
         <p>I chose the font Source Sans Pro for the body to make the job descriptions and titles seem less intimidating and more inviting.</p>
@@ -158,7 +158,7 @@ function JobsBoard() {
       <p>As the application process is time-consuming enough, I wanted to make it as fast as possible for the user to find the jobs they are interested in. Users can search, filter, and quickly scan each job for important details.
 </p>
       <a href="https://thestanforddaily.github.io/jobs-board/#/jobs" target="_blank"><img src={jobslist} className="center-image shadow" /></a>
-      <div className="smallText center-text">Click me!</div>
+      <div className="small-text center-text">Click me!</div>
       <h3>Job Details</h3>
       <p>Students can learn more about each job by viewing the job description, qualifications, company website, and more. Every posting will have a company email for students to contact.
 </p>
