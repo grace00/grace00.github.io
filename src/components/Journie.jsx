@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './styles.css';
 import Preview from './images/journie-preview.png'
 import Report from './images/CS206_Paper.pdf';
@@ -58,6 +59,8 @@ function Journie() {
         We set out to redesign Stanford Rideshare. The result was Journie, an app concept that helps employees quickly find and join carpools. Users can also view their upcoming rides and stay updated about rides currently happening.
 </p>
 
+      <Link to="#final-design" className="btn-big">Jump to Final Design</Link>
+
       <h2>User Research</h2>
       <h3>Interviews</h3>
       <p>
@@ -77,27 +80,14 @@ function Journie() {
       <h3>Affinity Map</h3>
       <p>
         We then grouped our findings to uncover insights and trends.
-      </p>
-      <p>From our synthesis of the interviews, we learned that:</p>
+      From our synthesis of the interviews, we learned that:</p>
       <ul>
-        <li>
-          People who can’t find an existing carpool that fits their needs post a new listing and attempt to form a new group. Unfortunately, they have to wait months for responses and may never attract enough people to form a carpool.
-</li>
-        <li>
-          If a potential user finds a carpool that fits their needs, they still need to undergo a time-consuming, back-and-forth process with the coordinator to check for compatibility before joining.
-</li>
-        <li>
-          Some people don’t even attempt to join because they think the carpools wouldn’t be flexible enough to accommodate their needs.
-</li>
-        <li>
-          Many carpools are actually very flexible with their members’ needs.
-        </li>
-        <li>
-          Rideshare coordinators struggle to recruit new riders when a rider leaves. This causes immense stress for coordinators because the group may lose its benefits if it falls below a minimum size.
-        </li>
-        <li>
-          Carpools use time-consuming and inefficient methods of communicating and coordinating schedules.
-        </li>
+        <li>Employees struggle to find carpools that work for their schedule, location, and personal preferences.</li>
+        <li>Even if a potential user finds a carpool that fits their needs, they need to undergo a time-consuming, back-and-forth process with the coordinator to check for compatibility and learn about expectations.</li>
+        <li>Some people don’t even attempt to join because they think the carpools wouldn’t be flexible enough to accommodate their needs.</li>
+        <li>Many carpools are actually very flexible with their members’ needs. </li>
+        <li>Rideshare coordinators experience immense stress for coordinators because the group may lose its benefits if it falls below a minimum size.</li>
+        <li>Carpools use time-consuming and inefficient methods of communicating and coordinating schedules.</li>
       </ul>
 
       <h3>Journey Map</h3>
@@ -113,22 +103,15 @@ function Journie() {
       </p>
       <img src={Brainstorm} />
       <p>
-        Ultimately, we decided to design an app that accomplishes the following:
+        Ultimately, <b>we decided to design an app that accomplishes the following:</b>
       </p>
       <ul>
-        <li>
-          Enables commuters to join carpools quickly
-</li>
-        <li>
-          Makes carpool information and expectations transparent
-        </li>
-        <li>
-          Simplifies communication between carpool members
-        </li>
-        <li>
-          Clearly allows for flexibility in scheduling
-        </li>
+        <li>Enables Stanford employees to <b>join carpools quickly</b></li>
+        <li>Clearly <b>allows for flexibility</b> to suit people’s schedules</li>
+        <li>Makes carpool information and <b>expectations transparent</b></li>
+        <li><b>Simplifies communication</b> between carpool members</li>
       </ul>
+      <p>Rideshare makes people’s lives easier—sometimes saving people from commutes that were so grueling that they even considered switching jobs. We aimed to help more potential members join carpools in a scalable way, so they can enjoy their commute.</p>
 
       <h3>Blueprint</h3>
       <p>
@@ -140,27 +123,28 @@ function Journie() {
       <p>
         Before designing the app, my partner and I tested Bumble, Google Maps, and Waze Carpool on 4 people. We wanted to better understand how people connect with strangers, choose a route, and compare carpool options.
        </p>
-      <div className="small-overflow">
+      {/* <div className="small-overflow">
         <div className="image-row">
           <img src={ComparatorGuide} />
           <img src={ComparatorResults} />
         </div>
-      </div>
+      </div> */}
       <p>
-        After grouping our observations, we created a table summarizing the surface-level usability issues and deeper user needs we discovered.
+        We discovered that:
        </p>
+      <ul>
+        <li>Users want more control over their carpool results than Waze provided</li>
+        <li>On Google Maps, users liked that they could see the effects of picking a certain route without committing to one. What time would they have to leave if they chose a certain route? Where would they go?</li>
+        <li>Profile pictures on Bumble and Waze increased people’s trust in other users of the platforms</li>
+      </ul>
       <img src={NitsNeeds} className="center-image shadow" />
-
-      <h3>Sketches</h3>
-      <p>
-        Drawing on our user research and comparative testing, we each sketched different directions the app could go in.
-      </p>
-      <img src={Sketches} />
-
+      <br />
+      <a href="https://docs.google.com/document/d/1j5tg171gBLV3CdU0LSTmcAGvBOsrnUu8sIpEhng1Fdc/edit?usp=sharing" target="_blank" className="btn-big">View Full Analysis</a>
       <h3>Prototypes</h3>
       <p>
-        We then created paper prototypes of the ideas we felt were most feasible and tested them on 3 people.
+        Drawing on our user research and comparative testing, we each sketched different directions the app could go in. Then, we created paper prototypes of the ideas we felt were most feasible and tested them on 3 people.
       </p>
+      <img src={Sketches} />
       <img src={PaperPrototype} />
 
       <h3>User Flow</h3>
@@ -173,6 +157,9 @@ function Journie() {
       <p>
         We then wireframed a concept that combined two prototypes. Users of the app input their work hours and locations, receive a list of compatible carpools, and choose which one(s) to join and put in their schedule. They can also receive live information about carpools that are happening.
       </p>
+      <p>
+        I wireframed all of the following screens except for the Live Location one.
+      </p>
       <div className="medium-overflow">
         <img src={Wireframes} />
       </div>
@@ -182,71 +169,59 @@ function Journie() {
         Between wireframes and the final prototype, we tested the app with 6 Stanford Rideshare members and other Stanford affiliates. We followed the highly iterative RITE method: after each test, we implemented improvements so later users could provide feedback and validate the new solutions.
       </p>
       <p>
-        With the feedback from our users, we incorporated many changes into the app.
+        With the feedback from our users, we incorporated many changes into the app design. I also created the style guide that we applied to our high-fidelity design.
       </p>
       <h4>Carpool Recommendations</h4>
       <img src={OnboardIteration} />
       <ul>
-        <li>We wanted the cards to display the most important information that would help users choose between recommendations. Knowing the estimated time of arrival helped users to choose between carpools, so we added this information to the cards. Knowing the names of each carpool did not, so we removed them.
-</li>
-        <li>
-          We added Home and Work icons next to the location fields to clarify what locations to input.
-</li>
-        <li>The meaning of a carpool’s leave time was unclear to users. We re-used the same Home and Work icons to more clearly indicate the time to leave home and estimated time of arrival.</li>
-        </ul>
+<li>Added leave and arrival times because this helped users decide between carpools more than their names</li>
+<li>Added Home and Work icons next to clarify what to input in location fields</li>
+</ul>
       <h4>Carpool Information</h4>
       <img src={InfoIteration} />
       <ul>
-        <li>We added member ratings because users were worried about joining a group of “bad people.”
-</li>
-        <li>We moved the map to the bottom of the screen because the exact route was less immediately useful to users than a carpool’s information and logistics.</li>
-      </ul>
+<li>Moved the map to the bottom of the screen because the exact route was less immediately useful to users than a carpool’s information and logistics</li>
+<li>Added member ratings because users were worried about joining a group of “bad people”</li>
+</ul>
       <h4>Calendar</h4>
       <img src={CalendarIteration} />
       <ul>
-        <li>A user thought they could add more than 2 rides in one day. We clarified that each day has room for only one morning carpool and one night carpool by adding sun and moon icons. 
-</li>
-        <li>
-        The next user had no idea what was going on in the calendar. The view was not familiar to them through an existing pattern, and it departed from previous screens. We decided to copy over the cards from the carpool listings to help the user recognize their function. As a result, further users were all able to understand what was happening.
-</li>
-        </ul>
-        <h4>Live Carpool Information</h4>
-        <img src={MorningIteration} />
+<li>Clarified that each day has room for only one morning carpool and one night carpool by adding sun and moon icons </li>
+<li>Copied over the card design from the carpool listings, using a familiar pattern to help users understand that this calendar is showing their upcoming rides</li>
+</ul>
+      <h4>Live Carpool Information</h4>
+      <img src={MorningIteration} />
       <ul>
-        <li>Users didn’t find the live location of the car useful or necessary, so we took it out.
-</li>
-        <li>
-        The repercussions of marking that you were “out” of a carpool were unclear, so we changed the wording to “Cancel” and added a warning message about the penalty.
-</li>
-<li>This warning message wasn’t severe enough to deter a later user. To make the consequences more clear, we added a confirmation modal explaining that cancelling could lead them to lose their spot in the carpool.
-</li>
-<li>We differentiated the two green buttons more so users wouldn’t accidentally tap the wrong one in a rush.</li>
-        </ul>
+<li>Contrasted the buttons more so users won’t accidentally tap the wrong one when in a rush</li>
+<li>Removed live locations because it wasn’t helpful to users</li>
+<li>Provided a cancel option so users can quickly communicate they can’t make it</li>
+<li>Added a warning message and confirmation modal to deter users from cancelling</li>
+</ul>
 
       {/* <h3>Mood Board & Style Tile</h3>
       <p>I created a mood board and style tile for our high-fidelity design.</p>
       <img src={StyleTile} className="shadow" /> */}
 
-      <h2>Final Design</h2>
+      <h2 id="final-design">Final Design</h2>
       <div className="image-left">
-      <img src={Onboard} />
-      <h3>Recommendations</h3>
-      <p>After completing a quick onboarding process, users are provided with a list of the top recommendations that fit their schedule and preferences.</p>
+        <img src={Onboard} />
+        <h3>Recommendations</h3>
+        <p>After completing a quick onboarding process, users are provided with a list of the top recommendations that fit their schedule and preferences.</p>
       </div>
       <div className="image-left">
-      <img src={Info} />
-      <h3>Carpool Information</h3>
-      <p>For each carpool, users can see the group’s expectations, costs, and route if the user joined.</p>
+        <img src={Info} />
+        <h3>Carpool Information</h3>
+        <p>For each carpool, users can see the group’s expectations, costs, and route if the user joined.</p>
       </div>
       <div className="image-left">
-      <img src={Join} />
-      <h3>Join a Carpool</h3>
-      <p>When users join their preferred carpool option, it automatically gets populated into their calendar for each day they plan to ride.</p>
+        <img src={Join} />
+        <h3>Join a Carpool</h3>
+        <p>When users join their preferred carpool option, it automatically gets populated into their calendar for each day they plan to ride.</p>
       </div>
       <div className="image-left">
-      <img src={Morning} />
-      <h3>Live Carpool</h3>
-      <p>While a carpool is occurring, users can easily access directions, message their group, and see when the driver is arriving at their stop. If an emergency happens, they can cancel a ride but are reminded of the consequences.</p>
+        <img src={Morning} />
+        <h3>Live Carpool</h3>
+        <p>While a carpool is occurring, users can easily access directions, message their group, and see when the driver is arriving at their stop. If an emergency happens, they can cancel a ride but are reminded of the consequences.</p>
       </div>
     </div>)
 }
