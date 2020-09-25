@@ -21,19 +21,18 @@ function JobsBoard() {
   return (
     <div className="project">
       <div className="overlay purple full-width">
+      <h1 className="project-title">Stanford Job Tree</h1>
+      <p className="subtitle">A jobs site for Stanford students.</p>
         <img src={jobsite} />
       </div>
-      <h1 className="project-title">Stanford Job Tree</h1>
-      <p className="subtitle">Designing and developing a more personalized jobs search experience for Stanford students.</p>
 
       <div className="row">
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">March 2019 - November 2019</span>
+          <h4>Role</h4><span className="proj-detail">Designer and developer</span>
         </div>
         <div className="column">
-          <h4>Role</h4><span className="proj-detail">Sole designer, developer, and researcher</span>
-        </div>
-        <div className="column">
+          <h4>Teammates</h4><span className="proj-detail">None</span>
           <h4>Tools/Languages</h4><span className="proj-detail">React, Adobe XD, PHP, Balsamiq</span>
         </div>
       </div>

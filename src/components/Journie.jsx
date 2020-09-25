@@ -29,39 +29,41 @@ import MorningIteration from './images/journie-morning.png';
 function Journie() {
   return (
     <div className="project">
-      <div className="overlay blue full-width">
+      <div className="overlay blue full-width no-border-radius">
+        <h1 className="project-title">
+          Journie
+        </h1>
+        <p className="subtitle">Matching commuters to carpools.</p>
         <img src={Preview} />
       </div>
-      <h1 className="project-title">
-        Journie
-      </h1>
-      <p className="subtitle">Designing an app that matches commuters to form carpools</p>
 
       <div className="row">
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">10 weeks</span>
-        </div>
-        <div className="column">
-          <h4>Role</h4><span className="proj-detail">Designer</span>
+          <h4>Role</h4><span className="proj-detail">Designer and researcher</span>
         </div>
         <div className="column">
           <h4>Teammates</h4><span className="proj-detail">3 other people during research phase, 1 other person during design phase
           </span>
+          <h4>Tools</h4><span className="proj-detail">Figma</span>
         </div>
       </div>
 
-      <h2>Problem</h2>
-      <p>
-        Stanford Rideshare is a program that incentives Stanford employees to carpool to work together. However, employees struggle to find others whose schedules, locations, and carpool preferences align. Carpools are also forced to set up their own complicated systems of communication and organization, placing a large burden on the volunteer carpool coordinators.
+      <div className="full-width section-container gray">
+        <div className="project">
+          <h2>Problem</h2>
+          <p>
+            Stanford Rideshare is a program that incentives Stanford employees to carpool to work together. However, employees struggle to find others whose schedules, locations, and carpool preferences align. Carpools are also forced to set up their own complicated systems of communication and organization, placing a large burden on the volunteer carpool coordinators.
       </p>
-      <h2>Solution</h2>
-      <p>
-        We set out to redesign Stanford Rideshare. The result was Journie, an app concept that helps employees quickly find and join carpools. Users can also view their upcoming rides and stay updated about rides currently happening.
-</p>
+          <h2>Solution</h2>
+          <p>
+            We set out to redesign Stanford Rideshare. The result was Journie, an app concept that helps employees quickly find and join carpools. Users can also view their upcoming rides and stay updated about rides currently happening.
+      </p>
+          <Link to="#final-design" className="btn-big">Jump to Final Design</Link>
+        </div>
+      </div>
 
-      <Link to="#final-design" className="btn-big">Jump to Final Design</Link>
-
-      <h2>User Research</h2>
+      <h5>USER RESEARCH</h5>
       <h3>Interviews</h3>
       <p>
         We interviewed a diverse array of Stanford employees to better understand how the program currently works and what could be improved.
@@ -96,7 +98,7 @@ function Journie() {
         </p>
       <img src={JourneyMap} />
 
-      <h2>Design</h2>
+      <h5>DESIGN</h5>
       <h3>Ideation</h3>
       <p>
         With these user insights and pain points in mind, my partner and I brainstormed ideas.
@@ -174,29 +176,29 @@ function Journie() {
       <h4>Carpool Recommendations</h4>
       <img src={OnboardIteration} />
       <ul>
-<li>Added leave and arrival times because this helped users decide between carpools more than their names</li>
-<li>Added Home and Work icons next to clarify what to input in location fields</li>
-</ul>
+        <li>Added leave and arrival times because this helped users decide between carpools more than their names</li>
+        <li>Added Home and Work icons next to clarify what to input in location fields</li>
+      </ul>
       <h4>Carpool Information</h4>
       <img src={InfoIteration} />
       <ul>
-<li>Moved the map to the bottom of the screen because the exact route was less immediately useful to users than a carpool’s information and logistics</li>
-<li>Added member ratings because users were worried about joining a group of “bad people”</li>
-</ul>
+        <li>Moved the map to the bottom of the screen because the exact route was less immediately useful to users than a carpool’s information and logistics</li>
+        <li>Added member ratings because users were worried about joining a group of “bad people”</li>
+      </ul>
       <h4>Calendar</h4>
       <img src={CalendarIteration} />
       <ul>
-<li>Clarified that each day has room for only one morning carpool and one night carpool by adding sun and moon icons </li>
-<li>Copied over the card design from the carpool listings, using a familiar pattern to help users understand that this calendar is showing their upcoming rides</li>
-</ul>
+        <li>Clarified that each day has room for only one morning carpool and one night carpool by adding sun and moon icons </li>
+        <li>Copied over the card design from the carpool listings, using a familiar pattern to help users understand that this calendar is showing their upcoming rides</li>
+      </ul>
       <h4>Live Carpool Information</h4>
       <img src={MorningIteration} />
       <ul>
-<li>Contrasted the buttons more so users won’t accidentally tap the wrong one when in a rush</li>
-<li>Removed live locations because it wasn’t helpful to users</li>
-<li>Provided a cancel option so users can quickly communicate they can’t make it</li>
-<li>Added a warning message and confirmation modal to deter users from cancelling</li>
-</ul>
+        <li>Contrasted the buttons more so users won’t accidentally tap the wrong one when in a rush</li>
+        <li>Removed live locations because it wasn’t helpful to users</li>
+        <li>Provided a cancel option so users can quickly communicate they can’t make it</li>
+        <li>Added a warning message and confirmation modal to deter users from cancelling</li>
+      </ul>
 
       {/* <h3>Mood Board & Style Tile</h3>
       <p>I created a mood board and style tile for our high-fidelity design.</p>
@@ -208,7 +210,7 @@ function Journie() {
         <h3>Recommendations</h3>
         <p>After completing a quick onboarding process, users are provided with a list of the top recommendations that fit their schedule and preferences.</p>
       </div>
-      <div className="image-left">
+      <div className="image-right">
         <img src={Info} />
         <h3>Carpool Information</h3>
         <p>For each carpool, users can see the group’s expectations, costs, and route if the user joined.</p>
@@ -218,7 +220,7 @@ function Journie() {
         <h3>Join a Carpool</h3>
         <p>When users join their preferred carpool option, it automatically gets populated into their calendar for each day they plan to ride.</p>
       </div>
-      <div className="image-left">
+      <div className="image-right">
         <img src={Morning} />
         <h3>Live Carpool</h3>
         <p>While a carpool is occurring, users can easily access directions, message their group, and see when the driver is arriving at their stop. If an emergency happens, they can cancel a ride but are reminded of the consequences.</p>

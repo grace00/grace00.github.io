@@ -46,7 +46,7 @@ export default App;
 function About() {
   return (
     <div className="project">
-      <img src={youngme} style={{ width: "200px", display: "block", borderRadius: "2px" }} />
+      <img src={youngme} style={{ width: "200px", display: "block", borderRadius: "8px" }} className="profile-pic"/>
       <h1>
         Hi, I’m Grace!
       </h1>

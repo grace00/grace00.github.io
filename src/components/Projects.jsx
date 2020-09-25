@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import FadeIn from 'react-fade-in';
 import './styles.css';
 import webmd from './images/webmdpreview@2x.png'
 import jobsite from './images/jobmockup@2x.png'
@@ -10,11 +11,14 @@ import journie from './images/journie-preview.png'
 function Projects() {
 	return (
 		<div>
+			<FadeIn
+				delay={500}
+			>
 			<div className="introduction">
-				<h1>Hello, World! I'm Grace.</h1>
+				<p className="header">Hello, World! I'm Grace.</p>
 				<div className="flex-container">
 					{/*<img src={art} /> <img src={code} />*/}
-					<p>I'm a designer who codes 👩🏻‍💻 and occasionally writes <a href="https://ors.artandwriting.org/media/416527" target="_blank">satire</a> 😝. </p>
+					<p className="sub-header">I’m a designer, <a href="https://github.com/grace00" target="_blank">coder</a>, and occasional  <a href="https://ors.artandwriting.org/media/416527" target="_blank">satirist</a>.</p>
 				</div>
 			</div>
 			<div className="all-projects">
@@ -63,7 +67,8 @@ function Projects() {
 					</Link>
 				</div>
 			</div>
-		</div >
+			</FadeIn>
+		</div>
 	);
 }
 

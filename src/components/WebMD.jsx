@@ -8,10 +8,10 @@ function WebMD() {
     return (
         <div className="project">
             <div className="overlay yellow full-width">
+                <h1 className="project-title">WebMD</h1>
+                <p className="subtitle">A health site for Gen Z.</p>
                 <img src={laptopmockup} />
             </div>
-            <h1 className="project-title">WebMD: A Gen Z-entric Site</h1>
-            <p className="subtitle">When it comes to health online, what is Gen Z interested in? WebMD interns find out.</p>
 
             <div className="row">
                 <div className="column-left">
@@ -47,7 +47,7 @@ function WebMD() {
 </p>
 
             <h2>Studying Competitors</h2>
-            <div className="image-row">
+            <div className="image-row-small">
                 <img className="competitor" src="https://corporate-wordpress-proxy-stage.healthline.com/wp-content/uploads/2019/08/Healthline-Black-Lockup-1.png" alt="" />
                 <img className="competitor" src="https://pmdbeauty.com/wp-content/uploads/2014/07/self-magazine-logo.jpg" alt=""/>
                 <img className="competitor" src="http://jj-la.com/wp-content/uploads/2019/04/mbg-full-logo-black.png" alt=""></img>

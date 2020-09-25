@@ -25,20 +25,19 @@ function Leaflet() {
   return (
     <div className="project">
       <div className="overlay green full-width">
+        <h1 className="project-title">Leaflet</h1>
+        <p className="subtitle">A transcription application for journalists.</p>
         <img src={leaflet} />
       </div>
-      <h1 className="project-title">Leaflet</h1>
-      <p className="subtitle">Designing and developing a transcription application aimed at journalists</p>
 
       <div className="row">
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">August 2019 - December 2019 (10 weeks)</span>
+          <h4>Role</h4><span className="proj-detail">Designer and full-stack developer</span>
         </div>
         <div className="column">
-          <h4>Languages</h4><span className="proj-detail">React (JavaScript, HTML, CSS), Python/Flask</span>
-        </div>
-        <div className="column">
-          <h4>Tools</h4><span className="proj-detail">Figma, Google Speech-to-Text, Microsoft Computer Vision, Semantic UI
+          <h4>Teammates</h4><span className="proj-detail">1 journalist, 1 front-end developer</span>
+          <h4>Tools/Languages</h4><span className="proj-detail">Figma, React, Python, Flask, Google Speech-to-Text, Microsoft Computer Vision, Semantic UI
           </span>
         </div>
       </div>
@@ -62,13 +61,16 @@ function Leaflet() {
         <li>I <b>conducted all the usability testing sessions</b> and incorporated the feedback into the final developed product.</li>
       </ul>
 
-      <h2>Demo</h2>
-      <video width="100%" controls>
-        <source src={demo} type="video/mp4" />
+      <div className="full-width section-container blue">
+        <div className="project">
+          <h2>Demo</h2>
+          <video width="100%" controls>
+            <source src={demo} type="video/mp4" />
         Your browser does not support HTML5 video.
 </video>
-      <div className="small-text">Note: Leaflet has already transcribed the reporter's audio file and converted a picture of their notes into digitized text using computer vision.</div>
-
+          <div className="small-text">Note: Leaflet has already transcribed the reporter's audio file and converted a picture of their notes into digitized text using computer vision.</div>
+        </div>
+      </div>
       <h2>Research</h2>
       <h3>Competitive Analysis</h3>
       <p>Before creating the application, we studied five popular transcription tools. We input real audio from interviews to gauge their accuracy and available features.
@@ -133,10 +135,10 @@ function Leaflet() {
       <h3>Usability Testing</h3>
       <p>After beginning development, I conducted usability testing with journalists. I asked them to complete a series of tasks while expressing their thoughts out loud as well as questions about their experiences with transcribing audio.
 </p>
-<img src={Test1} className="shadow" />
-<div className="small-text">Interface presented to users in the first round of testing</div>
-<img src={Test2} className="shadow" />
-<div className="small-text">Interface presented to users in the second round of testing</div>
+      <img src={Test1} className="shadow" />
+      <div className="small-text">Interface presented to users in the first round of testing</div>
+      <img src={Test2} className="shadow" />
+      <div className="small-text">Interface presented to users in the second round of testing</div>
 
       <p>I found that:</p>
       <ul>
@@ -147,19 +149,23 @@ function Leaflet() {
       </ul>
       <p>As a result of these findings, I made changes to the design and code.</p>
 
-      <h2>Development</h2>
 
-      <h3>Choosing the Foundations</h3>
-      <p>Leaflet was made with a <b>React frontend and Python backend</b>. We also drew upon <b>Flask, Semantic UI, Microsoft Computer Vision, Google Speech-to-Text, and News API</b>.</p>
-      <p>We used React for the foundation of the interface and Semantic UI for basic visual components such as buttons, icons, and input. Due to time constraints, we were unable to change the default font, font sizes, and a few other aesthetic elements to be exactly like our planned design, but Semantic UI did heavily streamline our frontend development.
+      <div className="full-width section-container gray">
+        <div className="project">
+          <h2>Development</h2>
+
+          <h3>Choosing the Foundations</h3>
+          <p>Leaflet was made with a <b>React frontend and Python backend</b>. We also drew upon <b>Flask, Semantic UI, Microsoft Computer Vision, Google Speech-to-Text, and News API</b>.</p>
+          <p>We used React for the foundation of the interface and Semantic UI for basic visual components such as buttons, icons, and input. Due to time constraints, we were unable to change the default font, font sizes, and a few other aesthetic elements to be exactly like our planned design, but Semantic UI did heavily streamline our frontend development.
 </p>
 
-      <h3>Programming the Functionalities</h3>
-      <p>That left a daunting task ahead of me: programming and manipulating the backend to curate the content we wanted to display. <b>Computer vision for converting images of handwritten notes into digitized text was the first feature I implemented</b>. After testing and researching different computer vision APIs that could recognize written characters, I chose Microsoft’s for its low cost and relatively high accuracy. I created a Python script to communicate with the API and used Flask to pass in images users uploaded to the interface. </p>
-      <p>To implement automated transcription, I followed a similar process. I selected Google’s Speech-to-Text for video API as it seemed to be the most accurate free service. Additionally, it provided useful features like speaker separation. With the data sent from the API, I was able to <b>implement specialized audio features to help users navigate the transcript and audio</b>. These included transcript-audio word matching (click on a word in the transcript and the corresponding audio plays), live highlighting (the word being played gets highlighted), visual separation of speakers, and more.</p>
-      <img src={Code} className="shadow" />
-      <a href="https://github.com/chloebarreau/leafletnotebook/commits/master" target="_blank" className="btn-big">View GitHub</a>
-
+          <h3>Programming the Functionalities</h3>
+          <p>That left a daunting task ahead of me: programming and manipulating the backend to curate the content we wanted to display. <b>Computer vision for converting images of handwritten notes into digitized text was the first feature I implemented</b>. After testing and researching different computer vision APIs that could recognize written characters, I chose Microsoft’s for its low cost and relatively high accuracy. I created a Python script to communicate with the API and used Flask to pass in images users uploaded to the interface. </p>
+          <p>To implement automated transcription, I followed a similar process. I selected Google’s Speech-to-Text for video API as it seemed to be the most accurate free service. Additionally, it provided useful features like speaker separation. With the data sent from the API, I was able to <b>implement specialized audio features to help users navigate the transcript and audio</b>. These included transcript-audio word matching (click on a word in the transcript and the corresponding audio plays), live highlighting (the word being played gets highlighted), visual separation of speakers, and more.</p>
+          <img src={Code} />
+          <a href="https://github.com/chloebarreau/leafletnotebook/commits/master" target="_blank" className="btn-big">View GitHub</a>
+        </div>
+      </div>
       <h2>Final Product</h2>
       <p>After weeks of furious developing, we created the final version of Leaflet: a modern transcription application designed to help journalists at every stage of their writing process.</p>
       <img src={LeafletFinal} className="shadow" />
@@ -175,7 +181,7 @@ function Leaflet() {
       <h3>Digital Notes</h3>
       <p>Journalists can upload an image of handwritten notes they took during the recording. Leaflet uses computer vision to digitally link each note to the corresponding section of the transcript. </p>
       <img src={Notes} className="shadow reduce-size center-image" />
-      
+
       <h3>Quote Bank</h3>
       <p>Journalists can store important quotes within the transcript to use later when writing their story.</p>
       <img src={QuoteBank} className="shadow reduce-size center-image" />
@@ -190,7 +196,7 @@ function Leaflet() {
       <h3>Text Editor</h3>
       <p>Journalists can edit the transcript, rearrange quotes, and even begin writing their story.</p>
       <img src={TextEditor} className="shadow" />
-      
+
       <p>Check out a more detailed report of our process:</p>
       <a href={Report} target="_blank" className="btn-big">Full Report</a>
     </div>)
