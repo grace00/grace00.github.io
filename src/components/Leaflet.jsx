@@ -24,7 +24,7 @@ import TextEditor from './images/texteditor.png';
 function Leaflet() {
   return (
     <div className="project">
-      <div className="overlay green full-width">
+      <div className="overlay gray full-width">
         <h1 className="project-title">Leaflet</h1>
         <p className="subtitle">A transcription application for journalists.</p>
         <img src={leaflet} />

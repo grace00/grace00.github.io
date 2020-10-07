@@ -24,7 +24,7 @@ function Projects() {
 			<div className="all-projects">
 			<div class="item">
 					<Link to="/journie">
-						<div className="overlay blue">
+						<div className="overlay green">
 							<span class="vertical-helper"></span>
 							<img src={journie} className="preview-image"/>
 						</div>
@@ -35,7 +35,7 @@ function Projects() {
 				</div>
 				<div class="item">
 					<Link to="/leaflet">
-						<div className="overlay green">
+						<div className="overlay gray">
 							<span class="vertical-helper"></span>
 							<img src={leaflet} className="preview-image"/>
 						</div>

@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,italic');
 
 :root {
     --main-black: #222222;
@@ -33,7 +33,6 @@ a {
 }
 b {
     font-weight: 700;
-    font-weight: normal;
 }
 h1, h2, h3, h4 {
     color: var(--main-black);
@@ -48,6 +47,7 @@ h2 {
     font-size: 28px;
 }
 h3 {
+    font-size: 24px;
     margin-top: 36px;
 }
 h4 {
@@ -57,6 +57,7 @@ h5 { /* capital letters heading */
     font-size: 16px;
     color: var(--main-light-black);
     margin-bottom: -16px;
+    /* margin-top: 48px; */
     letter-spacing: 0.02em;
 }
 p {
@@ -67,7 +68,7 @@ img {
     width: 100%;
 }
 video {
-    box-shadow: 3px 3px 6px 1px var(--light-outline);
+    box-shadow: 0px 0px 12px 1px var(--light-outline); 
 }
 
 .project ul {
@@ -82,10 +83,13 @@ video {
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
-.overlay {
-    height: 71%;
-    padding: 8px 0;
+.item .overlay {
+    height: 316px;
+    padding: 0;
     border-radius: 8px;
+}
+.overlay {
+    padding: 8px 0;
 }
 .overlay.blue {
     background-color: #a7e5ffc2;
@@ -94,10 +98,13 @@ video {
     background-color: #9ebdf7ad;
 }
 .overlay.green {
-    background-color: #caf6dc;
+    background-color: #c7f2dd;
 }
 .overlay.yellow {
     background-color: #f9c986cc;
+}
+.overlay.gray {
+    background-color: #e0e3e8;
 }
 .overlay img {
     vertical-align: middle;
@@ -125,6 +132,13 @@ video {
     text-align: left;
     font-size: 16px;
     color: var(--main-light-black);
+}
+.emphasized-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 38px;
+    margin: 48px;
 }
 .btn-big {
     display: inline-block;
@@ -248,7 +262,7 @@ nav ul li {
     display: flex;
 }
 .section-container {
-    padding: 1px 0px 32px 0px;
+    padding: 32px 0px 32px 0px;
     margin: 64px 0;
 }
 .section-container.gray {
@@ -301,7 +315,7 @@ nav ul li {
 
 /* -----project pages----*/
 .project {
-    width: 640px;
+    width: 664px;
     margin: 0 auto;
 }
 .project img {
@@ -310,7 +324,7 @@ nav ul li {
 .project a:hover {
     color: var(--darkest-blue);
 }
-.full-width img {
+.full-width.overlay img {
     height: 45vh;
     width: auto;
     padding: 16px 0;
@@ -326,6 +340,7 @@ nav ul li {
 .project p.subtitle { /* override regular p styling */
     font-weight: 300;
     font-size: 24px;
+    line-height: 0px;
     text-align: center;
 }
 .row {
@@ -334,16 +349,15 @@ nav ul li {
 .row h4 {
     margin-top: 28px;
     margin-bottom: 6px;
+    font-size: 16px;
 }
 .proj-detail {
     font-size: 16px;
     line-height: 24px;
+    display: block;
 }
 .bannerContainer img {
     width: 100%;
-}
-.prologue {
-    font-style: italic;
 }
 .quote {
     font-size: 28px;
@@ -356,6 +370,25 @@ nav ul li {
 ul li {
     padding-top: 8px;
     font-size: 18px;
+}
+ol {
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 32px;
+}
+ol li {
+    margin: 0 0 16px 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+}
+ol li::before {
+    content: counter(my-awesome-counter);
+    color: var(--darker-blue);
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: calc(-1 * 24px - 10px);
+    margin-left: 4px;
 }
 .project p, ol li, ul li {
     font-size: 18px;
@@ -386,7 +419,7 @@ img.infographic {
     width: 80%;
 }
 img.shadow {
-    box-shadow: 2px 2px 4px 1px var(--light-outline);
+    box-shadow: 0px 0px 12px 1px var(--light-outline); 
 }
 img.competitor {
     height: 60px;
@@ -435,35 +468,40 @@ img.reduce-size {
     position: relative;
     left: calc(-31vw + 50%);
 }
-.image-left img {
-    float: left;
+.demo-box, .usability-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.demo-box img {
+    height: auto;
+    width: 36%;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 12px 1px var(--light-outline); 
+}
+.demo-box div {
+    width: 56%;
+}
+.usability-box img {
+    height: auto;
     width: 48%;
-    margin-right: 4%;
     margin-bottom: 16px;
     /* box-shadow: 1px 2px 6px 1px var(--light-outline); */
 }
-.image-right img {
-    float: right;
+.usability-box div {
     width: 48%;
-    margin-left: 4%;
-    margin-bottom: 16px;
-    /* box-shadow: 1px 2px 6px 1px var(--light-outline); */
-}
-.image-left:after, .image-right:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 .center-text {
     text-align: center;
 }
 .box-container {
-    margin: 0px auto 24px 0;
+    margin: 40px auto 40px 0;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-row: auto auto;
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-row-gap: 28px;
 }
 .box {
     background-color: var(--light-blue);
