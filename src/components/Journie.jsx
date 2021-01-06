@@ -30,7 +30,7 @@ import MorningIteration from './images/journie-morning.png';
 
 function Journie() {
   return (
-    <div className="project">
+    <div className="project journie">
       <div className="overlay green full-width no-border-radius">
         <h1 className="project-title">
           Journie
@@ -40,7 +40,7 @@ function Journie() {
       </div>
 
       <div className="row">
-        <h4>Context</h4>
+        <h4>Overview</h4>
         <span className="proj-detail">Journie is a project I worked on for a service design class. My team was tasked with improving Stanford Rideshare, a program that incentivizes Stanford employees to carpool to and from work together.</span>
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">10 weeks</span>
@@ -58,7 +58,7 @@ function Journie() {
           <h5>PROBLEM</h5>
           <h3>Stanford employees currently struggle to find other employees to carpool with. </h3>
           <p>
-            Employees hope to carpool to save money, time, and the environment. However, the process of finding and joining a Stanford Rideshare carpool is tedious and time-consuming, preventing many people from actually carpooling.
+            Employees are eager to carpool to save money, time, and the environment. The process of finding and joining a Stanford Rideshare carpool, however, is tedious and time-consuming. This prevents some people from carpooling entirely.
       </p>
           <h5>SOLUTION</h5>
           <h3>We designed Journie, an app that helps employees join carpools by providing personalized recommendations.
@@ -96,7 +96,7 @@ function Journie() {
         <div className="demo-box">
           <div>
             <h3>Know what's happening</h3>
-            <p>While a carpool is occurring, users can easily access directions and see how far the driver from their stop. If an emergency happens, they can cancel a ride but are reminded of the consequences.</p>
+            <p>While a carpool is occurring, users can easily access directions and see how far the driver is from their stop. If an emergency happens, they can cancel a ride but are reminded of the consequences.</p>
           </div>
           <img src={Morning} />
         </div>
@@ -105,7 +105,7 @@ function Journie() {
 
       <div className="full-width section-container gray">
         <div className="project">
-          <p>Let’s rewind back to the beginning.</p>
+          <p>Let’s rewind back to the beginning of our process.</p>
           <h5>USER RESEARCH</h5>
           <h3>Empathizing with users</h3>
           <p>
@@ -128,7 +128,7 @@ function Journie() {
       </div>
 
       <h5>IDEATION</h5>
-      <h3>Defining the idea 🧠</h3>
+      <h3>Defining the idea</h3>
       <p>
         After analyzing these user insights and pain points, we asked ourselves this question:
       </p>
@@ -148,7 +148,7 @@ function Journie() {
 </div></div>
       </div>
       <p>We aimed to help more potential members join carpools, so they can enjoy their commute and get precious time back.</p>
-      <div className="small-text">Some ideas we nixed: an in-person meetup (too difficult to prototype with Stanford employees), an email list (didn’t want to cross into the Stanford Rideshare administrators’ territory), and a dark horse hitchhiking app (for danger reasons).</div>
+      <div className="small-text">Some ideas we nixed: an in-person meetup (too difficult to prototype with Stanford employees), an email list (didn’t want to cross into the Stanford Rideshare administrators’ territory), and a dark horse hitchhiking app (didn't want to get sued).</div>
       {/* <h5>BLUEPRINT</h5>
       <h3>Mapping the service</h3>
       <p>
@@ -176,7 +176,7 @@ function Journie() {
       <p>
         We created paper prototypes based on our idea and tested them on 3 people to decide which concept was best for users.
       </p>
-      <p>Users felt that Prototype #3’s flow was the most intuitive and that Prototype #1’s upcoming ride calendar was very helpful. We decided to move forward with <b>a combination of the two concepts.</b></p>
+      <p>Users felt that Prototype #1’s upcoming ride calendar was very helpful and that Prototype #3’s flow was the most intuitive. We decided to move forward with <b>a combination of the two concepts.</b></p>
       <div className="medium-overflow demo-box">
         <div>
           <img src={Prototype1} style={{ width: '85%' }} />
@@ -189,7 +189,7 @@ function Journie() {
         </div>
       </div>
 
-      <h3>The user's path 🚶‍♀️</h3>
+      <h3>The user's path</h3>
       <p>
         We made a user flow diagram to map how the user would navigate the selected app concept.
       </p>
@@ -228,8 +228,8 @@ function Journie() {
               <div>
                 <h3>More emphasis on important information</h3>
                 <ul>
-                  <li>Added leave and arrival times because this helped users decide between carpools more than their names</li>
-                  <li>Added Home and Work icons next to clarify what to input in location fields</li>
+                  <li>Added leaving and arrival times because this helped users decide between carpools</li>
+                  <li>Added home and work icons next to location fields to clarify expected input</li>
                 </ul>
               </div>
             </div>
@@ -237,8 +237,8 @@ function Journie() {
               <div>
                 <h3>More intuitive</h3>
                 <ul>
-                  <li>Clarified each day has room for only one morning carpool and night carpool by adding sun and moon icons </li>
-                  <li>Repeated card design from the carpool listings to help users understand this calendar is showing their upcoming rides</li>
+                  <li>Clarified each day has room for only one morning and night carpool by adding sun and moon icons </li>
+                  <li>Copied card design from the carpool recommendations to help users understand the calendar through a familiar pattern</li>
                 </ul>
               </div>
               <img src={CalendarIteration} />
@@ -259,7 +259,7 @@ function Journie() {
 
       <h5>STYLE</h5>
       <h3>Communicating visually</h3>
-      <p>To make sure my partner and I designed the high-fidelity prototype consistently, I developed a style tile. I wanted to <b>evoke nature and the world outside.</b> Many users we interviewed cited helping the environment as a reason they joined Stanford Rideshare, so I wanted to remind people of the good they can do by joining a carpool. </p>
+      <p>To make sure my partner and I designed the high-fidelity prototype consistently, I developed a style tile. I wanted to <b>evoke nature and the world outside.</b> Users we interviewed cited helping the environment as a reason they joined Stanford Rideshare, so I wanted to remind people of this positive impact. </p>
       <img src={StyleTile} className="shadow" />
       <br /> <br />
       <Link to="#final-design" className="btn-big">Jump to Final Design</Link>

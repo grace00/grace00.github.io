@@ -1,19 +1,19 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,italic');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet'); */
 
 :root {
     --main-black: #222222;
     --light-black: #444444;
-    --light-blue: #bfeef15d;
-    --main-blue: #bfeef1;
-    --darker-blue: #00BCC8;
-    --darkest-blue: rgb(0, 157, 168);
+    --light-blue: #34c2cc23;
+    --main-blue: #34C3CC;
+    --darker-blue: #21a4ad;
+    --darkest-blue: #12838b;
     --main-light-black: #818181;
     --light-gray: #f9f9f9;
     --light-outline: #E8E8E8;
 }
 body {
     margin: 0;
-    font-family: 'Open Sans', Arial, Helvetica;
+    /*font-family: 'Open Sans', Arial, Helvetica;*/
     font-size: 18px;
     font-weight: 400;
     color: var(--main-black);
@@ -35,8 +35,9 @@ b {
     font-weight: 700;
 }
 h1, h2, h3, h4 {
+    font-family: Poppins;
     color: var(--main-black);
-    font-weight: 700; 
+    font-weight: 600; 
 }
 h1 {
     margin-top: 48px;
@@ -54,11 +55,13 @@ h4 {
     margin-top: 36px;
 }
 h5 { /* capital letters heading */
-    font-size: 16px;
-    color: var(--main-light-black);
+    font-size: 18px;
     margin-bottom: -16px;
     /* margin-top: 48px; */
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
+}
+.journie h5 {
+    color: #49d191;
 }
 p {
     font-size: 18px;
@@ -77,7 +80,7 @@ video {
 }
 .project ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: var(--darker-blue); /* Change the color */
+  color: var(--main-blue); /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
@@ -86,7 +89,7 @@ video {
 .item .overlay {
     height: 316px;
     padding: 0;
-    border-radius: 8px;
+    border-radius: 0px;
 }
 .overlay {
     padding: 8px 0;
@@ -118,11 +121,6 @@ video {
     vertical-align: middle;
 }
 .preview-image {
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-}
-.preview-image:hover {
-    opacity: 0.5;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
 }
@@ -159,21 +157,25 @@ video {
     transition: all .2s ease;
     -webkit-transition: all .2s ease;
 }
+.journie .btn-big {
+    background-color: #49d191;
+}
 
 
 /* -----header/nav----*/
 nav {
+    background-color: white;
+    width: 1120px;
     display: inline-block;
-    width: 100%;
 }
 nav a {
     color: var(--main-black);
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
 }
 .name {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 72px;
 }
 nav ul {
@@ -187,10 +189,11 @@ nav ul li {
     line-height: 24px;
 }
 .underline {
+    color: var(--main-light-black);
     transition: 0.4s;
 }
 .is-active, .underline:focus, .underline:hover {
-    color: var(--darker-blue);
+    color: var(--main-black);
 }
 
 /*
@@ -229,17 +232,20 @@ nav ul li {
 
 /* -----Projects----*/
 .introduction {
-    margin-top: 96px;
-    margin-bottom: 96px;
+    margin-top: 144px;
+    margin-bottom: 144px;
 }
 .header {
+    font-family: Poppins;
     font-weight: 600;
     margin-bottom: 24px;
     font-size: 40px;
 }
 .sub-header {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 400;
+    width: 50%;
+    line-height: 150%;
 }
 .introduction img {
     display: inline-block;
@@ -248,14 +254,12 @@ nav ul li {
     margin: 0px 4px -4px 4px;
 }
 .introduction a {
-    padding-top: 3px;
-    border-bottom: 6px solid var(--main-blue);
-    display: inline-block;
-    line-height: 0.85;
+    font-weight: 600;
+    color: var(--main-blue);
     transition: 0.3s;
 }
 .introduction a:hover {
-    background-color: var(--main-blue);
+    color: var(--darker-blue);
 }
 .flex-container {
     justify-content: left;
@@ -288,10 +292,14 @@ nav ul li {
 }
 .item {
     width: 47%;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
+    transition: transform .4s ease;
+}
+.item:hover {
+    transform: scale(0.97);
 }
 .item a {
-    font-weight: 300;
+    font-weight: 400;
     color: var(--main-black);
 }
 .item h1 {
@@ -310,7 +318,7 @@ nav ul li {
 
 /* -----about page----*/
 .profile-pic {
-    box-shadow: 12px 12px 0 var(--main-blue);
+    box-shadow: 12px 12px 0 var(--light-blue);
 }
 
 /* -----project pages----*/
@@ -334,11 +342,11 @@ nav ul li {
 }
 .project-title {
     font-size: 44px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
 }
 .project p.subtitle { /* override regular p styling */
-    font-weight: 300;
+    font-weight: 400;
     font-size: 24px;
     line-height: 0px;
     text-align: center;
@@ -389,6 +397,9 @@ ol li::before {
     position: absolute;
     left: calc(-1 * 24px - 10px);
     margin-left: 4px;
+}
+.journie ol li::before {
+    color: #49d191;
 }
 .project p, ol li, ul li {
     font-size: 18px;
@@ -511,9 +522,13 @@ img.reduce-size {
     justify-content: center;
     line-height: 28px;
 }
+.journie .box {
+    background-color: #43e99c23;
+}
 
 /* -----footer----*/
 .footer {
+    color: var(--main-light-black);
     clear: both;
     margin-bottom: 24px;
     margin-top: 64px;
@@ -553,6 +568,9 @@ td div {
 nav {
     background-color: ;
 }
+
+
+/* responsive */
 @media only screen and (max-width : 1200px) {
     nav {
         background: ;  
@@ -568,6 +586,9 @@ nav {
     }   
     .main-container {
         width: 92%;
+    }
+    .sub-header {
+        width: 100%;
     }
     .project {
         width: 100%;

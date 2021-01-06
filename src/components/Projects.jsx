@@ -15,10 +15,10 @@ function Projects() {
 				delay={500}
 			>
 			<div className="introduction">
-				<p className="header">Hello, World! I'm Grace.</p>
+				<p className="header">Hi! I’m Grace.</p>
 				<div className="flex-container">
 					{/*<img src={art} /> <img src={code} />*/}
-					<p className="sub-header">I’m a designer, <a href="https://github.com/grace00" target="_blank">coder</a>, and occasional  <a href="https://ors.artandwriting.org/media/416527" target="_blank">satirist</a>.</p>
+					<p className="sub-header">I’m a rising junior at Stanford studying Computer Science and incoming Instructional Design Intern @ <a href="https://www.apple.com/" target="_blank">Apple</a>. Previously @ <a href="https://www.nih.gov/" target="_blank">NIH</a> and <a href="https://interns.latimes.com/technology/" target="_blank">The Los Angeles Times</a>.</p>
 				</div>
 			</div>
 			<div className="all-projects">
@@ -30,7 +30,6 @@ function Projects() {
 						</div>
 						<h1>Journie</h1>
 						<p>Designing an app that matches commuters with carpools</p>
-						<div className="small-text">UX design, UX research</div> {/*React, Python, Figma*/}
 					</Link>
 				</div>
 				<div class="item">
@@ -40,8 +39,7 @@ function Projects() {
 							<img src={leaflet} className="preview-image"/>
 						</div>
 						<h1>Leaflet</h1>
-						<p>Creating a transcription application for journalists.</p>
-						<div className="small-text">Design, full-stack development, UX research</div> {/*React, Python, Figma*/}
+						<p>Building a transcription application for journalists.</p>
 					</Link>
 				</div>
 				<div class="item">
@@ -52,7 +50,6 @@ function Projects() {
 						</div>
 						<h1>Job Tree</h1>
 						<p>Developing a jobs search site for Stanford students.</p>
-						<div className="small-text">Design, full-stack development, UX research</div> {/*React, Adobe XD, PHP*/}
 					</Link>
 				</div>
 				<div class="item">
@@ -63,7 +60,6 @@ function Projects() {
 						</div>
 						<h1>WebMD</h1>
 						<p>Envisioning a health page for Gen Z.</p>
-						<div className="small-text">Content strategy, SEO, research, design</div>
 					</Link>
 				</div>
 			</div>

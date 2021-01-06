@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactGA from 'react-ga';
 import { Switch, HashRouter, Route } from "react-router-dom";
-import ScrollToTop from 'react-router-scroll-top'
-import './index.css';
+import ScrollToTop from 'react-router-scroll-top';
+import './components/styles.css';
 import NavBar from './components/NavBar';
 import Leaflet from './components/Leaflet.jsx';
 import WebMD from './components/WebMD.jsx';
@@ -51,11 +51,10 @@ function About() {
         Hi, I’m Grace!
       </h1>
       <p>
-        I’m studying computer science and psychology at Stanford to understand the vast capabilities of technology and human behavior.
-        I aim to design beautiful experiences that promote psychological well-being, operate efficiently, and communicate clearly to the user.
+      I’m a designer, creative technologist, and writer. I study computer science and human-computer interaction at Stanford and am currently taking a gap year.
       </p>
       <p>
-        I’m currently designing and developing news products at the Los Angeles Times. Outside of design, I'm probably watching a Joss Whedon show and trying to conjure up the will to exercise.
+        Outside of design, you'll find me find me watching a Joss Whedon show and trying to conjure up the will to exercise.
       </p>
     </div>
   )
@@ -64,7 +63,7 @@ function About() {
 function Footer() {
   return (
     <div className="footer">
-      Coded with <img src={handicon} /> & <img src={eyeicon} /> by Grace
+      Developed by Grace
     </div>
   )
 }
