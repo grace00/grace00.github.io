@@ -33,7 +33,7 @@ class App extends React.Component {
               <Route exact path='/about' component={About} />
               <Route path='*' component={Projects} />
             </Switch>
-            <Footer />
+            {/* <Footer /> */}
           </ScrollToTop>
         </HashRouter>
       </div >
@@ -46,16 +46,20 @@ export default App;
 function About() {
   return (
     <div className="project">
-      <img src={youngme} style={{ width: "200px", display: "block", borderRadius: "8px" }} className="profile-pic"/>
+      <img src={youngme} style={{ width: "25%", display: "block", borderRadius: "0px" }} className="profile-pic"/>
+      <div className="about-text">
       <h1>
         Hi, I’m Grace!
       </h1>
-      <p>
-      I’m a designer, creative technologist, and writer. I study computer science and human-computer interaction at Stanford and am currently taking a gap year.
+      <p>I’m a designer, creative technologist, and writer. As a kid, I would fold paper and draw buttons on them to “prototype” my dream computers. Now I’m a computer science/HCI student at Stanford who loves designing things and bringing them to life with code. 
       </p>
-      <p>
-        Outside of design, you'll find me find me watching a Joss Whedon show and trying to conjure up the will to exercise.
+      <p>I’m an incoming instructional design intern at Apple, and I previously designed for NIH and The Los Angeles Times.
       </p>
+      <p>Outside of design, you'll find me watching a Joss Whedon show or trying to will myself to exercise.
+      </p>
+      <p>I also played viola for seven years. Not sure how I’ll connect this to my design work yet, but maybe I’ll find a way.
+      </p>
+      </div>
     </div>
   )
 }

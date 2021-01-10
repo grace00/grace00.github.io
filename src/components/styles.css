@@ -1,13 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet'); */
 
 :root {
-    --main-black: #222222;
+    --main-black: #384244; /*272f31*/
     --light-black: #444444;
     --light-blue: #34c2cc23;
     --main-blue: #34C3CC;
     --darker-blue: #21a4ad;
     --darkest-blue: #12838b;
-    --main-light-black: #818181;
+    --main-light-black: #838e91;
     --light-gray: #f9f9f9;
     --light-outline: #E8E8E8;
 }
@@ -37,7 +37,7 @@ b {
 h1, h2, h3, h4 {
     font-family: Poppins;
     color: var(--main-black);
-    font-weight: 600; 
+    font-weight: 700; 
 }
 h1 {
     margin-top: 48px;
@@ -232,12 +232,11 @@ nav ul li {
 
 /* -----Projects----*/
 .introduction {
-    margin-top: 144px;
-    margin-bottom: 144px;
+    margin: 136px 0;
 }
 .header {
     font-family: Poppins;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 24px;
     font-size: 40px;
 }
@@ -292,7 +291,7 @@ nav ul li {
 }
 .item {
     width: 47%;
-    margin-bottom: 80px;
+    margin-bottom: 72px;
     transition: transform .4s ease;
 }
 .item:hover {
@@ -318,7 +317,17 @@ nav ul li {
 
 /* -----about page----*/
 .profile-pic {
+    margin-top: 108px;
+    float: left;
     box-shadow: 12px 12px 0 var(--light-blue);
+}
+.about-text {
+    float: left;
+    margin-left: 10%;
+    width: 65%;
+}
+.about-text:after{
+    clear: both;
 }
 
 /* -----project pages----*/
@@ -335,7 +344,7 @@ nav ul li {
 .full-width.overlay img {
     height: 45vh;
     width: auto;
-    padding: 16px 0;
+    padding: 40px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -355,7 +364,7 @@ nav ul li {
     margin: 40px 0;
 }
 .row h4 {
-    margin-top: 28px;
+    margin-top: 24px;
     margin-bottom: 6px;
     font-size: 16px;
 }

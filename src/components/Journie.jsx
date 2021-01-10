@@ -133,6 +133,7 @@ function Journie() {
         After analyzing these user insights and pain points, we asked ourselves this question:
       </p>
       <div className="emphasized-text">How might we help Stanford employees find carpools that fit their schedules and preferences?</div>
+      <img src={Brainstorm} />
       <p>
         After brainstorming, we decided to design an <b>app</b> for Stanford Rideshare that accomplishes the following:
       </p>
@@ -195,25 +196,19 @@ function Journie() {
       </p>
       <img src={Flow} />
 
-      {/* <h5></h5>
+      <h5></h5>
       <h3>Wireframes</h3>
       <p>
-        We then wireframed a concept that combined two prototypes. Users of the app input their work hours and locations, receive a list of compatible carpools, and choose which one(s) to join and put in their schedule. They can also receive live information about carpools that are happening.
-      </p>
-      <p>
-        I wireframed all of the following screens except for the Live Location one.
+            Following the user flow, we designed wireframes for the screens most essential to the concept. I wireframed all of the following screens except for the one with the header "Live Location."
       </p>
       <div className="medium-overflow">
         <img src={Wireframes} />
-      </div> */}
+      </div> 
 
       <div className="full-width section-container gray">
         <div className="project">
           <h5>USABILITY TESTING</h5>
           <h3>Getting feedback and iterating the design 🔄</h3>
-          <p>
-            Following the user flow, we designed wireframes for the screens most essential to the concept.
-      </p>
           <p>
             Between wireframes and the final prototype, we tested the app with <b>6</b> Stanford Rideshare members and other Stanford affiliates.
       </p>
