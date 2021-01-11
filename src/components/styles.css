@@ -1,15 +1,15 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet'); */
 
 :root {
-    --main-black: #384244; /*272f31*/
-    --light-black: #444444;
+    --main-black: #374151; /*272f31*/
+    --light-black: #6B7280;
     --light-blue: #34c2cc23;
     --main-blue: #34C3CC;
     --darker-blue: #21a4ad;
     --darkest-blue: #12838b;
     --main-light-black: #838e91;
-    --light-gray: #f9f9f9;
-    --light-outline: #E8E8E8;
+    --light-gray: #F9FAFB;
+    --light-outline: #EAEBEF;
 }
 body {
     margin: 0;
@@ -35,12 +35,12 @@ b {
     font-weight: 700;
 }
 h1, h2, h3, h4 {
-    font-family: Poppins;
+    font-family: 'Proxima Nova';
     color: var(--main-black);
-    font-weight: 700; 
+    font-weight: 800; 
 }
 h1 {
-    margin-top: 48px;
+    margin-top: 36px;
     font-size: 24px;
 }
 h2 {
@@ -48,7 +48,7 @@ h2 {
     font-size: 28px;
 }
 h3 {
-    font-size: 24px;
+    font-size: 28px;
     margin-top: 36px;
 }
 h4 {
@@ -59,33 +59,33 @@ h5 { /* capital letters heading */
     margin-bottom: -16px;
     /* margin-top: 48px; */
     letter-spacing: 0.03em;
+    color: var(--main-blue);
 }
-.journie h5 {
+/* .journie h5 {
     color: #49d191;
-}
+} */
 p {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 27px;
 }
 img {
     width: 100%;
 }
 video {
-    box-shadow: 0px 0px 12px 1px var(--light-outline); 
+    box-shadow: 0px 0px 12px var(--light-outline); 
 }
-
+/*
 .project ul {
-    margin-top: -8px;
-    list-style: none;
-}
+    margin-top: -24px;
+} 
 .project ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: var(--main-blue); /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
+  content: "\2022"; 
+  color: var(--main-blue); 
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em;
+} */
 .item .overlay {
     height: 316px;
     padding: 0;
@@ -98,16 +98,19 @@ video {
     background-color: #a7e5ffc2;
 }
 .overlay.purple {
-    background-color: #9ebdf7ad;
+    background-color: #FFDEDF;
 }
 .overlay.green {
-    background-color: #c7f2dd;
+    background-color: #D9F7E4;
 }
 .overlay.yellow {
     background-color: #f9c986cc;
 }
 .overlay.gray {
-    background-color: #e0e3e8;
+    background-color: #D7F7F0;
+}
+.overlay.imag {
+    background-color: #DEEDFF;
 }
 .overlay img {
     vertical-align: middle;
@@ -129,7 +132,7 @@ video {
     margin-bottom: 12px;
     text-align: left;
     font-size: 16px;
-    color: var(--main-light-black);
+    color: var(--light-black);
 }
 .emphasized-text {
     text-align: center;
@@ -189,7 +192,7 @@ nav ul li {
     line-height: 24px;
 }
 .underline {
-    color: var(--main-light-black);
+    color: var(--light-black);
     transition: 0.4s;
 }
 .is-active, .underline:focus, .underline:hover {
@@ -235,7 +238,7 @@ nav ul li {
     margin: 136px 0;
 }
 .header {
-    font-family: Poppins;
+    font-family: 'Proxima Nova';
     font-weight: 700;
     margin-bottom: 24px;
     font-size: 40px;
@@ -295,7 +298,7 @@ nav ul li {
     transition: transform .4s ease;
 }
 .item:hover {
-    transform: scale(0.97);
+    transform: scale(1.03);
 }
 .item a {
     font-weight: 400;
@@ -337,14 +340,15 @@ nav ul li {
 }
 .project img {
     width: 100%;
+    margin: 16px 0;
 }
 .project a:hover {
     color: var(--darkest-blue);
 }
 .full-width.overlay img {
-    height: 45vh;
+    height: 48vh;
     width: auto;
-    padding: 40px 0;
+    padding: 24px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -355,7 +359,7 @@ nav ul li {
     text-align: center;
 }
 .project p.subtitle { /* override regular p styling */
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     line-height: 0px;
     text-align: center;
@@ -384,9 +388,27 @@ nav ul li {
     color: var(--darker-blue);
     font-style: italic;
 }
-ul li {
-    padding-top: 8px;
-    font-size: 18px;
+.icon-list {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    text-align: center;
+    padding-right: 16px;
+    min-width: 22px;
+}
+.icon-box {
+    display: flex;
+    padding-top: 12px;
+}
+.icon-box h1, ol h1 {
+    font-weight: 800;
+    margin: 0;
+    font-size: 20px;
+}
+.icon-box p, ol p {
+    margin-top: 4px;
+    margin-bottom: 0px;
 }
 ol {
     counter-reset: my-awesome-counter;
@@ -400,8 +422,8 @@ ol li {
 }
 ol li::before {
     content: counter(my-awesome-counter);
-    color: var(--darker-blue);
-    font-size: 18px;
+    color: var(--main-blue);
+    font-size: 20px;
     font-weight: 700;
     position: absolute;
     left: calc(-1 * 24px - 10px);
@@ -415,7 +437,7 @@ ol li::before {
     line-height: 28px;
 }
 .project p {
-    padding-bottom: 12px;
+    padding-bottom: 8px;
 }
 .column-left {
     float: left;
@@ -431,15 +453,29 @@ ol li::before {
     display: table;
     clear: both;
 }
-.stat {
-    color: var(--main-black);
-    font-weight: 600;
+.three-col-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.col {
+    width: 30%; 
+    text-align: center;
+}
+.large-stat {
+    font-size: 56px;
+    font-weight: 800;
+    color: var(--main-blue);
+}
+.stat-text {
+    font-size: 20px;
 }
 img.infographic {
     width: 80%;
 }
 img.shadow {
-    box-shadow: 0px 0px 12px 1px var(--light-outline); 
+    box-shadow: 0px 0px 12px var(--light-outline); 
 }
 img.competitor {
     height: 60px;
@@ -469,7 +505,7 @@ img.reduce-size {
 .image-row img {
     height: 400px;
     width: auto;
-    box-shadow: 2px 2px 4px 1px var(--light-outline);
+    box-shadow: 2px 2px 4px var(--light-outline);
     margin-bottom: 24px;
 }
 
@@ -498,7 +534,7 @@ img.reduce-size {
     height: auto;
     width: 36%;
     margin-bottom: 16px;
-    box-shadow: 0px 0px 12px 1px var(--light-outline); 
+    box-shadow: 0px 0px 12px var(--light-outline); 
 }
 .demo-box div {
     width: 56%;
@@ -511,6 +547,13 @@ img.reduce-size {
 }
 .usability-box div {
     width: 48%;
+}
+.shadow-box-container {
+    padding: 12px 24px;
+    background-color: white;
+    box-shadow: 0px 0px 12px var(--light-outline);
+    border-radius: 16px;
+    margin-bottom: 24px;
 }
 .center-text {
     text-align: center;
@@ -537,7 +580,7 @@ img.reduce-size {
 
 /* -----footer----*/
 .footer {
-    color: var(--main-light-black);
+    color: var(--light-black);
     clear: both;
     margin-bottom: 24px;
     margin-top: 64px;

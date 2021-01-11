@@ -5,7 +5,7 @@ import ScrollToTop from 'react-router-scroll-top';
 import './components/styles.css';
 import NavBar from './components/NavBar';
 import Leaflet from './components/Leaflet.jsx';
-import WebMD from './components/WebMD.jsx';
+import Imag from './components/Imag.jsx';
 import Journie from './components/Journie.jsx';
 import Projects from './components/Projects';
 import JobsBoard from './components/JobsBoard.jsx';
@@ -26,9 +26,9 @@ class App extends React.Component {
             <NavBar />
             <Switch>
               <Route exact path='/' component={Projects} />
+              <Route exact path='/imag' component={Imag} />
               <Route exact path='/journie' component={Journie} />
               <Route exact path='/leaflet' component={Leaflet} />
-              <Route exact path='/webmd-gen-z' component={WebMD} />
               <Route exact path='/daily-job-site' component={JobsBoard} />
               <Route exact path='/about' component={About} />
               <Route path='*' component={Projects} />

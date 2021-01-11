@@ -6,7 +6,7 @@ import webmd from './images/webmdpreview@2x.png'
 import jobsite from './images/jobmockup@2x.png'
 import leaflet from './images/leafletmockup@2x.png'
 import journie from './images/journie-preview.png'
-
+import imag from './images/imag-preview.png'
 
 function Projects() {
 	return (
@@ -22,6 +22,16 @@ function Projects() {
 					</div>
 				</div>
 				<div className="all-projects">
+				<div class="item">
+						<Link to="/imag">
+							<div className="overlay imag">
+								<span class="vertical-helper"></span>
+								<img src={imag} className="preview-image" />
+							</div>
+							<h1>IMAG</h1>
+							<p>Redesigning a government site to help biomedical researchers share highlights of their work</p>
+						</Link>
+					</div>
 					<div class="item">
 						<Link to="/journie">
 							<div className="overlay green">
@@ -39,7 +49,7 @@ function Projects() {
 								<img src={leaflet} className="preview-image" />
 							</div>
 							<h1>Leaflet</h1>
-							<p>Designing and developing a transcription application for journalists.</p>
+							<p>Developing a transcription application for journalists.</p>
 						</Link>
 					</div>
 					<div class="item">
@@ -50,16 +60,6 @@ function Projects() {
 							</div>
 							<h1>Job Tree</h1>
 							<p>Developing a jobs search site for Stanford students.</p>
-						</Link>
-					</div>
-					<div class="item">
-						<Link to="/webmd-gen-z">
-							<div className="overlay yellow">
-								<span class="vertical-helper"></span>
-								<img src={webmd} className="preview-image" />
-							</div>
-							<h1>WebMD</h1>
-							<p>Envisioning a health page for Gen Z.</p>
 						</Link>
 					</div>
 				</div>

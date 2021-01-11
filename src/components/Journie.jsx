@@ -44,7 +44,7 @@ function Journie() {
         <span className="proj-detail">Journie is a project I worked on for a service design class. My team was tasked with improving Stanford Rideshare, a program that incentivizes Stanford employees to carpool to and from work together.</span>
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">10 weeks</span>
-          <h4>Role</h4><span className="proj-detail">Designer and researcher</span>
+          <h4>Role</h4><span className="proj-detail">UX/UI Designer, researcher</span>
         </div>
         <div className="column">
           <h4>Teammates</h4><span className="proj-detail">3 during research, 1 during design
@@ -56,13 +56,13 @@ function Journie() {
       <div className="full-width section-container gray">
         <div className="project">
           <h5>PROBLEM</h5>
-          <h3>Stanford employees currently struggle to find other employees to carpool with. </h3>
+          <h1>Stanford employees currently struggle to find other employees to carpool with. </h1>
           <p>
             Employees are eager to carpool to save money, time, and the environment. The process of finding and joining a Stanford Rideshare carpool, however, is tedious and time-consuming. This prevents some people from carpooling entirely.
       </p>
           <h5>SOLUTION</h5>
-          <h3>We designed Journie, an app that helps employees join carpools by providing personalized recommendations.
-</h3>
+          <h1>We designed Journie, an app that helps employees join carpools by providing personalized recommendations.
+</h1>
           <p>
             Users can also view their upcoming rides and stay updated about rides that are currently happening.
       </p>
@@ -173,7 +173,7 @@ function Journie() {
       </div>
 
       <h5>PROTOTYPING</h5>
-      <h3>Exploring different directions and converging on one</h3>
+      <h3>Exploring different directions and converging</h3>
       <p>
         We created paper prototypes based on our idea and tested them on 3 people to decide which concept was best for users.
       </p>
