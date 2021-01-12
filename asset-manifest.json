@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7a8297d8.chunk.css",
-    "main.js": "/portfolio/static/js/main.c60b9c8e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c60b9c8e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e730915f.chunk.css",
+    "main.js": "/portfolio/static/js/main.ec96fd98.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ec96fd98.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
-    "static/js/2.fc05a086.chunk.js": "/portfolio/static/js/2.fc05a086.chunk.js",
-    "static/js/2.fc05a086.chunk.js.map": "/portfolio/static/js/2.fc05a086.chunk.js.map",
+    "static/js/2.f398fbec.chunk.js": "/portfolio/static/js/2.f398fbec.chunk.js",
+    "static/js/2.f398fbec.chunk.js.map": "/portfolio/static/js/2.f398fbec.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9b998995b9b7730972698f7c2b9f5ed0.js": "/portfolio/precache-manifest.9b998995b9b7730972698f7c2b9f5ed0.js",
+    "precache-manifest.bfd1b04dde38ed9b4c6aa0ef473a8642.js": "/portfolio/precache-manifest.bfd1b04dde38ed9b4c6aa0ef473a8642.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.7a8297d8.chunk.css.map": "/portfolio/static/css/main.7a8297d8.chunk.css.map",
+    "static/css/main.e730915f.chunk.css.map": "/portfolio/static/css/main.e730915f.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
     "static/media/Final_Demo.mp4": "/portfolio/static/media/Final_Demo.7753d8fc.mp4",
     "static/media/NIBIB.png": "/portfolio/static/media/NIBIB.3c8f3636.png",
@@ -21,10 +21,12 @@
     "static/media/detailswireframe.png": "/portfolio/static/media/detailswireframe.04d768a1.png",
     "static/media/fandom.png": "/portfolio/static/media/fandom.b6f89d75.png",
     "static/media/imag-create-account.png": "/portfolio/static/media/imag-create-account.45777e19.png",
-    "static/media/imag-homepage.png": "/portfolio/static/media/imag-homepage.83d03019.png",
+    "static/media/imag-homepage.png": "/portfolio/static/media/imag-homepage.5b3ca4a0.png",
     "static/media/imag-interviews.jpg": "/portfolio/static/media/imag-interviews.ca9cd276.jpg",
-    "static/media/imag-models.png": "/portfolio/static/media/imag-models.ed9a9be4.png",
+    "static/media/imag-model.png": "/portfolio/static/media/imag-model.a9669fb6.png",
+    "static/media/imag-models.png": "/portfolio/static/media/imag-models.2cbe5426.png",
     "static/media/imag-preview.png": "/portfolio/static/media/imag-preview.2a4b265c.png",
+    "static/media/imag-profile.png": "/portfolio/static/media/imag-profile.65bb624b.png",
     "static/media/imag-project-preview.png": "/portfolio/static/media/imag-project-preview.4c811af6.png",
     "static/media/imag-sketches.png": "/portfolio/static/media/imag-sketches.b123b29c.png",
     "static/media/imag-sneak-peak.png": "/portfolio/static/media/imag-sneak-peak.85c1d0a6.png",
@@ -33,6 +35,7 @@
     "static/media/imag-test2.png": "/portfolio/static/media/imag-test2.f28b0b9a.png",
     "static/media/imag-test3.png": "/portfolio/static/media/imag-test3.6953f754.png",
     "static/media/imag-wireframes.png": "/portfolio/static/media/imag-wireframes.8627b93d.png",
+    "static/media/imag-working-groups.png": "/portfolio/static/media/imag-working-groups.ea5b1a55.png",
     "static/media/jobcompetitors.png": "/portfolio/static/media/jobcompetitors.9f6c587f.png",
     "static/media/jobcomputer@2x.png": "/portfolio/static/media/jobcomputer@2x.109264d4.png",
     "static/media/jobdetails.png": "/portfolio/static/media/jobdetails.4db644fc.png",
@@ -95,8 +98,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f84e4eb0.js",
-    "static/js/2.fc05a086.chunk.js",
-    "static/css/main.7a8297d8.chunk.css",
-    "static/js/main.c60b9c8e.chunk.js"
+    "static/js/2.f398fbec.chunk.js",
+    "static/css/main.e730915f.chunk.css",
+    "static/js/main.ec96fd98.chunk.js"
   ]
 }
