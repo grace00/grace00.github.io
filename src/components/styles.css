@@ -48,7 +48,7 @@ h2 {
     font-size: 28px;
 }
 h3 {
-    font-size: 28px;
+    font-size: 32px;
     margin-top: 36px;
 }
 h4 {
@@ -56,7 +56,7 @@ h4 {
 }
 h5 { /* capital letters heading */
     font-size: 18px;
-    margin-bottom: -16px;
+    margin-bottom: -20px;
     /* margin-top: 48px; */
     letter-spacing: 0.03em;
     color: var(--main-blue);
@@ -73,6 +73,21 @@ img {
 }
 video {
     box-shadow: 0px 0px 12px var(--light-outline); 
+}
+blockquote {
+    border-left: 8px solid var(--main-blue);
+    padding-left: 24px;
+    margin: 64px 0;
+}
+blockquote .quote {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+blockquote .quote-citation {
+    font-size: 16px;
+    color: var(--main-light-black);
 }
 /*
 .project ul {
@@ -145,20 +160,18 @@ video {
     display: inline-block;
     margin: 16px 0;
     padding: 12px 24px 12px 24px;
-    background-color: var(--darker-blue);
+    background-color: var(--main-blue);
     color: white;
     border-radius: 100px;
-    transition: all .2s ease;
-    -webkit-transition: all .2s ease;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
     font-size: 18px;
     font-weight: 600;
     cursor: hover;
 }
 .btn-big:hover {
-    background-color: var(--darkest-blue);
+    background-color: var(--darker-blue);
     color: white !important;
-    transition: all .2s ease;
-    -webkit-transition: all .2s ease;
 }
 .journie .btn-big {
     background-color: #49d191;
@@ -198,38 +211,6 @@ nav ul li {
 .is-active, .underline:focus, .underline:hover {
     color: var(--main-black);
 }
-
-/*
-.is-active {
-    border-bottom: 2px solid var(--main-blue);
-    transition: all .1s ease;
-    -webkit-transition: all .1s ease;
-}
-.underline {
-  display: inline;
-  position: relative;
-  overflow: hidden;
-}
-.underline:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  right: 0;
-  width: 0;
-  bottom: -2px;
-  background: var(--main-blue);
-  height: 2px;
-  transition-property: width;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-}
-.underline:hover:after,
-.underline:focus:after,
-.underline:active:after {
-  left: 0;
-  right: auto;
-  width: 100%;
-}*/
 
 /* -----about----*/
 
@@ -340,7 +321,7 @@ nav ul li {
 }
 .project img {
     width: 100%;
-    margin: 16px 0;
+    margin: 40px 0;
 }
 .project a:hover {
     color: var(--darkest-blue);
@@ -379,14 +360,6 @@ nav ul li {
 }
 .bannerContainer img {
     width: 100%;
-}
-.quote {
-    font-size: 28px;
-    line-height: 44px;
-    width: 90%;
-    margin: 32px auto 0 auto;
-    color: var(--darker-blue);
-    font-style: italic;
 }
 .icon-list {
     margin: 0;
@@ -456,11 +429,11 @@ ol li::before {
 .three-col-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 24px;
-    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 40px;
 }
 .col {
-    width: 30%; 
+    width: 23%; 
     text-align: center;
 }
 .large-stat {
@@ -469,7 +442,7 @@ ol li::before {
     color: var(--main-blue);
 }
 .stat-text {
-    font-size: 20px;
+
 }
 img.infographic {
     width: 80%;
@@ -478,8 +451,8 @@ img.shadow {
     box-shadow: 0px 0px 12px var(--light-outline); 
 }
 img.competitor {
-    height: 60px;
-    width: auto;
+    width: 100px;
+    height: auto;
 }
 .mockup img {
 
@@ -524,7 +497,7 @@ img.reduce-size {
     position: relative;
     left: calc(-31vw + 50%);
 }
-.demo-box, .usability-box {
+.demo-box, .usability-box, .three-item-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -547,6 +520,10 @@ img.reduce-size {
 }
 .usability-box div {
     width: 48%;
+}
+.three-item-row img {
+    height: auto;
+    width: 31%;
 }
 .shadow-box-container {
     padding: 12px 24px;

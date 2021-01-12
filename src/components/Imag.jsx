@@ -15,11 +15,9 @@ import Blueprint from './images/journie-blueprint.png';
 import ComparatorGuide from './images/journie-comparator-guide.png';
 import ComparatorResults from './images/journie-comparative.png';
 import NitsNeeds from './images/journie-nits-needs.png';
-import Sketches from './images/journie-sketches.jpg';
 import PaperPrototype from './images/journie-prototype.jpeg';
 import Prototype1 from './images/journie-prototype1.png';
 import Flow from './images/journie-flow.png';
-import Wireframes from './images/journie-wireframes.png';
 import StyleTile from './images/journie-style-tile.png';
 import UserTest from './images/journie-user-test.jpg'
 import Onboard from './images/journie-onboard.gif';
@@ -30,6 +28,17 @@ import OnboardIteration from './images/journie-onboard.png';
 import InfoIteration from './images/journie-info.png';
 import CalendarIteration from './images/journie-calendar.png';
 import MorningIteration from './images/journie-morning.png';
+import Wikipedia from './images/wikipedia.png';
+import SimTK from './images/simtk.png';
+import SGCI from './images/sgci.png';
+import Fandom from './images/fandom.png';
+import NIBIB from './images/NIBIB.png';
+import Persona from './images/persona.png';
+import Sketches from './images/imag-sketches.png';
+import Wireframes from './images/imag-wireframes.png';
+import Test1 from './images/imag-test1.png';
+import Test2 from './images/imag-test2.png';
+import Test3 from './images/imag-test3.png';
 
 
 function Journie() {
@@ -44,9 +53,9 @@ function Journie() {
       </div>
 
       <div className="row">
-        <h4>Overview</h4>
+        {/* <h4>Background</h4>
         <span className="proj-detail">In the fall of 2020, I was a UX design fellow at the National Institutes of Health (NIH). I was tasked with improving the user experience of the IMAG wiki site, the central spot for research and resources related to multiscale modeling.
-        </span>
+        </span> */}
 
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">10-week internship (Oct - Dec 2020)</span>
@@ -61,17 +70,17 @@ function Journie() {
 
       <div className="full-width section-container gray">
         <div className="project">
-
+          <h5>OVERVIEW</h5>
           <h3>Problem</h3>
           <p>
-            The IMAG site is supposed to be a gathering place for the multiscale modeling community to see what their colleagues are doing, share resources, and network.
+            The IMAG site is supposed to be a central place for the multiscale modeling community to see what their colleagues are doing, share resources, and find collaborators.
           </p>
           <p>
-            However, the current site is unintuitive to use, so very few people actually sign up and contribute their work for others to see.
+            However, the current site is unintuitive to use, so very few people actually make an account and contribute their work for others to see.
           </p>
           <h3>Solution</h3>
           <p>
-            I worked with the director of IMAG and an engineer to redesign the site. My goal was to make it easy and intuitive to use so more researchers will contribute their work.
+            I redesigned the site during my UX design fellowship at the National Institutes of Health (NIH). I aimed to make it easy and intuitive to use, so more researchers will contribute to the site.
 </p>
           <p>
             The redesign (currently in implementation) has been received really positively!
@@ -91,7 +100,9 @@ function Journie() {
               <div className="stat-text">feel the redesign is <b>intuitive</b></div>
             </div>
           </div>
-          <p className="small-text center-text"><i>Based on survey with 5 site users</i></p>
+          <div className="small-text center-text"><i>Based on survey with 5 site users</i></div>
+
+          <Link to="#imag-redesign" className="btn-big">Jump to redesign</Link>
         </div>
       </div>
 
@@ -104,7 +115,7 @@ function Journie() {
           <div>
             <h1>Vague project</h1>
             <p>
-              The task I was given—improve the user experience of the site—was broad for 10 weeks. I was responsible for creating the specific design goals and planning my schedule for the fellowship.
+              The task I was given—improve the UX of the site—was broad for 10 weeks. I was responsible for setting the specific design goals and planning my schedule for the fellowship.
           </p>
           </div>
         </div>
@@ -161,7 +172,7 @@ function Journie() {
               <div>
                 <h1>Heuristic markup </h1>
                 <p>
-                  I did a heuristic markup, a method I learned from the book <i>The User Experience Team of One</i>. It’s a variation of a heuristic evaluation: I assessed the usability of the site and identified opportunities for improvement.
+                  I assessed the usability of the site and identified opportunities for improvement. I learned about this method, a variation of a heuristic evaluation, from the book <i>The User Experience Team of One</i>.
             </p>
               </div>
             </div>
@@ -172,7 +183,7 @@ function Journie() {
               <div>
                 <h1>Stakeholder interviews</h1>
                 <p>
-                  I conducted stakeholder interviews with the IMAG director and engineer to understand the project from their perspectives and how they define success.
+                  I conducted interviews with the IMAG director and engineer to understand the project from their perspectives and how they define success.
                 </p>
               </div>
             </div>
@@ -208,6 +219,11 @@ function Journie() {
 </p>
             </li>
             <li>
+              <h1>Confusing way of creating pages</h1>
+              <p>These PhD-holding researchers had to read instructions or email for support to figure out how to create a page on the wiki.
+              </p>
+            </li>
+            <li>
               <h1>Complex sign-up process</h1>
               <p>Researchers were annoyed by how long it takes to sign up for an account. The form asks for redundant information and doesn’t prevent common errors.
 </p>
@@ -215,11 +231,6 @@ function Journie() {
             <li>
               <h1>Unclear permissions</h1>
               <p>Researchers didn’t know they were allowed to edit and post on the wiki as they please. They would only post when instructed to.
-              </p>
-            </li>
-            <li>
-              <h1>Confusing way of creating pages</h1>
-              <p>These PhD-holding researchers had to read instructions or email for support to figure out how to create a page on the wiki.
               </p>
             </li>
             <li>
@@ -233,17 +244,21 @@ function Journie() {
 
           <h3>Persona</h3>
           <p>
-          I created a persona summarizing my user research to help me remember the users’ goals and frustrations as I made design decisions. I also hoped it would help my team envision the end user better after I left, since they’d never had any research like this before.
+            I created a persona summarizing my user research to help me remember the users’ goals and frustrations as I made design decisions.
 </p>
-          <div className="small-overflow">
-            <img src={ComparatorResults} />
-          </div>
-
+          <img src={Persona} className="shadow" />
           <h3>Comparative analysis</h3>
           <p>
-          Users have likely used other wikis, NIH sites, and model repositories, so they come to the IMAG site with certain expectations. To learn what standards and best practices users likely expect in the site, I chose and analyzed 6 comparable sites.
+            Users have likely used other wikis, NIH sites, and model repositories, so they come to the IMAG site with certain expectations. To learn what standards and best practices users likely expect in the site, I chose and analyzed 5 comparable sites.
 </p>
-<p>Some of the best practices the site wasn’t following:
+          <div className="image-row-small">
+            <img className="competitor" src={Wikipedia} />
+            <img className="competitor" src={SimTK} />
+            <img className="competitor" src={NIBIB} />
+            <img className="competitor" src={Fandom} />
+            <img className="competitor" src={SGCI} />
+          </div>
+          <p>Some of the best practices the site wasn’t following:
 </p>
           <ul>
             <li>Make the option to edit visible on every editable page</li>
@@ -251,58 +266,48 @@ function Journie() {
             <li>Have form field lengths match their intended input</li>
             <li>Clearly communicate the purpose of the site</li>
           </ul>
-          <div className="small-overflow">
-            <img src={ComparatorResults} />
-          </div>
           <br />
-          <a href="https://docs.google.com/document/d/1j5tg171gBLV3CdU0LSTmcAGvBOsrnUu8sIpEhng1Fdc/edit?usp=sharing" target="_blank" className="btn-big">View Full Analysis</a>
+          <a href="https://docs.google.com/document/d/13U8EeRqz1y8Ofp7nontkKwa4Oe-Xehyo0siYWkrMNLM/edit?usp=sharing" target="_blank" className="btn-big">View Full Analysis</a>
         </div>
       </div>
 
-      <h5>PROTOTYPING</h5>
-      <h3>Exploring different directions and converging on one</h3>
+      <h5>DESIGN</h5>
+      <h3>Ideation & Sketching</h3>
       <p>
-        We created paper prototypes based on our idea and tested them on 3 people to decide which concept was best for users.
-      </p>
-      <p>Users felt that Prototype #1’s upcoming ride calendar was very helpful and that Prototype #3’s flow was the most intuitive. We decided to move forward with <b>a combination of the two concepts.</b></p>
-      <div className="medium-overflow demo-box">
-        <div>
-          <img src={Prototype1} style={{ width: '85%' }} />
-          <div className="small-text">Prototype #1</div>
-        </div>
-        <div>
-
-          <img src={PaperPrototype} style={{ width: '100%' }} />
-          <div className="small-text">Prototype #3</div>
-        </div>
-      </div>
-
-      <h3>The user's path</h3>
-      <p>
-        We made a user flow diagram to map how the user would navigate the selected app concept.
-      </p>
-      <img src={Flow} />
-
-      <h5></h5>
+        I brainstormed solutions to fix the issues I discovered during research then sketched the most feasible ideas. I reviewed my sketches with the engineer to check if they were possible to develop in a reasonable amount of time.
+</p>
+      <div className="medium-overflow">
+          <img src={Sketches}/>
+</div>
       <h3>Wireframes</h3>
       <p>
-        Following the user flow, we designed wireframes for the screens most essential to the concept. I wireframed all of the following screens except for the one with the header "Live Location."
+        I created low-fidelity wireframes to show users and stakeholders for feedback.
       </p>
       <div className="medium-overflow">
         <img src={Wireframes} />
       </div>
 
-      <div className="full-width section-container gray">
-        <div className="project">
-          <h5>USABILITY TESTING</h5>
-          <h3>Getting feedback and iterating the design 🔄</h3>
+
+          <h5>TESTING & ITERATIONS</h5>
+          <h3>Usability testing</h3>
           <p>
-            Between wireframes and the final prototype, we tested the app with <b>6</b> Stanford Rideshare members and other Stanford affiliates.
-      </p>
-          <p>We followed the <b>highly iterative RITE method:</b> after each test, we implemented improvements so following users could provide feedback and validate them.
-      </p>
-          <img src={UserTest} />
-          <p>Here are a few of the changes we made:</p>
+            I conducted usability testing with <b>11 users,</b> including college professors and research trainees, to validate solutions and identify issues.
+          </p>
+          <p>I prepared personalized interview guides for each participant based on their IMAG and site involvement and had them walk through tasks while thinking out loud.
+          </p>
+          <div className="small-overflow three-item-row">
+            <img src={Test1} className="shadow" />
+            <img src={Test2} className="shadow" />
+            <img src={Test3} className="shadow" />
+          </div>
+          <p>With their feedback, I continuously iterated the design, navigation, form fields, and help text until no more usability issues were apparent.
+</p>
+
+          {/* <h3>Feedback</h3> */}
+          <p>To prevent any problems from being missed, I tracked all of the prototype feedback and issues in a spreadsheet.</p>
+
+          <h3 id="imag-redesign">The new design</h3>
+          <p>Here are some of the improvements:</p>
 
           <div className="medium-overflow">
             <div className="usability-box">
@@ -336,48 +341,77 @@ function Journie() {
               </div>
             </div>
           </div>
+
+      <h5>RESULTS</h5>
+      <h3>Feedback</h3>
+      <p>In a survey I conducted with 5 site users, I received very positive feedback about the new design!
+</p>
+
+      <div className="three-col-container">
+        <div className="col">
+          <div className="large-stat">5/5</div>
+          <div className="stat-text">of users <b>prefer the redesign</b></div>
+        </div>
+        <div className="col">
+          <div className="large-stat">5/5</div>
+          <div className="stat-text">feel the redesign is <b>easy to use</b></div>
+        </div>
+        <div className="col">
+          <div className="large-stat">5/5</div>
+          <div className="stat-text">imagine most people would learn the new design <b>very quickly</b></div>
+        </div>
+        <div className="col">
+          <div className="large-stat">5/5</div>
+          <div className="stat-text">feel <b>very confident</b> using the redesign</div>
         </div>
       </div>
 
-      <h5>STYLE</h5>
-      <h3>Communicating visually</h3>
-      <p>To make sure my partner and I designed the high-fidelity prototype consistently, I developed a style tile. I wanted to <b>evoke nature and the world outside.</b> Users we interviewed cited helping the environment as a reason they joined Stanford Rideshare, so I wanted to remind people of this positive impact. </p>
-      <img src={StyleTile} className="shadow" />
-      <br /> <br />
-      <Link to="#final-design" className="btn-big">Jump to Final Design</Link>
+      <blockquote>
+        <div className="quote">
+          “I am <b>very impressed</b> with this project. It represents a huge effort that is very targeted yet thorough. Seeing the side by side comparisons of the layouts makes the differences very clear.”
+          </div>
+        <div className="quote-citation">– User</div>
+      </blockquote>
+      <blockquote>
+        <div className="quote">
+          “The new design is good—it looks <b>less cluttered</b> and is <b>easier to use.</b>”
+          </div>
+        <div className="quote-citation">– User</div>
+      </blockquote>
 
-      <div className="full-width section-container gray">
-        <div className="project">
-          <h5>REFLECTION</h5>
-          <h3>Future product possibilities</h3>
-          <p>We discovered some problems in user research that we didn’t have time to design solutions for. We also focused just on Stanford Rideshare throughout this project, but I thought a bit about how this product could potentially grow and be monetized. Here were a few of my ideas:</p>
-          <ol>
-            <li>
-              <h1>Expand to more workplaces</h1>
-              <p>Growing the user base could lead to better recommendations and more optimized gas-saving routes. </p>
-            </li>
-            <li>
-              <h1>Facilitate the driving rotation</h1>
-              <p>Journie could guide the process of scheduling who’s driving which day so everyone is on the same page.</p>
-            </li>
-            <li>
-              <h1>Handle payments and transactions</h1>
-              <p>It’s a hassle to split the costs for gas and vehicle maintenance. Journie could make this process more efficient and charge a small fee.
+      <h3>Things I learned</h3>
+      <div className="icon-list">
+        <div className="icon-box">
+          <div class="icon"><FontAwesomeIcon icon={faQuestion} /></div>
+          <div>
+            <h1>Understand the backend</h1>
+            <p>
+              Understanding the site’s backend and the capabilities of Drupal 8, which the site was built on, helped me create more innovative solutions. For example, I learned that it’s possible to automatically add a link to a user’s post underneath their profile. Currently, users have to do this manually by pasting the post’s link into their user profile, which -- unsurprisingly -- very few people do. The redesign uses the automated method to reduce users’ work and ensure that their pages get linked. This new way excited both stakeholders and users.
+            </p>
+          </div>
+        </div>
+        <div className="icon-box">
+          <div class="icon"><FontAwesomeIcon icon={faLaptopCode} /></div>
+          <div>
+            <h1>Revise forms carefully</h1>
+            <p>
+              As I was revising the forms, I searched meticulously for form fields that were unnecessary. Taking them out would streamline the form and save users’ time. I learned early on that I needed to collaborate with the director to avoid taking out any form fields that provided information she needed to have. For example, there were a few questions in the Create Account form that I suggested removing until the director explained they were there to help her tell which account requests were legitimate.
 </p>
-            </li>
-          </ol>
-
-          <h3>Lessons I learned</h3>
-          <h1>Screen users before interviewing them</h1>
-          <p>I found users to interview by emailing carpoolers on the Stanford Rideshare website. So I was very surprised when the first thing an interviewee told me was that she never managed to join a carpool! Her unsuccessful attempt at joining was insightful, but I could have been more prepared for the interview if I’d uncovered this information in advance. </p>
-          <h1>User feedback trumps design patterns</h1>
-          <p>I love studying other apps’s interfaces, but their choices might not present the best solution for the problem I’m solving. When conducting user testing, we realized some design patterns we incorporated in our early prototypes were actually confusing or unintuitive for users.
-</p>
-
-          <h3>Thanks for reading!&nbsp;&nbsp;🎉</h3>
+          </div>
+        </div>
+        <div className="icon-box">
+          <span class="icon"><FontAwesomeIcon icon={faUser} /></span>
+          <div>
+            <h1>Balance stakeholder and user needs</h1>
+            <p>
+              I needed to work on balancing stakeholders’ and users’ needs a lot with this project. For instance, researchers vented frustration to me about having to fill out a certain long, complicated form, but stakeholders in IMAG felt it was important they complete it if they could. As a result, I negotiated to make the form optional but incorporated design choices to strongly encourage them to fill it out.
+            </p>
+          </div>
         </div>
       </div>
-    </div>)
+      <h3>Thanks for reading!&nbsp;&nbsp;🎉</h3>
+    </div>
+  )
 }
 
 export default Journie;

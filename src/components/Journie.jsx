@@ -178,7 +178,7 @@ function Journie() {
         We created paper prototypes based on our idea and tested them on 3 people to decide which concept was best for users.
       </p>
       <p>Users felt that Prototype #1’s upcoming ride calendar was very helpful and that Prototype #3’s flow was the most intuitive. We decided to move forward with <b>a combination of the two concepts.</b></p>
-      <div className="medium-overflow demo-box">
+      <div className="medium-overflow usability-box">
         <div>
           <img src={Prototype1} style={{ width: '85%' }} />
           <div className="small-text">Prototype #1</div>
@@ -257,7 +257,7 @@ function Journie() {
       <p>To make sure my partner and I designed the high-fidelity prototype consistently, I developed a style tile. I wanted to <b>evoke nature and the world outside.</b> Users we interviewed cited helping the environment as a reason they joined Stanford Rideshare, so I wanted to remind people of this positive impact. </p>
       <img src={StyleTile} className="shadow" />
       <br /> <br />
-      <Link to="#final-design" className="btn-big">Jump to Final Design</Link>
+      <Link to="#final-design" className="btn-big">Jump up to final design</Link>
 
       <div className="full-width section-container gray">
         <div className="project">
