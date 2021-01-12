@@ -49,7 +49,7 @@ function About() {
       <img src={youngme} style={{ width: "25%", display: "block", borderRadius: "0px" }} className="profile-pic"/>
       <div className="about-text">
       <h1>
-        Hi, I’m Grace!
+        Hi! I’m Grace.
       </h1>
       <p>I’m a designer, creative technologist, and writer. As a kid, I would fold paper and draw buttons on them to “prototype” my dream computers. Now I’m a computer science/HCI student at Stanford who loves designing things and bringing them to life with code. 
       </p>

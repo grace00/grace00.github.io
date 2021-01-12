@@ -73,7 +73,7 @@ function Journie() {
       <br />
       <div className="small-overflow">
         <div className="demo-box">
-          <img src={Onboard}/>
+          <img src={Onboard} />
           <div>
             <h3>Receive your top recommendations</h3>
             <p>After completing a quick onboarding process, users are provided with a list of the best recommendations based on their work schedule and address. They can further refine the options with filters.</p>
@@ -199,11 +199,11 @@ function Journie() {
       <h5></h5>
       <h3>Wireframes</h3>
       <p>
-            Following the user flow, we designed wireframes for the screens most essential to the concept. I wireframed all of the following screens except for the one with the header "Live Location."
+        Following the user flow, we designed wireframes for the screens most essential to the concept. I wireframed all of the following screens except for the one with the header "Live Location."
       </p>
       <div className="medium-overflow">
         <img src={Wireframes} />
-      </div> 
+      </div>
 
       <div className="full-width section-container gray">
         <div className="project">
@@ -257,7 +257,9 @@ function Journie() {
       <p>To make sure my partner and I designed the high-fidelity prototype consistently, I developed a style tile. I wanted to <b>evoke nature and the world outside.</b> Users we interviewed cited helping the environment as a reason they joined Stanford Rideshare, so I wanted to remind people of this positive impact. </p>
       <img src={StyleTile} className="shadow" />
       <br /> <br />
-      <Link to="#final-design" className="btn-big">Jump up to final design</Link>
+      <div className="center-text">
+        <Link to="#final-design" className="btn-big">Jump up to final design</Link>
+      </div>
 
       <div className="full-width section-container gray">
         <div className="project">

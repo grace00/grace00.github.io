@@ -28,6 +28,7 @@ import OnboardIteration from './images/journie-onboard.png';
 import InfoIteration from './images/journie-info.png';
 import CalendarIteration from './images/journie-calendar.png';
 import MorningIteration from './images/journie-morning.png';
+import SneakPeak from './images/imag-sneak-peak.png';
 import Wikipedia from './images/wikipedia.png';
 import SimTK from './images/simtk.png';
 import SGCI from './images/sgci.png';
@@ -39,6 +40,13 @@ import Wireframes from './images/imag-wireframes.png';
 import Test1 from './images/imag-test1.png';
 import Test2 from './images/imag-test2.png';
 import Test3 from './images/imag-test3.png';
+import Homepage from './images/imag-homepage.png';
+import CreateAccount from './images/imag-create-account.png';
+import Models from './images/imag-models.png';
+import Model from './images/imag-model.png';
+import Profile from './images/imag-profile.png';
+import WorkingGroups from './images/imag-working-groups.png';
+import testing from './images/imag-test.png';
 
 
 function Journie() {
@@ -101,10 +109,12 @@ function Journie() {
             </div>
           </div>
           <div className="small-text center-text"><i>Based on survey with 5 site users</i></div>
-
-          <Link to="#imag-redesign" className="btn-big">Jump to redesign</Link>
-        </div>
-      </div>
+          <div className="medium-overflow">
+            <img src={SneakPeak} />
+</div>
+          <div className="center-text">
+            <Link to="#imag-redesign" className="btn-big">Jump to full redesign</Link>
+          </div>
 
       <h3>Challenges</h3>
       <p>This being my first project in government, I faced a few challenges:
@@ -138,6 +148,8 @@ function Journie() {
           </div>
         </div>
       </div>
+      </div>
+      </div>
       {/* <ul className="fa-ul icon-list">
         <li><span class="fa-li"><FontAwesomeIcon icon={faQuestion} /></span>
           <h1>Vague project</h1>
@@ -159,8 +171,7 @@ function Journie() {
         </li>
       </ul> */}
 
-      <div className="full-width section-container gray">
-        <div className="project">
+
           <h5>RESEARCH</h5>
           <h3>Website audit</h3>
           <p>
@@ -267,81 +278,117 @@ function Journie() {
             <li>Clearly communicate the purpose of the site</li>
           </ul>
           <br />
+          <div className="center-text">
           <a href="https://docs.google.com/document/d/13U8EeRqz1y8Ofp7nontkKwa4Oe-Xehyo0siYWkrMNLM/edit?usp=sharing" target="_blank" className="btn-big">View Full Analysis</a>
-        </div>
-      </div>
+          </div>
 
+          <div className="full-width section-container gray">
+        <div className="project"> 
       <h5>DESIGN</h5>
       <h3>Ideation & Sketching</h3>
       <p>
         I brainstormed solutions to fix the issues I discovered during research then sketched the most feasible ideas. I reviewed my sketches with the engineer to check if they were possible to develop in a reasonable amount of time.
 </p>
       <div className="medium-overflow">
-          <img src={Sketches}/>
-</div>
+        <img src={Sketches} />
+      </div>
       <h3>Wireframes</h3>
       <p>
-        I created low-fidelity wireframes to show users and stakeholders for feedback.
+        I created low-fidelity wireframes to prototype all of the solutions and functionality.
       </p>
       <div className="medium-overflow">
         <img src={Wireframes} />
       </div>
 
-
-          <h5>TESTING & ITERATIONS</h5>
-          <h3>Usability testing</h3>
-          <p>
-            I conducted usability testing with <b>11 users,</b> including college professors and research trainees, to validate solutions and identify issues.
+      <h3>Usability testing</h3>
+      <p>
+      To validate solutions and identify issues with the prototype, I conducted usability testing with <b>11 users,</b> including college professors and research trainees.
           </p>
-          <p>I prepared personalized interview guides for each participant based on their IMAG and site involvement and had them walk through tasks while thinking out loud.
+      <p>I prepared personalized interview guides for each participant based on their IMAG and site involvement and had them walk through tasks while thinking out loud.
           </p>
-          <div className="small-overflow three-item-row">
-            <img src={Test1} className="shadow" />
-            <img src={Test2} className="shadow" />
-            <img src={Test3} className="shadow" />
-          </div>
-          <p>With their feedback, I continuously iterated the design, navigation, form fields, and help text until no more usability issues were apparent.
+      <div className="medium-overflow three-item-row">
+        <img src={Test1} className="shadow" />
+        <img src={Test2} className="shadow" />
+        <img src={Test3} className="shadow" />
+      </div>
+      <p>With their feedback, I continuously iterated the design, navigation, form fields, and help text until no more usability issues were apparent.
 </p>
 
-          {/* <h3>Feedback</h3> */}
-          <p>To prevent any problems from being missed, I tracked all of the prototype feedback and issues in a spreadsheet.</p>
+      {/* <h3>Feedback</h3> */}
+      <p>To prevent any problems from being missed, I tracked all of the prototype feedback and issues in a spreadsheet.</p>
+      </div>
+</div>
 
-          <h3 id="imag-redesign">The new design</h3>
-          <p>Here are some of the improvements:</p>
-
-          <div className="medium-overflow">
-            <div className="usability-box">
-              <img src={OnboardIteration} />
-              <div>
-                <h3>More emphasis on important information</h3>
-                <ul>
-                  <li>Added leaving and arrival times because this helped users decide between carpools</li>
-                  <li>Added home and work icons next to location fields to clarify expected input</li>
-                </ul>
-              </div>
-            </div>
-            <div className="usability-box">
-              <div>
-                <h3>More intuitive</h3>
-                <ul>
-                  <li>Clarified each day has room for only one morning and night carpool by adding sun and moon icons </li>
-                  <li>Copied card design from the carpool recommendations to help users understand the calendar through a familiar pattern</li>
-                </ul>
-              </div>
-              <img src={CalendarIteration} />
-            </div>
-            <div className="usability-box">
-              <img src={MorningIteration} />
-              <div>
-                <h3>Just the essentials</h3>
-                <ul>
-                  <li>Removed live locations because it wasn’t helpful to users</li>
-                  <li>Provided a cancel option so users can quickly communicate they can’t make it</li>
-                </ul>
-              </div>
-            </div>
+      <h5>THE NEW DESIGN</h5>
+      <h3>Homepage</h3>
+      <p>The homepage is sparse and doesn’t direct researchers to the information most useful to them. Users find funding opportunities, models, upcoming meetings, and support guides helpful but didn’t know the site had these until my user test with them. 
+          </p>
+      <p>I added direct links to these helpful resources to the home page to make them more discoverable.
+      </p>
+      <div className="medium-overflow">
+        <img src={Homepage} />
+      </div>
+      <blockquote>
+        <div className="quote">
+          “Funding opportunities and upcoming meetings are good gateways.”
           </div>
+        <div className="quote-citation">– User 10</div>
+      </blockquote>
 
+      <h3>Create Account form</h3>
+      <p>Researchers were frustrated by how long the Create Account form is, so I cut out unnecessary form fields to speed up the process of creating an account. Since many researchers mark the wrong type of account to sign up for in the first question, wasting a lot of time on their and my supervisor’s part, I took it out and convinced the IMAG supervisor to make all accounts the same type.
+      </p>
+      <p>I also learned that account holders didn’t know what they were allowed to do on the site, so I added a welcome message to explain permissions to new users.
+</p>
+      <div className="medium-overflow">
+        <img src={CreateAccount} />
+      </div>
+
+      <h3>User profile</h3>
+      <p>There’s no place to see your past contributions, so users had email Support or search the site to find old posts. I created a new section under the user profile housing the users’ past contributions.
+      </p>
+      <p>To encourage and make it as easy as possible to post content to the site, I provided add buttons allowing users to add important types of pages immediately after logging in. </p>
+      <div className="medium-overflow">
+      <img src={Profile} />
+      </div>
+
+      <h3>Models, Tools, and Databases page</h3>
+      <p>Researchers strongly felt this model repository wasn’t organized in a useful way. They struggled to find models relevant to their specific area of study. I redesigned the page to provide more details about each model and provided filters to help researchers find what they need.
+      </p>
+      <p>The process of adding a model (and content in general) to the wiki is extremely unintuitive to users. I simplified it by providing an “Add” button on the page (and similar pages), which fit users’ expectations.
+</p>
+      <div className="medium-overflow">
+        <img src={Models} />
+      </div>
+
+      <h3>Model details page</h3>
+      <p>All details about a model have the same level of visual hierarchy, making it hard for researchers to distinguish the information they care about. I restructured these wiki pages to prioritize what users care about, like the link to the model. 
+</p>
+      <div className="medium-overflow">
+        <img src={Model} />
+      </div>
+
+      <h3>Working Groups landing page</h3>
+      <p>Despite visiting the Working Groups page multiple times before, researchers still forget where it is in the navigation menu. I changed the menu to make its location crystal clear. 
+      </p>
+      <p>Users also complained of  “unnecessary friction” to get to a specific group’s page, so I redesigned the landing page to reduce the amount of clicks it takes to get to a group’s page from 4 to 2.
+      </p>
+      <div className="medium-overflow">
+        <img src={WorkingGroups} />
+      </div>
+
+      {/* <h3>Working Group details page</h3>
+      <p>Users are most interested in a group’s most recent activities, but it’s buried among all the information accumulated over the years. I made a new section for recent activities to address this feedback and inserted a table of contents for easier navigation.
+      </p>
+      <p>How to join a group is also important to users, but the process varies between groups. It usually involves emailing a group leader, which takes up their time. I designed a process to automatically join groups from the site to streamline that.
+</p>
+<span className="small-text">Image coming soon</span>
+      <div className="medium-overflow">
+        <img src={testing} />
+      </div> */}
+
+<div className="full-width section-container gray">
+        <div className="project">
       <h5>RESULTS</h5>
       <h3>Feedback</h3>
       <p>In a survey I conducted with 5 site users, I received very positive feedback about the new design!
@@ -411,6 +458,8 @@ function Journie() {
       </div>
       <h3>Thanks for reading!&nbsp;&nbsp;🎉</h3>
     </div>
+    </div>
+        </div>
   )
 }
 
