@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41b2060422edf6cb427fd8d8abf92275",
+    "revision": "0de8efac4183841593c350b60c1947a6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c7d6787ba5f5c1e24fd9",
-    "url": "/portfolio/static/css/main.e730915f.chunk.css"
+    "revision": "855b3549b2d17dd02f20",
+    "url": "/portfolio/static/css/main.1ac4cd09.chunk.css"
   },
   {
     "revision": "e3028f552ca23b22b90b",
     "url": "/portfolio/static/js/2.f398fbec.chunk.js"
   },
   {
-    "revision": "c7d6787ba5f5c1e24fd9",
-    "url": "/portfolio/static/js/main.ec96fd98.chunk.js"
+    "revision": "855b3549b2d17dd02f20",
+    "url": "/portfolio/static/js/main.6dcc4923.chunk.js"
   },
   {
     "revision": "9916aa5016a36c80a421",
@@ -30,6 +30,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3c8f3636d9755fc948bc1367fb69a1dc",
     "url": "/portfolio/static/media/NIBIB.3c8f3636.png"
+  },
+  {
+    "revision": "62d4d7d369292a9bf23762465ec6d704",
+    "url": "/portfolio/static/media/ProximaNova-Bold.62d4d7d3.otf"
+  },
+  {
+    "revision": "51563919fd1af7376fac14b1194a8e4e",
+    "url": "/portfolio/static/media/ProximaNova-Extrabld.51563919.ttf"
+  },
+  {
+    "revision": "c8708c7ae9f1ccfd893ee01efdf0ac51",
+    "url": "/portfolio/static/media/ProximaNova-Reg-It.c8708c7a.otf"
+  },
+  {
+    "revision": "7ce6760d17685c466ba04d1b2c63c38b",
+    "url": "/portfolio/static/media/ProximaNova-Regular.7ce6760d.ttf"
+  },
+  {
+    "revision": "df8c626474a73ab7a8b511655597c7c4",
+    "url": "/portfolio/static/media/ProximaNova-Semibold.df8c6264.ttf"
   },
   {
     "revision": "22b03cd86d883ffb7a9c013835142109",

@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e730915f.chunk.css",
-    "main.js": "/portfolio/static/js/main.ec96fd98.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ec96fd98.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1ac4cd09.chunk.css",
+    "main.js": "/portfolio/static/js/main.6dcc4923.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6dcc4923.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
     "static/js/2.f398fbec.chunk.js": "/portfolio/static/js/2.f398fbec.chunk.js",
     "static/js/2.f398fbec.chunk.js.map": "/portfolio/static/js/2.f398fbec.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.bfd1b04dde38ed9b4c6aa0ef473a8642.js": "/portfolio/precache-manifest.bfd1b04dde38ed9b4c6aa0ef473a8642.js",
+    "precache-manifest.0d5389b03d27e968926c8e40dbf56e81.js": "/portfolio/precache-manifest.0d5389b03d27e968926c8e40dbf56e81.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.e730915f.chunk.css.map": "/portfolio/static/css/main.e730915f.chunk.css.map",
+    "static/css/main.1ac4cd09.chunk.css.map": "/portfolio/static/css/main.1ac4cd09.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
     "static/media/Final_Demo.mp4": "/portfolio/static/media/Final_Demo.7753d8fc.mp4",
     "static/media/NIBIB.png": "/portfolio/static/media/NIBIB.3c8f3636.png",
+    "static/media/ProximaNova-Bold.otf": "/portfolio/static/media/ProximaNova-Bold.62d4d7d3.otf",
+    "static/media/ProximaNova-Extrabld.ttf": "/portfolio/static/media/ProximaNova-Extrabld.51563919.ttf",
+    "static/media/ProximaNova-Reg-It.otf": "/portfolio/static/media/ProximaNova-Reg-It.c8708c7a.otf",
+    "static/media/ProximaNova-Regular.ttf": "/portfolio/static/media/ProximaNova-Regular.7ce6760d.ttf",
+    "static/media/ProximaNova-Semibold.ttf": "/portfolio/static/media/ProximaNova-Semibold.df8c6264.ttf",
     "static/media/advice.png": "/portfolio/static/media/advice.22b03cd8.png",
     "static/media/advicewireframe.png": "/portfolio/static/media/advicewireframe.8389613a.png",
     "static/media/audio.png": "/portfolio/static/media/audio.dd970b47.png",
@@ -99,7 +104,7 @@
   "entrypoints": [
     "static/js/runtime-main.f84e4eb0.js",
     "static/js/2.f398fbec.chunk.js",
-    "static/css/main.e730915f.chunk.css",
-    "static/js/main.ec96fd98.chunk.js"
+    "static/css/main.1ac4cd09.chunk.css",
+    "static/js/main.6dcc4923.chunk.js"
   ]
 }
