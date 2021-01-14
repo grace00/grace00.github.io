@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8209cf9e.chunk.css",
-    "main.js": "/portfolio/static/js/main.3d21633d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3d21633d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.c196ebd0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c196ebd0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
     "static/js/2.ae3fb95c.chunk.js": "/portfolio/static/js/2.ae3fb95c.chunk.js",
     "static/js/2.ae3fb95c.chunk.js.map": "/portfolio/static/js/2.ae3fb95c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9f607aca85871abfd1bcb277dbd731d5.js": "/portfolio/precache-manifest.9f607aca85871abfd1bcb277dbd731d5.js",
+    "precache-manifest.5dd733806c26a14304925082e626dbe2.js": "/portfolio/precache-manifest.5dd733806c26a14304925082e626dbe2.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.8209cf9e.chunk.css.map": "/portfolio/static/css/main.8209cf9e.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
@@ -33,7 +33,7 @@
     "static/media/imag-model.png": "/portfolio/static/media/imag-model.a9669fb6.png",
     "static/media/imag-models.png": "/portfolio/static/media/imag-models.2cbe5426.png",
     "static/media/imag-mtd.png": "/portfolio/static/media/imag-mtd.418a1adc.png",
-    "static/media/imag-preview.png": "/portfolio/static/media/imag-preview.2a4b265c.png",
+    "static/media/imag-preview.png": "/portfolio/static/media/imag-preview.8bc5626a.png",
     "static/media/imag-profile.png": "/portfolio/static/media/imag-profile.65bb624b.png",
     "static/media/imag-project-preview.png": "/portfolio/static/media/imag-project-preview.4c811af6.png",
     "static/media/imag-sign-up.png": "/portfolio/static/media/imag-sign-up.804420ae.png",
@@ -66,13 +66,13 @@
     "static/media/journie-interview-notes.png": "/portfolio/static/media/journie-interview-notes.9fa5bfbf.png",
     "static/media/journie-join.gif": "/portfolio/static/media/journie-join.012ba949.gif",
     "static/media/journie-journey-map.png": "/portfolio/static/media/journie-journey-map.f76a87d0.png",
+    "static/media/journie-mockup.png": "/portfolio/static/media/journie-mockup.006ef3dc.png",
     "static/media/journie-morning.gif": "/portfolio/static/media/journie-morning.cfd5754b.gif",
     "static/media/journie-morning.png": "/portfolio/static/media/journie-morning.d68430c0.png",
     "static/media/journie-nits-needs.png": "/portfolio/static/media/journie-nits-needs.2c7eb3f8.png",
     "static/media/journie-onboard.gif": "/portfolio/static/media/journie-onboard.176ad299.gif",
     "static/media/journie-onboard.png": "/portfolio/static/media/journie-onboard.fa233cce.png",
-    "static/media/journie-preview.png": "/portfolio/static/media/journie-preview.ac6aa4ec.png",
-    "static/media/journie-project-preview.png": "/portfolio/static/media/journie-project-preview.9277a170.png",
+    "static/media/journie-project-preview.png": "/portfolio/static/media/journie-project-preview.5dc7a6c1.png",
     "static/media/journie-prototype.jpeg": "/portfolio/static/media/journie-prototype.91a3e476.jpeg",
     "static/media/journie-prototype1.png": "/portfolio/static/media/journie-prototype1.60f18fba.png",
     "static/media/journie-sketches.jpg": "/portfolio/static/media/journie-sketches.1d4772c8.jpg",
@@ -110,6 +110,6 @@
     "static/js/runtime-main.f84e4eb0.js",
     "static/js/2.ae3fb95c.chunk.js",
     "static/css/main.8209cf9e.chunk.css",
-    "static/js/main.3d21633d.chunk.js"
+    "static/js/main.c196ebd0.chunk.js"
   ]
 }
