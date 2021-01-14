@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.16b9dae7.chunk.css",
-    "main.js": "/portfolio/static/js/main.a52787d6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a52787d6.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8209cf9e.chunk.css",
+    "main.js": "/portfolio/static/js/main.3d21633d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3d21633d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
-    "static/js/2.730a55a3.chunk.js": "/portfolio/static/js/2.730a55a3.chunk.js",
-    "static/js/2.730a55a3.chunk.js.map": "/portfolio/static/js/2.730a55a3.chunk.js.map",
+    "static/js/2.ae3fb95c.chunk.js": "/portfolio/static/js/2.ae3fb95c.chunk.js",
+    "static/js/2.ae3fb95c.chunk.js.map": "/portfolio/static/js/2.ae3fb95c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.81c65e79dbee7543cfe83767f97b5ddc.js": "/portfolio/precache-manifest.81c65e79dbee7543cfe83767f97b5ddc.js",
+    "precache-manifest.9f607aca85871abfd1bcb277dbd731d5.js": "/portfolio/precache-manifest.9f607aca85871abfd1bcb277dbd731d5.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.16b9dae7.chunk.css.map": "/portfolio/static/css/main.16b9dae7.chunk.css.map",
+    "static/css/main.8209cf9e.chunk.css.map": "/portfolio/static/css/main.8209cf9e.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
     "static/media/Final_Demo.mp4": "/portfolio/static/media/Final_Demo.7753d8fc.mp4",
     "static/media/NIBIB.png": "/portfolio/static/media/NIBIB.3c8f3636.png",
@@ -43,6 +43,7 @@
     "static/media/imag-test1.png": "/portfolio/static/media/imag-test1.ba9f5ec1.png",
     "static/media/imag-test2.png": "/portfolio/static/media/imag-test2.f28b0b9a.png",
     "static/media/imag-test3.png": "/portfolio/static/media/imag-test3.6953f754.png",
+    "static/media/imag-wg-details.png": "/portfolio/static/media/imag-wg-details.82893871.png",
     "static/media/imag-wireframes.png": "/portfolio/static/media/imag-wireframes.8627b93d.png",
     "static/media/imag-working-groups.png": "/portfolio/static/media/imag-working-groups.ea5b1a55.png",
     "static/media/jobcompetitors.png": "/portfolio/static/media/jobcompetitors.9f6c587f.png",
@@ -107,8 +108,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f84e4eb0.js",
-    "static/js/2.730a55a3.chunk.js",
-    "static/css/main.16b9dae7.chunk.css",
-    "static/js/main.a52787d6.chunk.js"
+    "static/js/2.ae3fb95c.chunk.js",
+    "static/css/main.8209cf9e.chunk.css",
+    "static/js/main.3d21633d.chunk.js"
   ]
 }
