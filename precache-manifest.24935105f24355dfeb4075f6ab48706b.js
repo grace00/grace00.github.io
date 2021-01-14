@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af4737751aba1764c9ab048851deb4f2",
+    "revision": "1a5b7632fad55529ac531d69cbb0adfe",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0a89a199f111bc23e3f7",
+    "revision": "10f134c9af0d01859421",
     "url": "/portfolio/static/css/main.8209cf9e.chunk.css"
   },
   {
-    "revision": "8b617ba3d7c60bea438b",
-    "url": "/portfolio/static/js/2.ae3fb95c.chunk.js"
+    "revision": "6648df7003b5540eb7ae",
+    "url": "/portfolio/static/js/2.5741b91f.chunk.js"
   },
   {
-    "revision": "0a89a199f111bc23e3f7",
-    "url": "/portfolio/static/js/main.c196ebd0.chunk.js"
+    "revision": "10f134c9af0d01859421",
+    "url": "/portfolio/static/js/main.44a07ad1.chunk.js"
   },
   {
     "revision": "9916aa5016a36c80a421",
@@ -80,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/imag-add-pages.a367ca42.png"
   },
   {
+    "revision": "e6488c9a91f02ff020a20e14448729de",
+    "url": "/portfolio/static/media/imag-airtable.e6488c9a.png"
+  },
+  {
     "revision": "45777e19b15d18f3f07d2554825eea08",
     "url": "/portfolio/static/media/imag-create-account.45777e19.png"
   },
@@ -108,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/imag-mtd.418a1adc.png"
   },
   {
-    "revision": "8bc5626af40be790cb40c069a906d39a",
-    "url": "/portfolio/static/media/imag-preview.8bc5626a.png"
+    "revision": "16faadf4b1a1474a4be31098c6ee84c7",
+    "url": "/portfolio/static/media/imag-preview.16faadf4.png"
   },
   {
     "revision": "65bb624b07d9cba43198e3f2b1d46c6d",
@@ -240,8 +244,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/journie-journey-map.f76a87d0.png"
   },
   {
-    "revision": "006ef3dcd77c83e40bf91859ba91bc8a",
-    "url": "/portfolio/static/media/journie-mockup.006ef3dc.png"
+    "revision": "1de2903b8f1a3424d34f5a5930f8bb99",
+    "url": "/portfolio/static/media/journie-mockup.1de2903b.png"
   },
   {
     "revision": "cfd5754b196605ffb301ea1b788eadbe",
