@@ -1,9 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:light,regular,semibold,bold,black,italic&subset=latin,latin-ext'); 
 @import url('https://fonts.googleapis.com/css?family=Poppins:light,regular,semibold,bold,italic&subset=latin,latin-ext');
 
+/* font code from http://skyentific.me/adding-fonts-to-create-react-app/ */
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Reg-It.otf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Bold.otf") format("opentype");
+  font-weight: 700;
+} 
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Extrabld.ttf") format("truetype");
+  font-weight: 800;
+} 
+
+
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

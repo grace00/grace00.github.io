@@ -221,7 +221,7 @@ function Journie() {
             <div className="usability-box">
               <img src={OnboardIteration} />
               <div>
-                <h3>More emphasis on important information</h3>
+                <h1>More emphasis on important information</h1>
                 <ul>
                   <li>Added leaving and arrival times because this helped users decide between carpools</li>
                   <li>Added home and work icons next to location fields to clarify expected input</li>
@@ -230,7 +230,7 @@ function Journie() {
             </div>
             <div className="usability-box">
               <div>
-                <h3>More intuitive</h3>
+                <h1>More intuitive</h1>
                 <ul>
                   <li>Clarified each day has room for only one morning and night carpool by adding sun and moon icons </li>
                   <li>Copied card design from the carpool recommendations to help users understand the calendar through a familiar pattern</li>
@@ -241,7 +241,7 @@ function Journie() {
             <div className="usability-box">
               <img src={MorningIteration} />
               <div>
-                <h3>Just the essentials</h3>
+                <h1>Just the essentials</h1>
                 <ul>
                   <li>Removed live locations because it wasn’t helpful to users</li>
                   <li>Provided a cancel option so users can quickly communicate they can’t make it</li>
