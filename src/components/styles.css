@@ -17,6 +17,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: var(--main-black);
+    overflow-x: hidden;
 }
 .main-container {
     width: 1120px;
@@ -185,8 +186,11 @@ blockquote .quote-citation {
 
 /* -----header/nav----*/
 nav {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
     background-color: white;
-    width: 1120px;
     display: inline-block;
 }
 nav a {
@@ -347,9 +351,26 @@ nav ul li {
 .project p.subtitle { /* override regular p styling */
     font-weight: 400;
     font-size: 22px;
-    line-height: 0px;
+    line-height: 28px;
     text-align: center;
 }
+/* .table-of-contents {
+    position: fixed;
+    top: 50%;
+    left: 40px;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+ul.table-of-contents {
+    list-style-type: none;
+}
+ul.table-of-contents a {
+    color: var(--main-light-black);
+    font-size: 14px;
+}
+ul.table-of-contents a:active {
+    color: green;
+} */
 .row {
     margin: 40px 0;
 }
@@ -609,28 +630,42 @@ nav {
 /* responsive */
 @media only screen and (max-width : 1200px) {
     nav {
-        background: ;  
-    }    
-    .project {
-        width: 80%;
-        margin: 0 10%;
+        background-color: ;  
+    }  
+    .main-container {
+        width: 92%;
+        margin: 0 auto;
+    }  
+    .small-overflow {
+        width: 100%;
+        position: static;
     }
 }
 @media only screen and (max-width : 800px) {
     nav {
-        background: ;  
+        background-color: ;
     }   
     .main-container {
+        width: 100%;
+    }  
+    .project, .home-page-container {
         width: 92%;
+        margin: 0 auto;
+    }
+    nav {
+        padding: 0 4%;
+    }
+    .medium-overflow, .large-overflow {
+        width: 100%;
+        position: static;
+    }
+    .full-width.overlay img {
+        width: 92%;
+        height: auto;
     }
     .sub-header {
         width: 100%;
     }
-    .project {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    } 
     .item {
         float: none;
         width: 100%;

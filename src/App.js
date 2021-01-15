@@ -57,7 +57,7 @@ function About() {
       </p>
       <p>Outside of design, you'll find me watching a Joss Whedon show or trying to will myself to exercise.
       </p>
-      <p>I also played viola for seven years. Not sure how I’ll connect this to my design work yet, but maybe I’ll find a way.
+      <p>I also played viola for seven years! Not sure how I’ll connect this to my design work yet, but maybe I’ll find a way.
       </p>
       </div>
     </div>

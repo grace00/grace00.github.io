@@ -35,7 +35,7 @@ function Journie() {
         <h1 className="project-title">
           Journie
         </h1>
-        <p className="subtitle">Matching commuters to carpools.</p>
+        <p className="subtitle">Matching Stanford commuters to carpools.</p>
         <img src={Preview} />
       </div>
 
@@ -44,7 +44,7 @@ function Journie() {
         <span className="proj-detail">Journie is a project I worked on for a service design class. My team was tasked with improving Stanford Rideshare, a program that incentivizes Stanford employees to carpool to and from work together.</span>
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">10 weeks</span>
-          <h4>Role</h4><span className="proj-detail">UX/UI Designer, researcher</span>
+          <h4>Role</h4><span className="proj-detail">UI/UX designer, researcher</span>
         </div>
         <div className="column">
           <h4>Teammates</h4><span className="proj-detail">3 during research, 1 during design
@@ -75,13 +75,13 @@ function Journie() {
         <div className="demo-box">
           <img src={Onboard} />
           <div>
-            <h3>Receive your top recommendations</h3>
+            <h1>Receive your top recommendations</h1>
             <p>After completing a quick onboarding process, users are provided with a list of the best recommendations based on their work schedule and address. They can further refine the options with filters.</p>
           </div>
         </div>
         <div className="demo-box">
           <div>
-            <h3>Get informed about each carpool option</h3>
+            <h1>Get informed about each carpool option</h1>
             <p>Users can view all the details they need to know about each carpool to make an informed decision, including the carpools’s expectations, costs, and route.</p>
           </div>
           <img src={Info} />
@@ -89,13 +89,13 @@ function Journie() {
         <div className="demo-box">
           <img src={Join} />
           <div>
-            <h3>Join a carpool in seconds</h3>
+            <h1>Join a carpool in seconds</h1>
             <p>When users join their preferred carpool option, it automatically gets populated into their calendar for each day they plan to ride.</p>
           </div>
         </div>
         <div className="demo-box">
           <div>
-            <h3>Know what's happening</h3>
+            <h1>Know what's happening</h1>
             <p>While a carpool is occurring, users can easily access directions and see how far the driver is from their stop. If an emergency happens, they can cancel a ride but are reminded of the consequences.</p>
           </div>
           <img src={Morning} />
@@ -109,7 +109,7 @@ function Journie() {
           <h5>USER RESEARCH</h5>
           <h3>Empathizing with users</h3>
           <p>
-            In order to understand how we could improve Stanford Rideshare, we each interviewed 2 Stanford employees about their rideshare experiences, needs, and frustrations. Our <b>8 interviewees</b> included carpool coordinators, riders, and an employee who was unsuccessful in finding a carpool.
+            In order to understand how we could improve Stanford Rideshare, we each interviewed two Stanford employees about their rideshare experiences, needs, and frustrations. Our <b>8 interviewees</b> included carpool coordinators, riders, and an employee who was unsuccessful in finding a carpool.
       </p>
           <p>
             We created an affinity map and journey maps to synthesize our findings and identify pain points.
@@ -160,22 +160,24 @@ function Journie() {
       <div className="full-width section-container gray">
         <div className="project">
           <h5>COMPARATIVE USABILITY TESTING</h5>
-          <h3>Learning from other platforms</h3>
+          <h3>Learning from testing other platforms</h3>
           <p>
-            My partner and I tested existing products on 4 people to learn from their designs before we started on ours.
+            My partner and I <b>tested 3 existing products on 4 people</b> to learn from their designs before we started on ours.
        </p>
           <div className="small-overflow">
             <img src={ComparatorResults} />
           </div>
           <br />
+          <div className="center-text">
           <a href="https://docs.google.com/document/d/1j5tg171gBLV3CdU0LSTmcAGvBOsrnUu8sIpEhng1Fdc/edit?usp=sharing" target="_blank" className="btn-big">View Full Analysis</a>
+        </div>
         </div>
       </div>
 
       <h5>PROTOTYPING</h5>
-      <h3>Exploring different directions and converging</h3>
+      <h3>Exploring different directions and getting feedback</h3>
       <p>
-        We created paper prototypes based on our idea and tested them on 3 people to decide which concept was best for users.
+        We created paper prototypes based on our idea and <b>tested them on 3 people</b> to decide which concept was best for users.
       </p>
       <p>Users felt that Prototype #1’s upcoming ride calendar was very helpful and that Prototype #3’s flow was the most intuitive. We decided to move forward with <b>a combination of the two concepts.</b></p>
       <div className="medium-overflow usability-box">
@@ -210,7 +212,7 @@ function Journie() {
           <h5>USABILITY TESTING</h5>
           <h3>Getting feedback and iterating the design 🔄</h3>
           <p>
-            Between wireframes and the final prototype, we tested the app with <b>6</b> Stanford Rideshare members and other Stanford affiliates.
+            Between wireframes and the final prototype, we <b>tested the app with 6 users:</b> Stanford Rideshare members and other Stanford affiliates.
       </p>
           <p>We followed the <b>highly iterative RITE method:</b> after each test, we implemented improvements so following users could provide feedback and validate them.
       </p>
@@ -290,6 +292,7 @@ function Journie() {
 </p>
 
           <h3>Thanks for reading!&nbsp;&nbsp;🎉</h3>
+          <Link to="#top" className="btn-big">Back to top</Link>
         </div>
       </div>
     </div>)

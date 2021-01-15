@@ -5,12 +5,12 @@ import './styles.css';
 import webmd from './images/webmdpreview@2x.png'
 import jobsite from './images/jobmockup@2x.png'
 import leaflet from './images/leafletmockup@2x.png'
-import journie from './images/journie-preview.png'
+import journie from './images/journie-mockup.png'
 import imag from './images/imag-preview.png'
 
 function Projects() {
 	return (
-		<div>
+		<div className="home-page-container">
 			<FadeIn
 				delay={500}
 			>
@@ -24,7 +24,7 @@ function Projects() {
 				<div className="all-projects">
 				<div class="item">
 						<Link to="/imag">
-							<div className="overlay imag">
+							<div>
 								<span class="vertical-helper"></span>
 								<img src={imag} className="preview-image" />
 							</div>
@@ -34,12 +34,12 @@ function Projects() {
 					</div>
 					<div class="item">
 						<Link to="/journie">
-							<div className="overlay green">
+							<div>
 								<span class="vertical-helper"></span>
 								<img src={journie} className="preview-image" />
 							</div>
 							<h1>Journie</h1>
-							<p>Designing an app that matches commuters with carpools</p>
+							<p>Designing an app that matches Stanford commuters with carpools</p>
 						</Link>
 					</div>
 					<div class="item">
@@ -49,7 +49,7 @@ function Projects() {
 								<img src={leaflet} className="preview-image" />
 							</div>
 							<h1>Leaflet</h1>
-							<p>Developing a transcription application for journalists.</p>
+							<p>Designing and developing a transcription application for journalists.</p>
 						</Link>
 					</div>
 					<div class="item">
@@ -59,7 +59,7 @@ function Projects() {
 								<img src={jobsite} className="preview-image" />
 							</div>
 							<h1>Job Tree</h1>
-							<p>Developing a jobs search site for Stanford students.</p>
+							<p>Designing and developing a jobs search site for Stanford students.</p>
 						</Link>
 					</div>
 				</div>

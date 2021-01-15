@@ -20,10 +20,12 @@ import SignUp from './images/imag-sign-up.png';
 import MTD from './images/imag-mtd.png';
 import Persona from './images/persona.png';
 import Sketches from './images/imag-sketches.png';
+import Prototypes from './images/imag-prototypes.png';
 import Wireframes from './images/imag-wireframes.png';
 import Test1 from './images/imag-test1.png';
 import Test2 from './images/imag-test2.png';
 import Test3 from './images/imag-test3.png';
+import Airtable from './images/imag-airtable.png';
 import Homepage from './images/imag-homepage.png';
 import CreateAccount from './images/imag-create-account.png';
 import Models from './images/imag-models.png';
@@ -37,6 +39,13 @@ import testing from './images/imag-test.png';
 function Journie() {
   return (
     <div className="project">
+      {/* <ul className="table-of-contents">
+      <li><Link to="#imag-overview">Overview</Link></li>
+      <li><Link to="#final-design">Research</Link></li>
+      <li><Link to="#final-design">Design</Link></li>
+      <li><Link to="#final-design">Results</Link></li>
+</ul> */}
+
       <div className="overlay imag full-width no-border-radius">
         <h1 className="project-title">
           IMAG
@@ -61,9 +70,9 @@ function Journie() {
         </div>
       </div>
 
-      {/* <div className="full-width section-container gray">
-        <div className="project"> */}
-          <h5>OVERVIEW</h5>
+      <div className="full-width section-container gray">
+        <div className="project">
+          <h5 id="#imag-overview">OVERVIEW</h5>
           <h3>Problem</h3>
           <blockquote>
             <div className="quote">
@@ -148,8 +157,8 @@ function Journie() {
               </div>
             </div>
           </div>
-        {/* </div>
-      </div> */}
+        </div>
+      </div>
 
       <h5>RESEARCH</h5>
       <h3>Website audit</h3>
@@ -195,12 +204,12 @@ function Journie() {
         Now familiar with the existing site, it was time to research the end users.
       </p>
       <p>
-        I interviewed 5 users about their experiences and tested the existing site on them. My goal was to identify pain points and issues people face on the site.
+      <b>I interviewed 5 users</b> about their experiences and tested the existing site on them. My goal was to identify pain points and issues people face on the site.
       </p>
       <img src={Interviews} className="shadow" />
       <div className="caption">Affinity diagram</div>
       <p>
-        Some of the biggest issues I identified:
+        Some of the <b>biggest issues</b> I identified with the current site:
       </p>
 
 <div className="small-overflow">
@@ -247,7 +256,7 @@ function Journie() {
       <img src={Persona} className="shadow" />
       <h3>Comparative analysis</h3>
       <p>
-        Users have likely used other wikis, NIH sites, and model repositories, so they come to the IMAG site with certain expectations. To learn what standards and best practices users likely expect in the site, I chose and analyzed 5 comparable sites.
+        Users have likely used other wikis, NIH sites, and model repositories, so they come to the IMAG site with certain expectations. To learn what standards and best practices users likely expect in the site, I chose and <b>analyzed 5 comparable sites.</b>
 </p>
       <div className="image-row-small">
         <img className="competitor" src={Wikipedia} />
@@ -256,7 +265,7 @@ function Journie() {
         <img className="competitor" src={Fandom} />
         <img className="competitor" src={SGCI} />
       </div>
-      <p>Some of the best practices the site wasn’t following:
+      <p>Some of the <b>best practices the site wasn’t following:</b>
 </p>
       <ul>
         <li>Make the option to edit visible on every editable page</li>
@@ -279,9 +288,17 @@ function Journie() {
           <div className="medium-overflow">
             <img src={Sketches} />
           </div>
+          <h3>Paper Prototypes</h3>
+          <p>Since the site centers around multiscale modeling, the Models page was critical to get right. According to user feedback, it also needed the most improvement. I paper-prototyped 3 versions to get feedback. 
+</p>
+<p><b>I tested them with 3 researchers,</b> and all found the first prototype easiest to use, familiar, and useful. 
+</p>
+<div className="medium-overflow">
+            <img src={Prototypes} />
+          </div>
           <h3>Wireframes</h3>
           <p>
-            I created low-fidelity wireframes to prototype all of the solutions and functionality.
+          With a clearer idea of which ideas were feasible and promising, I created low-fidelity wireframes to test the proposed solutions.
       </p>
           <div className="medium-overflow">
             <img src={Wireframes} />
@@ -289,7 +306,7 @@ function Journie() {
 
           <h3>Usability testing</h3>
           <p>
-            To validate solutions and identify issues with the prototype, I conducted usability testing with <b>11 users,</b> including college professors and research trainees.
+            I conducted usability testing with <b>11 users,</b> mostly college professors and research trainees, to validate solutions and identify issues with the prototype. 
           </p>
           <p>I prepared personalized interview guides for each participant based on their IMAG and site involvement and had them walk through tasks while thinking out loud.
           </p>
@@ -302,11 +319,12 @@ function Journie() {
 </p>
 
           {/* <h3>Feedback</h3> */}
-          <p>To prevent any problems from being missed, I tracked all of the prototype feedback and issues in a spreadsheet.</p>
+          <p>To prevent any problems from being missed, I tracked all of the prototype feedback and issues in a spreadsheet:</p>
+          <img src={Airtable} className="shadow" />
         </div>
       </div>
 
-      <h5>ITERATION</h5>
+      <h5>ITERATIONS</h5>
       <h3>Homepage</h3>
       <p>The homepage is sparse and doesn’t direct researchers to the information most useful to them. Users find funding opportunities, models, upcoming meetings, and support guides helpful but didn’t know the site had these until my user test with them.
           </p>
@@ -323,8 +341,10 @@ function Journie() {
       </blockquote>
 
       <h3>Create Account form</h3>
-      <p>Researchers were frustrated by how long the Create Account form is, so I cut out unnecessary form fields to speed up the process of creating an account. Since many researchers mark the wrong type of account to sign up for in the first question, wasting a lot of time on their and my supervisor’s part, I took it out and convinced the IMAG supervisor to make all accounts the same type.
+      <p>Researchers were frustrated by how much information the Create Account form asks for, so I cut out unnecessary form fields to speed up the process.
       </p>
+      <p>Since many researchers mark the wrong type of account to sign up for, wasting their and my supervisor’s part time, I took out this question and convinced the IMAG supervisor to make all accounts the same type.
+</p>
       <p>I also learned that account holders didn’t know what they were allowed to do on the site, so I added a welcome message to explain permissions to new users.
 </p>
       <div className="medium-overflow">
@@ -375,6 +395,8 @@ function Journie() {
       </blockquote>
 
       <h3>Working Groups landing page</h3>
+      <p>Working Groups are mini-communities that focus on a specific area of multiscale modeling, and they report their activities too. 
+      </p>
       <p>Despite visiting the Working Groups page multiple times before, researchers still forget where it is in the navigation menu. I changed the menu to make its location crystal clear.
       </p>
       <p>Users also complained of “unnecessary friction” to get to a specific group’s page, so I redesigned the landing page to reduce the amount of clicks it takes to get to a group’s page from 4 to 2.
@@ -474,6 +496,7 @@ function Journie() {
             </div>
           </div>
           <h3>Thanks for reading!&nbsp;&nbsp;🎉</h3>
+          <Link to="#top" className="btn-big">Back to top</Link>
         </div>
       </div>
     </div>
