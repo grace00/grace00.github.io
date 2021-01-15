@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ee4f6969.chunk.css",
-    "main.js": "/portfolio/static/js/main.b4789f3b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b4789f3b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c17df557.chunk.css",
+    "main.js": "/portfolio/static/js/main.240b0bcd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.240b0bcd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
-    "static/js/2.19457988.chunk.js": "/portfolio/static/js/2.19457988.chunk.js",
-    "static/js/2.19457988.chunk.js.map": "/portfolio/static/js/2.19457988.chunk.js.map",
+    "static/js/2.fd3a98fb.chunk.js": "/portfolio/static/js/2.fd3a98fb.chunk.js",
+    "static/js/2.fd3a98fb.chunk.js.map": "/portfolio/static/js/2.fd3a98fb.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d0e4279cdc0f23637f7b036afd4a048f.js": "/portfolio/precache-manifest.d0e4279cdc0f23637f7b036afd4a048f.js",
+    "precache-manifest.ed62f63b5bace6a15da4195eab6eda2c.js": "/portfolio/precache-manifest.ed62f63b5bace6a15da4195eab6eda2c.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.ee4f6969.chunk.css.map": "/portfolio/static/css/main.ee4f6969.chunk.css.map",
+    "static/css/main.c17df557.chunk.css.map": "/portfolio/static/css/main.c17df557.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
     "static/media/Final_Demo.mp4": "/portfolio/static/media/Final_Demo.7753d8fc.mp4",
     "static/media/NIBIB.png": "/portfolio/static/media/NIBIB.3c8f3636.png",
@@ -110,8 +110,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f84e4eb0.js",
-    "static/js/2.19457988.chunk.js",
-    "static/css/main.ee4f6969.chunk.css",
-    "static/js/main.b4789f3b.chunk.js"
+    "static/js/2.fd3a98fb.chunk.js",
+    "static/css/main.c17df557.chunk.css",
+    "static/js/main.240b0bcd.chunk.js"
   ]
 }
