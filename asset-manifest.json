@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7d5bf05d.chunk.css",
-    "main.js": "/portfolio/static/js/main.968adf37.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.968adf37.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.60301195.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.60301195.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
     "static/js/2.450b835e.chunk.js": "/portfolio/static/js/2.450b835e.chunk.js",
     "static/js/2.450b835e.chunk.js.map": "/portfolio/static/js/2.450b835e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.fe7411f7c72c4f1d43322f78f06852a1.js": "/portfolio/precache-manifest.fe7411f7c72c4f1d43322f78f06852a1.js",
+    "precache-manifest.e22ea436a763d9311153bbb0a6ebea00.js": "/portfolio/precache-manifest.e22ea436a763d9311153bbb0a6ebea00.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.7d5bf05d.chunk.css.map": "/portfolio/static/css/main.7d5bf05d.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
@@ -112,6 +112,6 @@
     "static/js/runtime-main.f84e4eb0.js",
     "static/js/2.450b835e.chunk.js",
     "static/css/main.7d5bf05d.chunk.css",
-    "static/js/main.968adf37.chunk.js"
+    "static/js/main.60301195.chunk.js"
   ]
 }
