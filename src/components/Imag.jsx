@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './styles.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuestion, faLaptopCode, faUser, faEdit, faUsers, faFileAlt, faAward } from "@fortawesome/free-solid-svg-icons";
+import { faQuestion, faLaptopCode, faUser, faEdit, faUsers, faFileAlt, faAward, faCode } from "@fortawesome/free-solid-svg-icons";
 
 import Preview from './images/imag-project-preview.png'
 import Interviews from './images/imag-interviews.jpg';
@@ -50,18 +50,18 @@ function Journie() {
         <h1 className="project-title">
           IMAG
         </h1>
-        <p className="subtitle">Redesign a government site to help biomedical researchers share highlights of their work.</p>
+        <p className="subtitle">Enable biomedical researchers to share highlights of their work.</p>
         <img src={Preview} />
       </div>
 
       <div className="row">
-        {/* <h4>Background</h4>
-        <span className="proj-detail">In the fall of 2020, I was a UX design fellow at the National Institutes of Health (NIH). I was tasked with improving the user experience of the IMAG wiki site, the central spot for research and resources related to multiscale modeling.
-        </span> */}
+        <h4>Context</h4>
+        <span className="proj-detail">In the fall of 2020, I was a UX design fellow at the National Institutes of Health (NIH). I was tasked with improving the user experience of the IMAG wiki site, the central spot for sharing research and resources related to multiscale modeling.
+        </span>
 
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">10-week internship (Oct - Dec 2020)</span>
-          <h4>Role</h4><span className="proj-detail">UX Designer</span>
+          <h4>Role</h4><span className="proj-detail">UX/UI designer, researcher</span>
         </div>
         <div className="column">
           <h4>Teammates</h4><span className="proj-detail">IMAG Director + 1 engineer
@@ -76,68 +76,50 @@ function Journie() {
           <h3>Problem</h3>
           <blockquote>
             <div className="quote">
-              “There’s no point in doing research just for myself.”
+              There’s no point in doing research just for myself.
           </div>
             <div className="quote-citation">– User 1</div>
           </blockquote>
           <p>
-            <b>Scientists need to share their work with others.</b> The IMAG site aims to help with this by providing a central place for the multiscale modeling community to share their research with colleagues, learn what others are doing in return, and network.
+            <b>Scientists need to share their work and collaborate with others in order to move science forward. </b> The IMAG site aims to help by providing a central place for the multiscale modeling community to share their research with colleagues, learn what others are doing in return, and network.
 </p>
           <p>
-            However, very few users manage to sign up and share their work. They work on groundbreaking biomedical science, <b>but the platform they use to share it with others is unintuitive, confusing, and nearly requires a (second) PhD for them to understand.</b>
+            However, very few users successfully accomplish those tasks. They work on groundbreaking biomedical science, <b> but the platform they use to share and find this research is unintuitive, confusing, and nearly requires a (second) PhD for them to understand.</b>
           </p>
           <h3>Solution</h3>
           <p>
-            I redesigned the site during my UX design fellowship at the National Institutes of Health (NIH). I aimed to make it as easy and intuitive to use as possible,  so more researchers can share their work.</p>
+            I worked on redesigning the IMAG site during my UX design fellowship at the National Institutes of Health (NIH). I aimed to make this government site easy and intuitive to use to help biomedical researchers share their work, find what others are doing, and collaborate.
+          </p>
           <p>
-            The redesign (currently in implementation) has been received really positively!
+            In an end-of-project survey conducted with 5 site users,
           </p>
 
           <div className="three-col-container">
             <div className="col">
-              <div className="large-stat">100%</div>
-              <div className="stat-text">of users <b>prefer the redesign</b></div>
+              <div className="large-stat">5/5</div>
+              <div className="stat-text">of users <b>preferred the new design</b></div>
             </div>
             <div className="col">
-              <div className="large-stat">100%</div>
-              <div className="stat-text">feel the redesign is <b>easy to use</b></div>
+              <div className="large-stat">5/5</div>
+              <div className="stat-text">felt the new design was <b>easy to use</b></div>
             </div>
             <div className="col">
-              <div className="large-stat">100%</div>
-              <div className="stat-text">feel the redesign is <b>intuitive</b></div>
+              <div className="large-stat">5/5</div>
+              <div className="stat-text">felt <b>very confident</b> using the new design</div>
             </div>
           </div>
-          <div className="caption">Based on survey with 5 site users</div>
           <div className="medium-overflow">
             <img src={SneakPeak} />
           </div>
-          <div className="caption">Sneak peak of redesign</div>
+          <div className="caption">Sneak peak of new design</div>
           <div className="center-text">
-            <Link to="#imag-redesign" className="btn-big">Jump to full redesign</Link>
+            <Link to="#imag-redesign" className="btn-big">Jump to full design</Link>
           </div>
 
           <h3>Challenges</h3>
-          <p>This being my first project in government, I faced a few challenges:
+          <p>This being my first government project, I faced a few challenges:
       </p>
           <div className="icon-list">
-            <div className="icon-box">
-              <span class="icon"><FontAwesomeIcon icon={faAward} /></span>
-              <div>
-                <h1>Rethink how to measure success</h1>
-                <p>
-                  Number of users, bounce rate, session duration didn’t matter to my team. In fact, too many users would overwhelm them. The site’s ease of use was most important.
-</p>
-              </div>
-            </div>
-            <div className="icon-box">
-              <div class="icon"><FontAwesomeIcon icon={faQuestion} /></div>
-              <div>
-                <h1>Vague project</h1>
-                <p>
-                  The task I was given—improve the UX of the site—was broad for 10 weeks. I was responsible for setting the specific design goals and planning my schedule for the fellowship.
-          </p>
-              </div>
-            </div>
             <div className="icon-box">
               <div class="icon"><FontAwesomeIcon icon={faLaptopCode} /></div>
               <div>
@@ -155,6 +137,24 @@ function Journie() {
                   I was the only person with design experience on my team, so I leaned on my mentors and books like <i>The User Experience Team of One</i> for guidance.
           </p>
               </div>
+            </div>
+          </div>
+          <div className="icon-box">
+            <div class="icon"><FontAwesomeIcon icon={faQuestion} /></div>
+            <div>
+              <h1>Vague project</h1>
+              <p>
+                The task I was given—improve the UX of the site—was broad for 10 weeks. I was responsible for setting the specific design goals and planning my schedule for the fellowship.
+          </p>
+            </div>
+          </div>
+          <div className="icon-box">
+            <span class="icon"><FontAwesomeIcon icon={faAward} /></span>
+            <div>
+              <h1>Understand government goals</h1>
+              <p>
+                Getting significantly more users wasn't a priority for my team because it meant more work for them. Helping scientists provide and access useful information was most important.
+</p>
             </div>
           </div>
         </div>
@@ -204,7 +204,7 @@ function Journie() {
         Now familiar with the existing site, it was time to research the end users.
       </p>
       <p>
-      <b>I interviewed 5 users</b> about their experiences and tested the existing site on them. My goal was to identify pain points and issues people face on the site.
+        <b>I interviewed 5 users</b> about their experiences and tested the existing site on them. My goal was to identify pain points and issues people face on the site.
       </p>
       <img src={Interviews} className="shadow" />
       <div className="caption">Affinity diagram</div>
@@ -212,41 +212,41 @@ function Journie() {
         Some of the <b>biggest issues</b> I identified with the current site:
       </p>
 
-<div className="small-overflow">
-      <div className="usability-box">
-        <img src={FindContent} className="shadow" />
-        <div>
-          <h1>Hard to find helpful content</h1>
-          <p>Researchers missed useful resources like models because they were hidden. Plus, they struggled to navigate to resources they <i>did</i> know existed.
+      <div className="small-overflow">
+        <div className="usability-box">
+          <img src={FindContent} className="shadow" />
+          <div>
+            <h1>Hard to find helpful content</h1>
+            <p>Researchers missed useful resources like models because they were hidden. Plus, they struggled to navigate to resources they <i>did</i> know existed.
 </p>
+          </div>
         </div>
-      </div>
-      <div className="usability-box">
-        <img src={AddPages} className="shadow" />
-        <div>
-          <h1>Confusing way of creating pages</h1>
-          <p>Researchers with PhDs in Computer Science still had to read instructions or email for support to figure out how to create a page on the wiki. They would also only post when instructed to, not knowing they were allowed to contribute to the wiki as they please.
+        <div className="usability-box">
+          <img src={SignUp} className="shadow" />
+          <div>
+            <h1>Complex sign-up process</h1>
+            <p>Researchers were annoyed by how complex the Create Account form is. It asks for difficult-to-find information and doesn’t prevent common errors.
+</p>
+          </div>
+        </div>
+        <div className="usability-box">
+          <img src={AddPages} className="shadow" />
+          <div>
+            <h1>Confusing way of creating pages</h1>
+            <p>Researchers with PhDs in Computer Science still had to read instructions or email for support to figure out how to create a page on the wiki. They would also only post when instructed to, not knowing they were allowed to contribute to the wiki as they please.
               </p>
+          </div>
         </div>
-      </div>
-      <div className="usability-box">
-        <img src={SignUp} className="shadow" />
-        <div>
-        <h1>Complex sign-up process</h1>
-          <p>Researchers were annoyed by how complex the Create Account form is. It asks for difficult-to-find information and doesn’t prevent common errors.
-</p>
-        </div>
-      </div>
-      <div className="usability-box">
-        <img src={MTD} className="shadow" />
-        <div>
-        <h1>Unuseful model repository
+        <div className="usability-box">
+          <img src={MTD} className="shadow" />
+          <div>
+            <h1>Unuseful model repository
 </h1>
-          <p>
-            Researchers felt Models, Tools, & Databases page wasn’t organized in a useful way, so they had no reason to use it. They struggled to find models relevant to their work.
+            <p>
+              Researchers felt Models, Tools, & Databases page wasn’t organized in a useful way, so they had no reason to use it. They struggled to find models relevant to their work.
               </p>
+          </div>
         </div>
-      </div>
       </div>
 
       <h3>Persona</h3>
@@ -257,7 +257,7 @@ function Journie() {
       <h3>Comparative analysis</h3>
       <p>
         Users have likely used other wikis, NIH sites, and model repositories, so they come to the IMAG site with certain expectations. To learn what standards and best practices users likely expect in the site, I chose and <b>analyzed 5 comparable sites.</b>
-</p>
+      </p>
       <div className="image-row-small">
         <img className="competitor" src={Wikipedia} />
         <img className="competitor" src={SimTK} />
@@ -266,7 +266,7 @@ function Journie() {
         <img className="competitor" src={SGCI} />
       </div>
       <p>Some of the <b>best practices the site wasn’t following:</b>
-</p>
+      </p>
       <ul>
         <li>Make the option to edit visible on every editable page</li>
         <li>Allow users to see their personal edit history</li>
@@ -289,16 +289,16 @@ function Journie() {
             <img src={Sketches} />
           </div>
           <h3>Paper Prototypes</h3>
-          <p>Since the site centers around multiscale modeling, the Models page was critical to get right. According to user feedback, it also needed the most improvement. I paper-prototyped 3 versions to get feedback. 
+          <p>Since the site centers around multiscale modeling, the Models page was critical to get right. According to user feedback, it also needed the most improvement. I paper-prototyped 3 versions to get feedback.
 </p>
-<p><b>I tested them with 3 researchers,</b> and all found the first prototype easiest to use, familiar, and useful. 
+          <p><b>I tested them with 3 researchers,</b> and all found the first prototype easiest to use, familiar, and useful.
 </p>
-<div className="medium-overflow">
+          <div className="medium-overflow">
             <img src={Prototypes} />
           </div>
           <h3>Wireframes</h3>
           <p>
-          With a clearer idea of which ideas were feasible and promising, I created low-fidelity wireframes to test the proposed solutions.
+            With a clearer idea of which ideas were feasible and promising, I created low-fidelity wireframes to test the proposed solutions.
       </p>
           <div className="medium-overflow">
             <img src={Wireframes} />
@@ -306,7 +306,7 @@ function Journie() {
 
           <h3>Usability testing</h3>
           <p>
-            I conducted usability testing with <b>11 users,</b> mostly college professors and research trainees, to validate solutions and identify issues with the prototype. 
+            I conducted usability testing with <b>8 users,</b> mostly college professors and research trainees, to validate solutions and identify issues with the prototype.
           </p>
           <p>I prepared personalized interview guides for each participant based on their IMAG and site involvement and had them walk through tasks while thinking out loud.
           </p>
@@ -324,18 +324,18 @@ function Journie() {
         </div>
       </div>
 
-      <h5>ITERATIONS</h5>
+      <h5 id="imag-redesign">THE NEW DESIGN</h5>
       <h3>Homepage</h3>
       <p>The homepage is sparse and doesn’t direct researchers to the information most useful to them. Users find funding opportunities, models, upcoming meetings, and support guides helpful but didn’t know the site had these until my user test with them.
           </p>
       <p>I added direct links to these helpful resources to the home page to make them more discoverable.
       </p>
-      <div className="medium-overflow">
+      <div className="large-overflow">
         <img src={Homepage} />
       </div>
       <blockquote>
         <div className="quote">
-          “Funding opportunities and upcoming meetings are good gateways.”
+          Funding opportunities and upcoming meetings are good gateways.
           </div>
         <div className="quote-citation">– User 10</div>
       </blockquote>
@@ -347,16 +347,16 @@ function Journie() {
 </p>
       <p>I also learned that account holders didn’t know what they were allowed to do on the site, so I added a welcome message to explain permissions to new users.
 </p>
-      <div className="medium-overflow">
+      <div className="large-overflow">
         <img src={CreateAccount} />
       </div>
 
       <h3>User profile</h3>
       <p>To encourage and make it as easy as possible to post content to the site, I provided add buttons allowing users to add important types of pages immediately after logging in. </p>
-      
+
       <p>There’s no place to see your past contributions, so users had email Support or search the site to find old posts. I created a new section under the user profile housing the users’ past contributions.
       </p>
-      <div className="medium-overflow">
+      <div className="large-overflow">
         <img src={Profile} />
       </div>
 
@@ -365,18 +365,18 @@ function Journie() {
       </p>
       <p>The process of adding a model (and content in general) to the wiki is extremely unintuitive to users. I simplified it by providing an “Add” button on the page (and similar pages), which fit users’ expectations.
 </p>
-      <div className="medium-overflow">
+      <div className="large-overflow">
         <img src={Models} />
       </div>
       <blockquote>
         <div className="quote">
-          “I like this! It's better than the current page.”
+          I like this! It's better than the current page.
           </div>
         <div className="quote-citation">– User 6</div>
       </blockquote>
       <blockquote>
         <div className="quote">
-          “The button to add a model is much easier than the current way.”
+          The button to add a model is much easier than the current way.
           </div>
         <div className="quote-citation">– User 13</div>
       </blockquote>
@@ -384,29 +384,29 @@ function Journie() {
       <h3>Model details page</h3>
       <p>All details about a model have the same level of visual hierarchy, making it hard for researchers to distinguish the information they care about. I restructured these wiki pages to prioritize what users care about, like the link to the model.
 </p>
-      <div className="medium-overflow">
+      <div className="large-overflow">
         <img src={Model} />
       </div>
       <blockquote>
         <div className="quote">
-        “I like the metadata on the side and that you provide a direct link to the model.”
+          I like the metadata on the side and that you provide a direct link to the model.
           </div>
         <div className="quote-citation">– User 7</div>
       </blockquote>
 
       <h3>Working Groups landing page</h3>
-      <p>Working Groups are mini-communities that focus on a specific area of multiscale modeling, and they report their activities too. 
+      <p>Working Groups are mini-communities that focus on a specific area of multiscale modeling, and they report their activities too.
       </p>
       <p>Despite visiting the Working Groups page multiple times before, researchers still forget where it is in the navigation menu. I changed the menu to make its location crystal clear.
       </p>
       <p>Users also complained of “unnecessary friction” to get to a specific group’s page, so I redesigned the landing page to reduce the amount of clicks it takes to get to a group’s page from 4 to 2.
       </p>
-      <div className="medium-overflow">
+      <div className="large-overflow">
         <img src={WorkingGroups} />
       </div>
       <blockquote>
         <div className="quote">
-        “I like the new 'working groups' tab. This was always difficult to find and not intuitive.”
+          I like the new 'working groups' tab. This was always difficult to find and not intuitive.
           </div>
         <div className="quote-citation">– User</div>
       </blockquote>
@@ -416,7 +416,7 @@ function Journie() {
       </p>
       <p>How to join a group is also important to users, but the process varies between groups. It usually involves emailing a group leader, which takes up their time. I designed a process to automatically join groups from the site to streamline that.
 </p>
-      <div className="medium-overflow">
+      <div className="large-overflow">
         <img src={WGDetails} />
       </div>
 
@@ -424,10 +424,24 @@ function Journie() {
         <div className="project">
           <h5>RESULTS</h5>
           <h3>Feedback</h3>
-          <p>In a survey I conducted with 5 site users, I received very positive feedback about the new design!
+          <p>Before handing off the new design to my team, I wanted to further evaluate its overall usability.
+            </p>
+          <p>I adapted the <a href="https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html" target="_blank"><b>System Usability Scale (SUS)</b></a> and had <b>5 site users</b> anonymously score these statements from it on a scale of strongly disagree to strongly agree:
 </p>
+          <div className="emphasized-text">
+            “I thought the new design was easy to use.”
+  <div className="medium-stat">5/5 agreed</div>
+          </div>
+          <div className="emphasized-text">
+            “I would imagine that most people would learn to use this new design very quickly.”
+  <div className="medium-stat">5/5 strongly agreed</div>
+          </div>
+          <div className="emphasized-text">
+            “I felt very confident using the new design”
+  <div className="medium-stat">5/5 strongly agreed</div>
+          </div>
 
-          <div className="three-col-container">
+          {/* <div className="three-col-container">
             <div className="col">
               <div className="large-stat">5/5</div>
               <div className="stat-text">of users <b>prefer the redesign</b></div>
@@ -444,31 +458,53 @@ function Journie() {
               <div className="large-stat">5/5</div>
               <div className="stat-text">feel <b>very confident</b> using the redesign</div>
             </div>
+          </div> */}
+          <p>Additional comments:</p>
+          <blockquote>
+            <div className="quote">
+              I am <b>very impressed</b> with this project. It represents a huge effort that is very targeted yet thorough. Seeing the side by side comparisons of the layouts makes the differences very clear.
           </div>
+            <div className="quote-citation">– User</div>
+          </blockquote>
+          <blockquote>
+            <div className="quote">
+              The new design is good—it looks <b>less cluttered</b> and is <b>easier to use.</b>
+          </div>
+            <div className="quote-citation">– User</div>
+          </blockquote>
+          <blockquote>
+            <div className="quote">
+              I liked that the layout <b>fits my natural instincts</b> to navigate and find relevant pages and information.
+          </div>
+            <div className="quote-citation">– User</div>
+          </blockquote>
 
-          <blockquote>
-            <div className="quote">
-              “I am <b>very impressed</b> with this project. It represents a huge effort that is very targeted yet thorough. Seeing the side by side comparisons of the layouts makes the differences very clear.”
-          </div>
-            <div className="quote-citation">– User</div>
-          </blockquote>
-          <blockquote>
-            <div className="quote">
-              “The new design is good—it looks <b>less cluttered</b> and is <b>easier to use.</b>”
-          </div>
-            <div className="quote-citation">– User</div>
-          </blockquote>
-          <blockquote>
-            <div className="quote">
-              “I liked that the layout <b>fits my natural instincts</b> to navigate and find relevant pages and information.”
-          </div>
-            <div className="quote-citation">– User</div>
-          </blockquote>
+          <h3>Future opportunities</h3>
+          <p>Though the new design received very positive feedback, there were still some problems I uncovered in user research that I didn’t have time to improve. Here are areas that could be worked on in the future:
+          </p>
+          <ol>
+            <li>
+              <h1>Revising the Resource Credibility Assessment form
+</h1>
+              <p>Users were very frustrated that this complex form takes half a work day to complete and has unclear benefits. I negotiated to make this form optional but recommended to my team that they make it easier to fill out in the future.
+</p>
+            </li>
+            <li>
+              <h1>Expanding target audience to the public</h1>
+              <p>Many researchers work on science that could benefit the public. A next step for the IMAG site could be to make the site’s jargon-heavy resources understandable and helpful to non-scientists.
+</p>
+            </li>
+            <li>
+              <h1>Reaching users through social media</h1>
+              <p>Users told me that they wished the site has a Twitter, LinkedIn, or Slack, so they can stay updated on activities passively rather than actively have to check the IMAG site. Incorporating a social media strategy would get information to these researchers faster and be more efficient for their workflow.
+              </p>
+            </li>
+          </ol>
 
           <h3>Things I learned</h3>
           <div className="icon-list">
             <div className="icon-box">
-              <div class="icon"><FontAwesomeIcon icon={faQuestion} /></div>
+              <div class="icon"><FontAwesomeIcon icon={faCode} /></div>
               <div>
                 <h1>Understand the backend</h1>
                 <p>
@@ -477,7 +513,7 @@ function Journie() {
               </div>
             </div>
             <div className="icon-box">
-              <div class="icon"><FontAwesomeIcon icon={faLaptopCode} /></div>
+              <div class="icon"><FontAwesomeIcon icon={faEdit} /></div>
               <div>
                 <h1>Revise forms carefully</h1>
                 <p>
@@ -485,7 +521,7 @@ function Journie() {
 </p>
               </div>
             </div>
-            <div className="icon-box">
+            {/* <div className="icon-box">
               <span class="icon"><FontAwesomeIcon icon={faUser} /></span>
               <div>
                 <h1>Balance stakeholder and user needs</h1>
@@ -493,10 +529,12 @@ function Journie() {
                   I needed to work on balancing stakeholders’ and users’ needs a lot with this project. For instance, researchers vented frustration to me about having to fill out a certain long, complicated form, but stakeholders in IMAG felt it was important they complete it if they could. As a result, I negotiated to make the form optional but incorporated design choices to strongly encourage them to fill it out.
             </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <h3>Thanks for reading!&nbsp;&nbsp;🎉</h3>
-          <Link to="#top" className="btn-big">Back to top</Link>
+          <div className="center-text">
+            <Link to="#top" className="btn-big">Back to top</Link>
+          </div>
         </div>
       </div>
     </div>

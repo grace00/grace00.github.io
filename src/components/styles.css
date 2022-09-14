@@ -76,10 +76,19 @@ video {
     box-shadow: 0px 0px 12px var(--light-outline); 
 }
 blockquote {
-    border-left: 8px solid var(--main-blue);
-    padding-left: 24px;
+    border-left: 6px solid var(--main-blue);
+    padding: 0 0 0 36px;
     margin: 0 0 48px 0;
+    position: relative;
 }
+blockquote::before{
+    content: "\201C";
+    color: var(--main-blue);
+    font-size: 2.6em;
+    position: absolute;
+    left: 14px;
+    top: -4px;
+  }
 blockquote .quote {
     font-style: italic;
     font-size: 20px;
@@ -225,7 +234,7 @@ nav ul li {
 
 /* -----Projects----*/
 .introduction {
-    margin: 136px 0;
+    margin: 96px 0;
 }
 .header {
     /* font-family: 'Proxima Nova'; */
@@ -332,8 +341,15 @@ nav ul li {
     width: 100%;
     margin: 32px 0;
 }
+.project a {
+    color: var(--main-blue);
+    transition: 0.4s;
+}
+.project a.btn-big {
+    color: white;
+}
 .project a:hover {
-    color: var(--darkest-blue);
+    color: var(--darker-blue);
 }
 .full-width.overlay img {
     height: 48vh;
@@ -459,8 +475,13 @@ ol li::before {
     margin-bottom: 40px;
 }
 .col {
-    width: 23%; 
+    width: 29%; 
     text-align: center;
+}
+.medium-stat {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--main-blue);
 }
 .large-stat {
     font-size: 56px;

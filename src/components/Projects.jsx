@@ -18,7 +18,7 @@ function Projects() {
 					<p className="header">Hi! I’m Grace.</p>
 					<div className="flex-container">
 						{/*<img src={art} /> <img src={code} />*/}
-						<p className="sub-header">I’m a rising junior at Stanford studying Computer Science and an incoming Instructional Design Intern @ <a href="https://www.apple.com/" target="_blank">Apple</a>. Previously @ the <a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a> and <a href="https://interns.latimes.com/technology/" target="_blank">The Los Angeles Times</a>.</p>
+						<p className="sub-header">I’m a senior at Stanford graduating in June 2023. <br/>Previously @ <a href="https://about.facebook.com/" target="_blank">Meta</a>, <a href="https://www.amazon.com/" target="_blank">Amazon</a>, and <a href="https://www.nih.gov/" target="_blank">NIH</a>.</p>
 					</div>
 				</div>
 				<div className="all-projects">

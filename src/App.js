@@ -53,11 +53,9 @@ function About() {
       </h1>
       <p>I’m a designer, creative technologist, and writer. As a kid, I would fold paper and draw buttons on them to “prototype” my dream computers. Now I’m a computer science/HCI student at Stanford who loves designing things and bringing them to life with code. 
       </p>
-      <p>I’m an incoming instructional design intern at Apple, and I previously designed for NIH and The Los Angeles Times.
-      </p>
       <p>Outside of design, you'll find me watching a Joss Whedon show or trying to will myself to exercise.
       </p>
-      <p>I also played viola for seven years! Not sure how I’ll connect this to my design work yet, but maybe I’ll find a way.
+      <p>I also like to write! I've written instructions for Apple products, advice articles for Girls' Life Magazine, and satire pieces for McSweeney's.
       </p>
       </div>
     </div>

@@ -175,7 +175,7 @@ function Journie() {
       </div>
 
       <h5>PROTOTYPING</h5>
-      <h3>Exploring different directions and getting feedback</h3>
+      <h3>Testing early directions and converging</h3>
       <p>
         We created paper prototypes based on our idea and <b>tested them on 3 people</b> to decide which concept was best for users.
       </p>
@@ -210,7 +210,7 @@ function Journie() {
       <div className="full-width section-container gray">
         <div className="project">
           <h5>USABILITY TESTING</h5>
-          <h3>Getting feedback and iterating the design 🔄</h3>
+          <h3>Testing and iterating the design 🔄</h3>
           <p>
             Between wireframes and the final prototype, we <b>tested the app with 6 users:</b> Stanford Rideshare members and other Stanford affiliates.
       </p>
