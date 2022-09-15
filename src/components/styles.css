@@ -2,12 +2,14 @@
 
 :root {
     --main-black: #374151; /*272f31*/
-    --light-black: #6B7280;
+    --light-black: #848a96d0;
     --light-blue: #34c2cc23;
     --main-blue: #34C3CC;
     --darker-blue: #21a4ad;
     --darkest-blue: #12838b;
     --main-light-black: #838e91;
+    --main-purple: #C161E2;
+    --light-purple: #c261e271;
     --light-gray: #F9FAFB;
     --light-outline: #EAEBEF;
 }
@@ -245,7 +247,7 @@ nav ul li {
 .sub-header {
     font-size: 22px;
     font-weight: 400;
-    width: 50%;
+    width: 90%;
     line-height: 150%;
 }
 .introduction img {
@@ -254,13 +256,12 @@ nav ul li {
     width: 24px;
     margin: 0px 4px -4px 4px;
 }
-.introduction a {
+a {
     font-weight: 600;
-    color: var(--main-blue);
     transition: 0.3s;
 }
-.introduction a:hover {
-    color: var(--darker-blue);
+a:hover {
+    filter: brightness(0.7);
 }
 .flex-container {
     justify-content: left;
@@ -319,10 +320,10 @@ nav ul li {
 
 /* -----about page----*/
 .profile-pic {
-    margin-top: 108px;
-    float: left;
-    box-shadow: 12px 12px 0 var(--light-blue);
+    margin-top: 32px;
+    box-shadow: 12px 12px 0 var(--light-purple);
 }
+/*
 .about-text {
     float: left;
     margin-left: 10%;
@@ -330,6 +331,12 @@ nav ul li {
 }
 .about-text:after{
     clear: both;
+}*/
+.about a {
+    color: #C161E2;
+}
+.about p {
+    size: 29px;
 }
 
 /* -----project pages----*/
@@ -342,14 +349,10 @@ nav ul li {
     margin: 32px 0;
 }
 .project a {
-    color: var(--main-blue);
     transition: 0.4s;
 }
 .project a.btn-big {
     color: white;
-}
-.project a:hover {
-    color: var(--darker-blue);
 }
 .full-width.overlay img {
     height: 48vh;
@@ -608,8 +611,8 @@ img.reduce-size {
 .footer {
     color: var(--light-black);
     clear: both;
-    margin-bottom: 24px;
-    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-top: 80px;
     text-align: center;
 }
 .footer img {
@@ -693,3 +696,19 @@ nav {
         margin: 0 auto 56px auto;
     }
 }
+
+
+
+.introduction a.meta-color {
+    color: #017FF8;
+}
+.introduction a.amazon-color {
+    color: #F8991C;
+}
+.introduction a.lat-color {
+    color: #C161E2;
+}
+.introduction a.mcsweeneys-color {
+    color: #47CC54;
+}
+

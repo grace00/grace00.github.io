@@ -2,7 +2,6 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './styles.css';
 import Preview from './images/journie-project-preview.png'
-import Report from './images/CS206_Paper.pdf';
 import InterviewGuide from './images/journie-interview-guide.png';
 import InterviewNotes from './images/journie-interview-notes.png';
 import JourneyMap from './images/journie-journey-map.png';
