@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8a5a7de8.chunk.css",
-    "main.js": "/portfolio/static/js/main.5387dac8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5387dac8.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d866c1c7.chunk.css",
+    "main.js": "/portfolio/static/js/main.6ec90417.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6ec90417.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
-    "static/js/2.450b835e.chunk.js": "/portfolio/static/js/2.450b835e.chunk.js",
-    "static/js/2.450b835e.chunk.js.map": "/portfolio/static/js/2.450b835e.chunk.js.map",
+    "static/js/2.68018059.chunk.js": "/portfolio/static/js/2.68018059.chunk.js",
+    "static/js/2.68018059.chunk.js.map": "/portfolio/static/js/2.68018059.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.13c634c85b3212d568e749921ea829e9.js": "/portfolio/precache-manifest.13c634c85b3212d568e749921ea829e9.js",
+    "precache-manifest.b2af92387eb322ea09f64ecfc3250207.js": "/portfolio/precache-manifest.b2af92387eb322ea09f64ecfc3250207.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.8a5a7de8.chunk.css.map": "/portfolio/static/css/main.8a5a7de8.chunk.css.map",
+    "static/css/main.d866c1c7.chunk.css.map": "/portfolio/static/css/main.d866c1c7.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
     "static/media/Final_Demo.mp4": "/portfolio/static/media/Final_Demo.7753d8fc.mp4",
     "static/media/NIBIB.png": "/portfolio/static/media/NIBIB.3c8f3636.png",
@@ -104,14 +104,13 @@
     "static/media/test2.png": "/portfolio/static/media/test2.a13792ae.png",
     "static/media/texteditor.png": "/portfolio/static/media/texteditor.b925d808.png",
     "static/media/transcription.png": "/portfolio/static/media/transcription.14d8dd5a.png",
-    "static/media/webmdpreview@2x.png": "/portfolio/static/media/webmdpreview@2x.102d5b12.png",
     "static/media/wikipedia.png": "/portfolio/static/media/wikipedia.d451e7b1.png",
     "static/media/youngme.png": "/portfolio/static/media/youngme.fda2f4ef.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f84e4eb0.js",
-    "static/js/2.450b835e.chunk.js",
-    "static/css/main.8a5a7de8.chunk.css",
-    "static/js/main.5387dac8.chunk.js"
+    "static/js/2.68018059.chunk.js",
+    "static/css/main.d866c1c7.chunk.css",
+    "static/js/main.6ec90417.chunk.js"
   ]
 }
