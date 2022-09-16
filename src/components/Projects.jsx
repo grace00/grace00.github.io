@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import FadeIn from 'react-fade-in';
 import './styles.css';
-import jobsite from './images/jobmockup@2x.png'
-import leaflet from './images/leafletmockup@2x.png'
+import leaflet from './images/leafletmockup.png'
 import journie from './images/journie-mockup.png'
-import imag from './images/imag-preview.png'
+import imag from './images/imagpreview.png'
+import meta from './images/metapreview.png'
 
 
 function Projects() {
@@ -25,6 +25,17 @@ function Projects() {
 					</div>
 				</div>
 				<div className="all-projects">
+				<div class="item">
+						<Link to="/meta-internship">
+							<div>
+								<span class="vertical-helper"></span>
+								<img src={meta} className="preview-image" />
+							</div>
+							<h1>Meta</h1>
+							<div className="small-text">INTERNSHIP • SUMMER 2022</div>
+							<p>Designing an onboarding experience for business owners.</p>
+						</Link>
+					</div>
 				<div class="item">
 						<Link to="/imag">
 							<div>
@@ -49,7 +60,7 @@ function Projects() {
 					</div>
 					<div class="item">
 						<Link to="/leaflet">
-							<div className="overlay gray">
+							<div>
 								<span class="vertical-helper"></span>
 								<img src={leaflet} className="preview-image" />
 							</div>
@@ -58,18 +69,7 @@ function Projects() {
 							<p>Designing and developing a transcription application for journalists.</p>
 						</Link>
 					</div>
-					<div class="item">
-						<Link to="/daily-job-site">
-							<div className="overlay purple">
-								<span class="vertical-helper"></span>
-								<img src={jobsite} className="preview-image" />
-							</div>
-							<h1>Job Tree</h1>
-							<div className="small-text">PROJECT • FULLSTACK DEVELOPMENT • DESIGN </div>
-							<p>Designing and developing a jobs search site for Stanford students.</p>
-						</Link>
 					</div>
-				</div>
 			</FadeIn>
 		</div>
 	);

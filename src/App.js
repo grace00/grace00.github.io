@@ -5,10 +5,11 @@ import ScrollToTop from 'react-router-scroll-top';
 import './components/styles.css';
 import NavBar from './components/NavBar';
 import Leaflet from './components/Leaflet.jsx';
+import Meta from './components/Meta.jsx';
 import Imag from './components/Imag.jsx';
 import Journie from './components/Journie.jsx';
 import Projects from './components/Projects';
-import JobsBoard from './components/JobsBoard.jsx';
+import JobsBoard from './components/old/JobsBoard.jsx';
 import FadeIn from 'react-fade-in';
 import youngme from './components/images/youngme.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,19 +22,21 @@ class App extends React.Component {
   componentDidUpdate = () => ReactGA.pageview(window.location.pathname + window.location.search);
   render() {
     return (
-      <div className="main-container">
+      <div>
         <HashRouter basename="/portfolio" >
           <ScrollToTop>
             <NavBar />
+            <div className="main-container">
             <Switch>
               <Route exact path='/' component={Projects} />
+              <Route exact path='/meta-internship' component={Meta} />
               <Route exact path='/imag' component={Imag} />
               <Route exact path='/journie' component={Journie} />
               <Route exact path='/leaflet' component={Leaflet} />
-              <Route exact path='/daily-job-site' component={JobsBoard} />
               <Route exact path='/about' component={About} />
               <Route path='*' component={Projects} />
             </Switch>
+            </div >
             <Footer />
           </ScrollToTop>
         </HashRouter>
@@ -70,6 +73,7 @@ function About() {
 
 function Footer() {
   return (
+
     <div className="footer">
       Developed by me with <FontAwesomeIcon icon={faEye} /> and <FontAwesomeIcon icon={faHands} />
     </div>

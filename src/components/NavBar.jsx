@@ -6,8 +6,8 @@ import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div>
-        <nav id="top">
+    <div id="top">
+        <nav>
           <NavLink to="/" className="name">Grace Zhou</NavLink>
           <ul>
             <li><NavLink to="/" className="underline" exact={true} activeClassName='is-active'>Work</NavLink></li>

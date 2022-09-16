@@ -56,11 +56,11 @@ function Journie() {
 
       <div className="row">
         <h4>Context</h4>
-        <span className="proj-detail">In the fall of 2020, I was a UX design fellow at the National Institutes of Health (NIH). I was tasked with improving the user experience of the IMAG wiki site, the central spot for sharing research and resources related to multiscale modeling.
+        <span className="proj-detail">During my UX design fellowship at the National Institutes of Health (NIH), I was tasked with improving the user experience of the IMAG wiki site, the central spot for sharing research and resources related to multiscale modeling.
         </span>
 
         <div className="column-left">
-          <h4>Timeline</h4><span className="proj-detail">10-week internship (Oct - Dec 2020)</span>
+          <h4>Timeline</h4><span className="proj-detail">10-week internship</span>
           <h4>Role</h4><span className="proj-detail">UX/UI designer, researcher</span>
         </div>
         <div className="column">
@@ -319,7 +319,7 @@ function Journie() {
 </p>
 
           {/* <h3>Feedback</h3> */}
-          <p>To prevent any problems from being missed, I tracked all of the prototype feedback and issues in a spreadsheet:</p>
+          <p>To prevent any problems from being missed, I tracked all of the prototype feedback and issues in a spreadsheet. Here's a snippet of the full sheet:</p>
           <img src={Airtable} className="shadow" />
         </div>
       </div>

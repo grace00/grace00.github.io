@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import leaflet from './images/leafletmockup@2x.png'
+import leaflet from './images/leafletprototype.png'
 import Report from './images/CS206_Paper.pdf';
 import demo from './images/Final_Demo.mp4';
 import Competitors from './images/leafletcompetitormatrix.png';
@@ -24,9 +24,9 @@ import TextEditor from './images/texteditor.png';
 function Leaflet() {
   return (
     <div className="project">
-      <div className="overlay gray full-width">
+      <div className="overlay leaflet full-width">
         <h1 className="project-title">Leaflet</h1>
-        <p className="subtitle">A transcription application for journalists.</p>
+        <p className="subtitle">Developing a transcription application for journalists.</p>
         <img src={leaflet} />
       </div>
 
