@@ -61,7 +61,7 @@ function Leaflet() {
         <li>I <b>conducted all the usability testing sessions</b> and incorporated the feedback into the final developed product.</li>
       </ul>
 
-      <div className="full-width section-container blue">
+      <div className="full-width section-container gray">
         <div className="project">
           <h2>Demo</h2>
           <video width="100%" controls>

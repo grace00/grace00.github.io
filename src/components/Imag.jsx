@@ -70,7 +70,7 @@ function Journie() {
         </div>
       </div>
 
-      <div className="full-width section-container gray">
+      <div className="full-width imag section-container gray">
         <div className="project">
           <h5 id="#imag-overview">OVERVIEW</h5>
           <h3>Problem</h3>

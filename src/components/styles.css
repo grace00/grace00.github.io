@@ -9,7 +9,7 @@
     --darkest-blue: #12838b;
     --main-light-black: #838e91;
     --main-purple: #C161E2;
-    --light-purple: #efbeffa1;
+    --light-purple: #F1E7FF;
     --light-gray: #F9FAFB;
     --light-outline: #EAEBEF;
 }
@@ -184,7 +184,7 @@ blockquote .quote-citation {
     display: inline-block;
     margin: 16px 0;
     padding: 12px 24px 12px 24px;
-    background-color: var(--main-blue);
+    background-color: var(--main-purple);
     color: white;
     border-radius: 0px;
     transition: all .4s ease;
@@ -198,6 +198,9 @@ blockquote .quote-citation {
 }
 .journie .btn-big {
     background-color: #49d191;
+}
+.imag .btn-big {
+    background-color: var(--main-blue);
 }
 
 
@@ -603,7 +606,7 @@ img.reduce-size {
     grid-row-gap: 28px;
 }
 .box {
-    background-color: var(--light-blue);
+    background-color: var(--light-purple);
     padding: 24px;
     border-radius: 16px;
     display: flex;
@@ -611,7 +614,7 @@ img.reduce-size {
     line-height: 28px;
 }
 .journie .box {
-    background-color: #43e99c23;
+    background-color: #63dba323;
 }
 
 /* -----footer----*/
