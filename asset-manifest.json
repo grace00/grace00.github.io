@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8db6aa82.chunk.css",
+    "main.css": "/portfolio/static/css/main.680b789c.chunk.css",
     "main.js": "/portfolio/static/js/main.3416d55f.chunk.js",
     "main.js.map": "/portfolio/static/js/main.3416d55f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
@@ -8,9 +8,9 @@
     "static/js/2.1ef44d43.chunk.js": "/portfolio/static/js/2.1ef44d43.chunk.js",
     "static/js/2.1ef44d43.chunk.js.map": "/portfolio/static/js/2.1ef44d43.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.6e452b505caae01ce096dafff187f33c.js": "/portfolio/precache-manifest.6e452b505caae01ce096dafff187f33c.js",
+    "precache-manifest.0fadf2e2319b83250456302599314ab8.js": "/portfolio/precache-manifest.0fadf2e2319b83250456302599314ab8.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.8db6aa82.chunk.css.map": "/portfolio/static/css/main.8db6aa82.chunk.css.map",
+    "static/css/main.680b789c.chunk.css.map": "/portfolio/static/css/main.680b789c.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
     "static/media/Final_Demo.mp4": "/portfolio/static/media/Final_Demo.7753d8fc.mp4",
     "static/media/NIBIB.png": "/portfolio/static/media/NIBIB.3c8f3636.png",
@@ -99,7 +99,7 @@
   "entrypoints": [
     "static/js/runtime-main.f84e4eb0.js",
     "static/js/2.1ef44d43.chunk.js",
-    "static/css/main.8db6aa82.chunk.css",
+    "static/css/main.680b789c.chunk.css",
     "static/js/main.3416d55f.chunk.js"
   ]
 }
