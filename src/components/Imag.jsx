@@ -198,6 +198,7 @@ function Journie() {
           </div>
         </div>
       </div>
+      
       <br />
       <h3>User interviews and initial testing</h3>
       <p>

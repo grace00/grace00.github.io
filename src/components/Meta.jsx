@@ -7,6 +7,11 @@ import Dropoff from './images/dropoff.JPG'
 import journie from './images/journie-mockup.png'
 import imag from './images/imagpreview.png'
 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuestion, faLaptopCode, faUser, faEdit, faUsers, faFileAlt, faAward, faCode } from "@fortawesome/free-solid-svg-icons";
+
+
 function Meta() {
   return (
     <div className="project">
@@ -20,39 +25,148 @@ function Meta() {
       <div className="row">
 
         <div className="column-left">
-          <h4>Timeline</h4><span className="proj-detail">12 weeks, summer 2022</span>
+          <h4>Timeline</h4><span className="proj-detail">June 2022 - September 2022 (12 weeks)
+          </span>
           <h4>Teammates</h4><span className="proj-detail">5 product designers, 2 content designers, 1 PM, 1 product marketing manager, 2 engineers, 2 user researchers
           </span>
         </div>
         <div className="column">
           <h4>Role</h4><span className="proj-detail">Product Design Intern</span>
-          <h4>Tools</h4><span className="proj-detail">Figma</span>
+          <h4>Platform</h4><span className="proj-detail">Web and mobile</span>
         </div>
       </div>
 
       <div className="full-width section-container gray">
         <div className="project">
-          <h5>SUMMARY</h5>
-          <h3>Work</h3>
-          <p>Once upon a summer 2022, I was a Product Design Intern on the Ads & Business Platforms organization at Meta.</p>
-          <p>My main project was <b>designing an onboarding experience to help business owners make the most of their product.</b> Early on, I met with a product marketing manager and two user researchers to thoroughly understand user needs, pain points, and opportunities. I then designed end-to-end flows and interactive prototypes, collaborating with two content designers. I continuously sought feedback through Design Crits, 1:1 meetings with team members and stakeholders, and chat messages, and I iterated the design to optimally meet user and business needs. I also met with the design system team to ensure the designs were compatible with the system and with engineers to check the feasibility.
+          <p>
+            Once upon a summer 2022, I interned at Meta as a product designer on the Business Messaging Tools team. I designed an experience and end-to-end flows to help users make the most of their product, none of which I can show you because of “NDAs.” I also gained a ton of learnings and experiences along the way, which I confirmed I can share after reading 200 pages of legal documents.
           </p>
-          <p>I addition to my main project, I designed empty states and error states for web and mobile. After realizing a gap in the design system, I designed and proposed a new component to meet user needs and accessibility standards.
-          </p>
+
           <img src={Desk} />
           <div className="caption">My assigned desk</div>
+        </div>
+      </div>
 
-      <h3>Learnings</h3>
+      <h5>RESEARCH</h5>
+      <h3>Gathering project context</h3>
       <p>
-        Working with 8+ cross-functional partners, I learned how to better juggle priorities, align on project requirements, and articulate my own point of view after considering multiple perspectives. I also became more adept at designing within a larger organization, understanding when to use the design system and when to break from it.
+        To better understand the problem, I combed through existing qualitative and quantitative research. I then set up 1:1s with user researchers and a product marketing manager to dive deeper into what the user needs and pain points are.
       </p>
       <p>
-        I can’t publicly share my work, so reach out if you’d like more details!
+        With their perspectives, I created a value/effort matrix to help me prioritize key areas for improvement. I audited the existing flows for those areas against major design heuristics to get a better sense of what was causing friction. I also analyzed the product’s biggest competitors to gain insight into how other products have solved for users’ frustrations.
       </p>
+
+      <h5>DESIGN</h5>
+      <h3>Defining the solution
+      </h3>
+      <p>
+        I used my research to begin designing the experience.
+      </p>
+      <div className="shadow-box-container">
+        <div className="icon-box">
+          <div class="icon"><FontAwesomeIcon icon={faEdit} /></div>
+          <div>
+            <h1>Exploring concepts</h1>
+            <p>
+              Through sketches and designs in Figma, I brainstormed many possible solutions to the problem, converging and diverging on directions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="shadow-box-container">
+        <div className="icon-box">
+          <div class="icon"><FontAwesomeIcon icon={faUsers} /></div>
+          <div>
+            <h1>Choosing a direction
+            </h1>
+            <p>
+              To help me hone in on a design direction, I sought feedback from other designers on the team. I also checked with the PM and engineers to understand feasibility and requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="shadow-box-container">
+        <div className="icon-box">
+          <div class="icon"><FontAwesomeIcon icon={faFileAlt} /></div>
+          <div>
+            <h1>Fleshing out the design
+            </h1>
+            <p>
+              After deciding on a direction, I designed end-to-end flows and interactive prototypes using the design system. I made a logic flow diagram for different use cases and mocked up mobile screens as well. I also wrote the initial content and collaborated with content designers to polish it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Curveball: A new business need
+      </h3>
+      <p>
+        While I was designing the solution, I was given a new requirement: add a flow directing users to a new product feature. Clearly, there was a businesses need for this addition, but was it worth adding cognitive load for the user at this part of the journey? I ultimately concluded the tradeoff was worth it because past research suggested it would be valuable to users.
+      </p>
+
+      <h3>Iterating…and iterating…and iterating
+      </h3>
+      <p>
+        I shared the design with team members and partners to gather their input and further improve it.
+      </p>
+      <ul>
+        <li>
+          I presented it at our team’s formal <b>Design Review</b> and received feedback from senior designers.
+        </li>
+        <li>
+          I conducted a <b>design walkthrough for engineers</b> to get their input and answer questions.
+        </li>
+        <li>
+          I set up <b>1:1s</b> with the PM and team lead for their feedback.</li>
+        <li>
+          I also <b>reviewed it with the design system team</b> to ensure it was compatible with the overall product’s design. </li>
+      </ul>
+      <p>I kept iterating the design until it was ready for implementation.</p>
+
+
+      <h5>SIDE PROJECT</h5>
+      <h3>Bonus: Designing error states
+      </h3>
+<p>
+I volunteered to take on a side project of designing error states for mobile. I designed 9 error states for different use cases. 
+</p>
+<p>
+While doing so, I came across a custom component that was being used to fill a gap in the design system, but it didn’t meet accessibility standards. I revised it to meet them and be more visually aligned with existing system components. I <b>proposed this as a new component for the system</b> so it could be easily incorporated into other parts of the app, improving consistency.
+</p>
+
+<h5>TAKEAWAYS</h5>
+      <h3>Lessons learned
+      </h3>
+
+      <ol>
+            <li>
+              <b>Making decisions without user testing</b>
+              <p>My team didn’t do user testing because of limited UX research bandwidth. Instead, I was expected to draw from existing research and my design intuition to form POVs on the design. I learned how to craft design rationales and rely more heavily on feedback from peers to make decisions.
+              </p>
+            </li>
+            <li>
+              <b>How to ask for feedback</b>
+              <p>I heard my team say this phrase a lot: <i>get feedback early and often.</i> Throughout my internship, I pushed myself to ask for feedback from a variety of sources, which helped shape the design to be the best it could be. I learned what avenues (1:1s, chats, or group posts) were appropriate under which circumstances, how to quickly provide necessary context, and when to use feedback or set it aside.  
+</p>
+            </li>
+            <li>
+              <b>Keeping partners informed
+</b>
+              <p>My partners were focusing on other projects at the same time, so it was my job to keep them updated on my progress and where I needed their help. I learned how to communicate with them to keep them in the loop. I also learned the importance of making my work and contributions more visible, so my project isn’t lost among the many priorities of the team and collaboration opportunities can arise.
+</p>
+            </li>
+          </ol>
+
+
+          <h3>Fun new experiences
+      </h3>
+      <p>Outside of work, this summer I got to have many fun new experiences. I rollerbladed for the first time, inside a church! And still have that bruise from falling one month later. Plus, the number of concerts I've been to went from zero to three. 
+      </p>
+
+
+
       <img src={Dropoff} />
       <div className="caption">Tech dropoff on the last day</div>
-      </div>
-      </div>
       <h3>Up Next</h3>
       <p>Check out my other projects below!</p>
       <div className="all-projects">

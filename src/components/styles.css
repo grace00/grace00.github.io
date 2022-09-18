@@ -68,9 +68,6 @@ h5 { /* capital letters heading */
     letter-spacing: 0.03em;
     color: var(--light-black);
 }
-/* .journie h5 {
-    color: #49d191;
-} */
 p {
     font-size: 18px;
     line-height: 27px;
@@ -269,7 +266,7 @@ a {
     font-weight: 600;
     transition: 0.3s;
 }
-a:hover {
+.project a:hover {
     filter: brightness(0.7);
 }
 .flex-container {
@@ -307,7 +304,7 @@ a:hover {
     transition: transform .4s ease;
 }
 .item:hover {
-    transform: scale(0.97);
+    transform: scale(0.95);
 }
 .item a {
     font-weight: 400;
@@ -590,8 +587,8 @@ img.reduce-size {
 .shadow-box-container {
     padding: 12px 24px;
     background-color: white;
-    box-shadow: 0px 0px 12px var(--light-outline);
-    border-radius: 16px;
+    border: 1px solid var(--light-outline);
+    border-radius: 4px;
     margin-bottom: 24px;
 }
 .center-text {
@@ -619,13 +616,11 @@ img.reduce-size {
 
 /* -----footer----*/
 .footer {
-    color: var(--light-black);
-    clear: both;
-    font-size: 16px;
-    margin-bottom: 56px;
-    margin-top: 80px;
+    border-top: 1px solid var(--light-outline);
+    padding-top: 40px;
+    margin-bottom: 48px;
+    margin-top: 40px;
     text-align: center;
-    border-top: 1px #34C3CC;
 }
 .footer img {
     width: 14px;
@@ -710,24 +705,23 @@ nav {
 }
 
 
-
 .introduction a.meta-color {
     font-weight: 600;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #b5dbffad 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #b5dbff80 50%);
 }
 .introduction a.amazon-color {
     font-weight: 600;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #ffe18ea4 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #ffe18e7c 50%);
 }
 .introduction a.lat-color {
     font-weight: 600;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #edb6ffa6 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #f0c4ff79 50%);
 }
 .introduction a.mcsweeneys-color {
     font-weight: 600;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #8ef19863 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #b4fabb79 50%);
 }
 .introduction a:hover {
-    filter: brightness(1.12);
+    filter: brightness(1.16);
 }
 

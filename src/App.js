@@ -54,7 +54,7 @@ function About() {
         <div>
       <img src={youngme} style={{ width: "25%", display: "block", borderRadius: "0px" }} className="profile-pic"/>
       <h1>Hi, I'm Grace!</h1>
-      <div className="small-text"><i>(pronounced "grah-che." just kidding)</i></div>
+      {/* <div className="small-text"><i>(pronounced "grah-che." just kidding)</i></div> */}
       </div>
       <div className="about-text">
       <p>I’m a designer, developer, and walking IMDb. As a kid, I would fold paper and draw buttons on them to “prototype” my dream computers. Now I’m a computer science/HCI student at Stanford who loves designing things and bringing them to life with code. 
@@ -73,7 +73,6 @@ function About() {
 
 function Footer() {
   return (
-
     <div className="footer">
       Developed by me with <FontAwesomeIcon icon={faEye} /> and <FontAwesomeIcon icon={faHands} />
     </div>
