@@ -135,7 +135,7 @@ blockquote .quote-citation {
     background-color: #f9c986cc;
 }
 .overlay.gray {
-    background-color: #f7f7f7;
+    background-color: var(--light-gray);
 }
 .overlay.imag {
     background-color: #DEEDFF;
@@ -587,8 +587,8 @@ img.reduce-size {
 .shadow-box-container {
     padding: 12px 24px;
     background-color: white;
-    border: 1px solid var(--light-outline);
-    border-radius: 4px;
+    box-shadow: 0px 0px 12px var(--light-outline);
+    border-radius: 8px;
     margin-bottom: 24px;
 }
 .center-text {

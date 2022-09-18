@@ -56,6 +56,8 @@ function Meta() {
         With their perspectives, I created a value/effort matrix to help me prioritize key areas for improvement. I audited the existing flows for those areas against major design heuristics to get a better sense of what was causing friction. I also analyzed the product’s biggest competitors to gain insight into how other products have solved for users’ frustrations.
       </p>
 
+      <div className="full-width section-container gray">
+        <div className="project">
       <h5>DESIGN</h5>
       <h3>Defining the solution
       </h3>
@@ -97,7 +99,7 @@ function Meta() {
           </div>
         </div>
       </div>
-
+      
       <h3>Curveball: A new business need
       </h3>
       <p>
@@ -122,6 +124,8 @@ function Meta() {
           I also <b>reviewed it with the design system team</b> to ensure it was compatible with the overall product’s design. </li>
       </ul>
       <p>I kept iterating the design until it was ready for implementation.</p>
+      </div>
+      </div>
 
 
       <h5>SIDE PROJECT</h5>
@@ -134,6 +138,9 @@ I volunteered to take on a side project of designing error states for mobile. I 
 While doing so, I came across a custom component that was being used to fill a gap in the design system, but it didn’t meet accessibility standards. I revised it to meet them and be more visually aligned with existing system components. I <b>proposed this as a new component for the system</b> so it could be easily incorporated into other parts of the app, improving consistency.
 </p>
 
+
+<div className="full-width section-container gray">
+        <div className="project">
 <h5>TAKEAWAYS</h5>
       <h3>Lessons learned
       </h3>
@@ -162,12 +169,10 @@ While doing so, I came across a custom component that was being used to fill a g
       </h3>
       <p>Outside of work, this summer I got to have many fun new experiences. I rollerbladed for the first time, inside a church! And still have that bruise from falling one month later. Plus, the number of concerts I've been to went from zero to three. 
       </p>
+      </div>
+      </div>
 
-
-
-      <img src={Dropoff} />
-      <div className="caption">Tech dropoff on the last day</div>
-      <h3>Up Next</h3>
+<h3>Up Next</h3>
       <p>Check out my other projects below!</p>
       <div className="all-projects">
         <div class="item">
