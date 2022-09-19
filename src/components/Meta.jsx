@@ -168,6 +168,7 @@ While doing so, I came across a custom component that was being used to fill a g
       </p>
       <img src={IG} />
       <div className="caption">Plus, I visited the Instagram office.</div>
+      <h3>Thanks for reading!&nbsp;&nbsp;🎉</h3>
       </div>
       </div>
 

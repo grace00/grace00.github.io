@@ -91,7 +91,7 @@ function Journie() {
             I worked on redesigning the IMAG site during my UX design fellowship at the National Institutes of Health (NIH). I aimed to make this government site easy and intuitive to use to help biomedical researchers share their work, find what others are doing, and collaborate.
           </p>
           <p>
-            In an end-of-project survey conducted with 5 site users,
+            In an end-of-project survey conducted with 5 researchers who use the site,
           </p>
 
           <div className="three-col-container">
