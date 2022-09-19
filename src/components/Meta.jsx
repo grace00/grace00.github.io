@@ -1,61 +1,58 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './styles.css';
-import Preview from './images/metasign.JPG'
-import Desk from './images/desk.JPG'
-import Dropoff from './images/dropoff.JPG'
+import Preview from './images/metasign.png'
 import journie from './images/journie-mockup.png'
 import imag from './images/imagpreview.png'
-
+import Matrix from './images/valueeffort.png'
+import IG from './images/igoffice.JPG'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuestion, faLaptopCode, faUser, faEdit, faUsers, faFileAlt, faAward, faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCompass, faPaintBrush, faEdit, } from "@fortawesome/free-solid-svg-icons";
 
 
 function Meta() {
   return (
     <div className="project">
-      <div className="overlay gray full-width no-border-radius">
+      <div className="overlay gray full-width no-border-radius cover">
         <h1 className="project-title">
-          Meta Summer Internship
+          Meta Internship
         </h1>
-        <p className="subtitle">Designing an onboarding experience for business owners.</p>
+        <p className="subtitle">Helping users make the most of their product.</p>
         <img src={Preview} />
       </div>
-      <div className="row">
+      <div className="row details-container">
 
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">June 2022 - September 2022 (12 weeks)
           </span>
-          <h4>Teammates</h4><span className="proj-detail">5 product designers, 2 content designers, 1 PM, 1 product marketing manager, 2 engineers, 2 user researchers
+          <h4>Platform</h4><span className="proj-detail">Web and mobile
           </span>
         </div>
         <div className="column">
           <h4>Role</h4><span className="proj-detail">Product Design Intern</span>
-          <h4>Platform</h4><span className="proj-detail">Web and mobile</span>
+          <h4>Teammates</h4><span className="proj-detail">5 product designers, 2 content designers, 1 PM, 1 product marketing manager, 2 engineers, 2 user researchers</span>
         </div>
       </div>
 
       <div className="full-width section-container gray">
         <div className="project">
+          <h3>Introduction</h3>
           <p>
-            Once upon a summer 2022, I interned at Meta as a product designer on the Business Messaging Tools team. I designed an experience and end-to-end flows to help users make the most of their product, none of which I can show you because of “NDAs.” I also gained a ton of learnings and experiences along the way, which I confirmed I can share after reading 200 pages of legal documents.
+            Once upon a summer 2022, I interned at Meta as a product designer on the Business Messaging Tools team. <b>I designed an experience and end-to-end flows to help users make the most of their product.</b> None of which I can show because of this weird thing called “NDAs.” I also gained a ton of learnings and experiences along the way, which I confirmed I <i>can</i> share after reading 200 pages of legal documents.
           </p>
-
-          <img src={Desk} />
-          <div className="caption">My assigned desk</div>
         </div>
       </div>
 
       <h5>RESEARCH</h5>
-      <h3>Gathering project context</h3>
+      <h3>Gathering project context </h3>
       <p>
-        To better understand the problem, I combed through existing qualitative and quantitative research. I then set up 1:1s with user researchers and a product marketing manager to dive deeper into what the user needs and pain points are.
-      </p>
+      I started with research to get a better understanding of the problem space. I combed through research studies and data, then set up 1:1s with user researchers and a product marketing manager to dive deeper into what the user needs and pain points were. 
+</p>
       <p>
-        With their perspectives, I created a value/effort matrix to help me prioritize key areas for improvement. I audited the existing flows for those areas against major design heuristics to get a better sense of what was causing friction. I also analyzed the product’s biggest competitors to gain insight into how other products have solved for users’ frustrations.
-      </p>
-
+      With their perspectives, I created a value/effort matrix to help me <b>prioritize key areas for improvement</b>. To get a better sense of what was causing friction, I audited the existing flows for those areas against major design heuristics. I also analyzed the product’s biggest competitors to gain insight into how other products have solved for users’ frustrations. </p>
+      <img src={Matrix} />
+      <div className="caption">Value-effort matrix with content removed</div>
       <div className="full-width section-container gray">
         <div className="project">
       <h5>DESIGN</h5>
@@ -77,7 +74,7 @@ function Meta() {
       </div>
       <div className="shadow-box-container">
         <div className="icon-box">
-          <div class="icon"><FontAwesomeIcon icon={faUsers} /></div>
+          <div class="icon"><FontAwesomeIcon icon={faCompass} /></div>
           <div>
             <h1>Choosing a direction
             </h1>
@@ -89,7 +86,7 @@ function Meta() {
       </div>
       <div className="shadow-box-container">
         <div className="icon-box">
-          <div class="icon"><FontAwesomeIcon icon={faFileAlt} /></div>
+          <div class="icon"><FontAwesomeIcon icon={faPaintBrush} /></div>
           <div>
             <h1>Fleshing out the design
             </h1>
@@ -103,7 +100,7 @@ function Meta() {
       <h3>Curveball: A new business need
       </h3>
       <p>
-        While I was designing the solution, I was given a new requirement: add a flow directing users to a new product feature. Clearly, there was a businesses need for this addition, but was it worth adding cognitive load for the user at this part of the journey? I ultimately concluded the tradeoff was worth it because past research suggested it would be valuable to users.
+        While I was designing the solution, I was given a new requirement: add a flow directing users to a new product feature. Clearly, there was a businesses need for this addition, but was it worth adding cognitive load for the user at this part of the journey? I ultimately concluded <b>the tradeoff was worth it because past research suggested it would be valuable to users</b>.
       </p>
 
       <h3>Iterating…and iterating…and iterating
@@ -167,8 +164,10 @@ While doing so, I came across a custom component that was being used to fill a g
 
           <h3>Fun new experiences
       </h3>
-      <p>Outside of work, this summer I got to have many fun new experiences. I rollerbladed for the first time, inside a church! And still have that bruise from falling one month later. Plus, the number of concerts I've been to went from zero to three. 
+      <p>Outside of work, this summer I got to have many fun new experiences. I went to my first concert and rollerbladed for the first time, inside a church! And still have that bruise from falling one month later.
       </p>
+      <img src={IG} />
+      <div className="caption">Plus, I visited the Instagram office.</div>
       </div>
       </div>
 

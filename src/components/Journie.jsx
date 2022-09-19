@@ -30,15 +30,15 @@ import MorningIteration from './images/journie-morning.png';
 function Journie() {
   return (
     <div className="project journie">
-      <div className="overlay green full-width no-border-radius">
+      <div className="overlay green full-width no-border-radius cover">
         <h1 className="project-title">
           Journie
         </h1>
-        <p className="subtitle">Matching Stanford commuters to carpools.</p>
+        <p className="subtitle">Matching commuters to carpools.</p>
         <img src={Preview} />
       </div>
 
-      <div className="row">
+      <div className="row details-container">
         <h4>Overview</h4>
         <span className="proj-detail">Journie is a project I worked on for a service design class. My team was tasked with improving Stanford Rideshare, a program that incentivizes Stanford employees to carpool to and from work together.</span>
         <div className="column-left">

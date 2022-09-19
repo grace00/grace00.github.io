@@ -24,13 +24,13 @@ import TextEditor from './images/texteditor.png';
 function Leaflet() {
   return (
     <div className="project">
-      <div className="overlay leaflet full-width">
+      <div className="overlay leaflet full-width cover">
         <h1 className="project-title">Leaflet</h1>
-        <p className="subtitle">Developing a transcription application for journalists.</p>
+        <p className="subtitle">A transcription web app for journalists.</p>
         <img src={leaflet} />
       </div>
 
-      <div className="row">
+      <div className="row details-container">
         <div className="column-left">
           <h4>Timeline</h4><span className="proj-detail">August 2019 - December 2019 (10 weeks)</span>
           <h4>Role</h4><span className="proj-detail">Designer and full-stack developer</span>

@@ -46,15 +46,15 @@ function Journie() {
       <li><Link to="#final-design">Results</Link></li>
 </ul> */}
 
-      <div className="overlay imag full-width no-border-radius">
+      <div className="overlay imag full-width no-border-radius cover">
         <h1 className="project-title">
           IMAG
         </h1>
-        <p className="subtitle">Enable biomedical researchers to share highlights of their work.</p>
+        <p className="subtitle">Redesigning a government site.</p>
         <img src={Preview} />
       </div>
 
-      <div className="row">
+      <div className="row details-container">
         <h4>Context</h4>
         <span className="proj-detail">During my UX design fellowship at the National Institutes of Health (NIH), I was tasked with improving the user experience of the IMAG wiki site, the central spot for sharing research and resources related to multiscale modeling.
         </span>
@@ -275,7 +275,7 @@ function Journie() {
         <li>Clearly communicate the purpose of the site</li>
       </ul>
       <br />
-      <div className="center-text">
+      <div className="center-text imag">
         <a href="https://docs.google.com/document/d/13U8EeRqz1y8Ofp7nontkKwa4Oe-Xehyo0siYWkrMNLM/edit?usp=sharing" target="_blank" className="btn-big">View Full Analysis</a>
       </div>
 

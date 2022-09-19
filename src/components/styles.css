@@ -56,7 +56,7 @@ h2 {
 }
 h3 {
     font-size: 32px;
-    margin-top: 36px;
+    margin-top: 48px;
 }
 h4 {
     margin-top: 36px;
@@ -273,9 +273,12 @@ a {
     justify-content: left;
     display: flex;
 }
+.details-container {
+    padding: 4px 0px 4px 0px;
+}
 .section-container {
-    padding: 32px 0px 32px 0px;
-    margin: 64px 0;
+    padding: 72px 0px 72px 0px;
+    margin: 80px 0;
 }
 .section-container.gray {
     background-color: var(--light-gray);
@@ -348,7 +351,7 @@ a {
 
 /* -----project pages----*/
 .project {
-    width: 632px;
+    width: 600px;
     margin: 0 auto;
 }
 .project img {
@@ -362,22 +365,27 @@ a {
     color: white;
 }
 .full-width.overlay img {
-    height: 48vh;
+    height: 55vh;
     width: auto;
     padding: 24px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+.cover {
+    padding: 48px 0;
+}
 .project-title {
     font-size: 44px;
+    padding: 0;
     font-weight: 700;
     text-align: center;
 }
 .project p.subtitle { /* override regular p styling */
     font-weight: 400;
     font-size: 22px;
-    line-height: 28px;
+    line-height: 0px;
+    margin-bottom: 40px;
     text-align: center;
 }
 /* .table-of-contents {
@@ -401,7 +409,7 @@ ul.table-of-contents a:active {
     margin: 40px 0;
 }
 .row h4 {
-    margin-top: 24px;
+    margin-top: 32px;
     margin-bottom: 6px;
     font-size: 16px;
 }

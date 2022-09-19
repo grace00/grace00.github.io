@@ -33,7 +33,7 @@ function Projects() {
 							</div>
 							<h1>Meta</h1>
 							<div className="small-text">INTERNSHIP • SUMMER 2022</div>
-							<p>Designing an onboarding experience for business owners.</p>
+							<p>Designing an experience to help users make the most of their product.</p>
 						</Link>
 					</div>
 				<div class="item">
