@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.480f83dc.chunk.css",
-    "main.js": "/portfolio/static/js/main.f05a358e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f05a358e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.890d99b8.chunk.css",
+    "main.js": "/portfolio/static/js/main.4a8770ce.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4a8770ce.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
-    "static/js/2.5fa8a13d.chunk.js": "/portfolio/static/js/2.5fa8a13d.chunk.js",
-    "static/js/2.5fa8a13d.chunk.js.map": "/portfolio/static/js/2.5fa8a13d.chunk.js.map",
+    "static/js/2.b3ed3840.chunk.js": "/portfolio/static/js/2.b3ed3840.chunk.js",
+    "static/js/2.b3ed3840.chunk.js.map": "/portfolio/static/js/2.b3ed3840.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ea45622d66650d7b60bf151ab203a531.js": "/portfolio/precache-manifest.ea45622d66650d7b60bf151ab203a531.js",
+    "precache-manifest.8f4230e0d0c54d11f857cf9f4391b37f.js": "/portfolio/precache-manifest.8f4230e0d0c54d11f857cf9f4391b37f.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.480f83dc.chunk.css.map": "/portfolio/static/css/main.480f83dc.chunk.css.map",
+    "static/css/main.890d99b8.chunk.css.map": "/portfolio/static/css/main.890d99b8.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
     "static/media/Final_Demo.mp4": "/portfolio/static/media/Final_Demo.7753d8fc.mp4",
     "static/media/NIBIB.png": "/portfolio/static/media/NIBIB.3c8f3636.png",
@@ -20,9 +20,8 @@
     "static/media/ProximaNova-Regular.ttf": "/portfolio/static/media/ProximaNova-Regular.7ce6760d.ttf",
     "static/media/ProximaNova-Semibold.ttf": "/portfolio/static/media/ProximaNova-Semibold.df8c6264.ttf",
     "static/media/audio.png": "/portfolio/static/media/audio.dd970b47.png",
-    "static/media/desk.JPG": "/portfolio/static/media/desk.83ce25d7.JPG",
-    "static/media/dropoff.JPG": "/portfolio/static/media/dropoff.4007e888.JPG",
     "static/media/fandom.png": "/portfolio/static/media/fandom.b6f89d75.png",
+    "static/media/igoffice.JPG": "/portfolio/static/media/igoffice.e2a19913.JPG",
     "static/media/imag-add-pages.png": "/portfolio/static/media/imag-add-pages.a367ca42.png",
     "static/media/imag-airtable.png": "/portfolio/static/media/imag-airtable.e6488c9a.png",
     "static/media/imag-create-account.png": "/portfolio/static/media/imag-create-account.45777e19.png",
@@ -81,7 +80,7 @@
     "static/media/leafletprototype.png": "/portfolio/static/media/leafletprototype.3280ac26.png",
     "static/media/leafletsketch.JPG": "/portfolio/static/media/leafletsketch.2a24ee37.JPG",
     "static/media/metapreview.png": "/portfolio/static/media/metapreview.a934af08.png",
-    "static/media/metasign.JPG": "/portfolio/static/media/metasign.966833d0.JPG",
+    "static/media/metasign.png": "/portfolio/static/media/metasign.29caeec8.png",
     "static/media/newspin.png": "/portfolio/static/media/newspin.1334ff41.png",
     "static/media/newspinopen.png": "/portfolio/static/media/newspinopen.6eecd170.png",
     "static/media/notes.png": "/portfolio/static/media/notes.70e2a976.png",
@@ -93,13 +92,14 @@
     "static/media/test2.png": "/portfolio/static/media/test2.a13792ae.png",
     "static/media/texteditor.png": "/portfolio/static/media/texteditor.b925d808.png",
     "static/media/transcription.png": "/portfolio/static/media/transcription.14d8dd5a.png",
+    "static/media/valueeffort.png": "/portfolio/static/media/valueeffort.1f5cfb36.png",
     "static/media/wikipedia.png": "/portfolio/static/media/wikipedia.d451e7b1.png",
     "static/media/youngme.png": "/portfolio/static/media/youngme.fda2f4ef.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f84e4eb0.js",
-    "static/js/2.5fa8a13d.chunk.js",
-    "static/css/main.480f83dc.chunk.css",
-    "static/js/main.f05a358e.chunk.js"
+    "static/js/2.b3ed3840.chunk.js",
+    "static/css/main.890d99b8.chunk.css",
+    "static/js/main.4a8770ce.chunk.js"
   ]
 }
