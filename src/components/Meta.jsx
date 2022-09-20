@@ -175,6 +175,17 @@ While doing so, I came across a custom component that was being used to fill a g
 <h3>Up Next</h3>
       <p>Check out my other projects below!</p>
       <div className="all-projects">
+      <div class="item">
+          <Link to="/journie">
+            <div>
+              <span class="vertical-helper"></span>
+              <img src={journie} className="preview-image" />
+            </div>
+            <h1>Journie</h1>
+            <div className="small-text">PROJECT • USER RESEARCH • VISUAL DESIGN</div>
+            <p>Designing an app that matches Stanford commuters with carpools.</p>
+          </Link>
+        </div>
         <div class="item">
           <Link to="/imag">
             <div>
@@ -184,17 +195,6 @@ While doing so, I came across a custom component that was being used to fill a g
             <h1>IMAG</h1>
             <div className="small-text">INTERNSHIP • USER RESEARCH • ITERATIVE</div>
             <p>Redesigning a government site to help biomedical researchers share highlights of their work.</p>
-          </Link>
-        </div>
-        <div class="item">
-          <Link to="/journie">
-            <div>
-              <span class="vertical-helper"></span>
-              <img src={journie} className="preview-image" />
-            </div>
-            <h1>Journie</h1>
-            <div className="small-text">PROJECT • USER RESEARCH • VISUAL DESIGN</div>
-            <p>Designing an app that matches Stanford commuters with carpools.</p>
           </Link>
         </div>
       </div>

@@ -36,17 +36,6 @@ function Projects() {
 							<p>Designing an experience to help users make the most of their product.</p>
 						</Link>
 					</div>
-				<div class="item">
-						<Link to="/imag">
-							<div>
-								<span class="vertical-helper"></span>
-								<img src={imag} className="preview-image" />
-							</div>
-							<h1>IMAG</h1>
-							<div className="small-text">INTERNSHIP • USER RESEARCH • ITERATIVE</div>
-							<p>Redesigning a government site to help biomedical researchers share highlights of their work.</p>
-						</Link>
-					</div>
 					<div class="item">
 						<Link to="/journie">
 							<div>
@@ -56,6 +45,17 @@ function Projects() {
 							<h1>Journie</h1>
 							<div className="small-text">PROJECT • USER RESEARCH • VISUAL DESIGN</div>
 							<p>Designing an app that matches Stanford commuters with carpools.</p>
+						</Link>
+					</div>
+				<div class="item">
+						<Link to="/imag">
+							<div>
+								<span class="vertical-helper"></span>
+								<img src={imag} className="preview-image" />
+							</div>
+							<h1>IMAG</h1>
+							<div className="small-text">INTERNSHIP • USER RESEARCH • ITERATIVE</div>
+							<p>Redesigning a government site to help biomedical researchers share highlights of their work.</p>
 						</Link>
 					</div>
 					<div class="item">
