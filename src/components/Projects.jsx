@@ -16,9 +16,8 @@ function Projects() {
 					<p className="header">Hey! I’m Grace.  👩🏻‍💻</p>
 					<div className="flex-container">
 						{/*<img src={art} /> <img src={code} />*/}
-						<p className="sub-header">I'm a product designer studying computer science at Stanford.
-						<br/> Formerly at <a href="https://about.facebook.com/" target="_blank" className="meta-color">Meta</a>, <a href="https://www.amazon.com/" target="_blank" className="amazon-color">Amazon</a>, and <a href="https://interns.latimes.com/technology/" target="_blank" className="lat-color">LA Times</a>.
-						Occasional contributor to <a href="https://www.mcsweeneys.net/authors/grace-zhou" target="_blank" className="mcsweeneys-color">
+						<p className="sub-header">I'm a product designer who previously interned at <a href="https://about.facebook.com/" target="_blank" className="meta-color">Meta</a>, <a href="https://www.amazon.com/" target="_blank" className="amazon-color">Amazon</a>, and <a href="https://interns.latimes.com/technology/" target="_blank" className="lat-color">LA Times</a>.
+						<br/>I also occasionally write humor for <a href="https://www.mcsweeneys.net/authors/grace-zhou" target="_blank" className="mcsweeneys-color">
 							 McSweeney's
 							</a>.
 						</p>
