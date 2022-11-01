@@ -39,7 +39,7 @@ function Meta() {
         <div className="project">
           <h3>Introduction</h3>
           <p>
-            Once upon a summer 2022, I interned at Meta as a product designer on the Business Messaging Tools team. <b>I designed an experience and end-to-end flows to help users make the most of their product.</b> None of which I can show because of this weird thing called “NDAs.” I also gained a ton of learnings and experiences along the way, which I confirmed I <i>can</i> share after reading 200 pages of legal documents.
+            Once upon a summer 2022, I interned at Meta as a product designer on the Business Messaging Tools team. <b>I designed an experience and end-to-end flows to help users make the most of their product.</b> I can't show the details of my work because of NDAs, but I can share my learnings and experiences along the way.
           </p>
         </div>
       </div>
