@@ -17,7 +17,7 @@ function Projects() {
 					<div className="flex-container">
 						{/*<img src={art} /> <img src={code} />*/}
 						<p className="sub-header">I'm a product designer who previously interned at <a href="https://about.facebook.com/" target="_blank" className="meta-color">Meta</a>, <a href="https://www.amazon.com/" target="_blank" className="amazon-color">Amazon</a>, and <a href="https://interns.latimes.com/technology/" target="_blank" className="lat-color">LA Times</a>.
-						<br/>I also occasionally write humor for <a href="https://www.mcsweeneys.net/authors/grace-zhou" target="_blank" className="mcsweeneys-color">
+						<br/>I also occasionally contribute humor to <a href="https://www.mcsweeneys.net/authors/grace-zhou" target="_blank" className="mcsweeneys-color">
 							 McSweeney's
 							</a>.
 						</p>
@@ -31,8 +31,8 @@ function Projects() {
 								<img src={meta} className="preview-image" />
 							</div>
 							<h1>Meta</h1>
-							<div className="small-text">INTERNSHIP • SUMMER 2022</div>
-							<p>Designing an experience to help users make the most of their product.</p>
+							<div className="small-text">INTERNSHIP • PRODUCT DESIGN</div>
+							<p>Designing an experience to help users get more value from their product.</p>
 						</Link>
 					</div>
 					<div class="item">
@@ -53,7 +53,7 @@ function Projects() {
 								<img src={imag} className="preview-image" />
 							</div>
 							<h1>IMAG</h1>
-							<div className="small-text">INTERNSHIP • USER RESEARCH • ITERATIVE</div>
+							<div className="small-text">INTERNSHIP • USER RESEARCH • REDESIGN</div>
 							<p>Redesigning a government site to help biomedical researchers share highlights of their work.</p>
 						</Link>
 					</div>

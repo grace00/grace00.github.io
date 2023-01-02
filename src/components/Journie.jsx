@@ -46,7 +46,7 @@ function Journie() {
           <h4>Role</h4><span className="proj-detail">UI/UX designer, researcher</span>
         </div>
         <div className="column">
-          <h4>Teammates</h4><span className="proj-detail">3 during research, 1 during design
+          <h4>Teammates</h4><span className="proj-detail">3 other researchers, 1 other designer
           </span>
           <h4>Tools</h4><span className="proj-detail">Figma</span>
         </div>
@@ -111,10 +111,11 @@ function Journie() {
             In order to understand how we could improve Stanford Rideshare, we each interviewed two Stanford employees about their rideshare experiences, needs, and frustrations. Our <b>8 interviewees</b> included carpool coordinators, riders, and an employee who was unsuccessful in finding a carpool.
       </p>
           <p>
-            We created an affinity map and journey maps to synthesize our findings and identify pain points.
+            We created an affinity map and journey maps (or should I say Journie<sup>TM</sup> maps) to synthesize our findings and identify pain points.
       </p>
 
           <img src={JourneyMap} style={{ width: "100%", height: "auto" }} />
+          <div className="caption">Journey map I made</div>
 
           <h3>Key Insights</h3>
           <ol>
@@ -148,7 +149,7 @@ function Journie() {
 </div></div>
       </div>
       <p>We aimed to help more potential members join carpools, so they can enjoy their commute and get precious time back.</p>
-      <div className="small-text">Some ideas we nixed: an in-person meetup (too difficult to prototype with Stanford employees), an email list (didn’t want to cross into the Stanford Rideshare administrators’ territory), and a dark horse hitchhiking app (didn't want to get sued).</div>
+      <p>Some ideas we nixed: an in-person meetup (too difficult to prototype with Stanford employees), an email list (didn’t want to cross into the Stanford Rideshare administrators’ territory), and a dark horse hitchhiking app (didn't want to get sued).</p>
       {/* <h5>BLUEPRINT</h5>
       <h3>Mapping the service</h3>
       <p>
@@ -176,7 +177,7 @@ function Journie() {
       <h5>PROTOTYPING</h5>
       <h3>Testing early directions and converging</h3>
       <p>
-        We created paper prototypes based on our idea and <b>tested them on 3 people</b> to decide which concept was best for users.
+        We created <b>3 paper prototypes</b> based on our idea and <b>tested them on 3 people</b> to decide which concept was best for users.
       </p>
       <p>Users felt that Prototype #1’s upcoming ride calendar was very helpful and that Prototype #3’s flow was the most intuitive. We decided to move forward with <b>a combination of the two concepts.</b></p>
       <div className="medium-overflow usability-box">

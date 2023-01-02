@@ -242,7 +242,8 @@ nav ul li {
 
 /* -----Projects----*/
 .introduction {
-    margin: 96px 0;
+    margin-top: 96px;
+    margin-bottom: 48px;
 }
 .header {
     /* font-family: 'Proxima Nova'; */
@@ -302,9 +303,13 @@ a {
     justify-content: space-between;
 }
 .item {
-    width: 47%;
-    margin-bottom: 72px;
+    padding: 48px 0;
     transition: transform .4s ease;
+}
+.preview-image {
+    width: 47%;
+    margin-right: 40px;
+    float: left;
 }
 .item:hover {
     transform: scale(0.95);
@@ -316,7 +321,7 @@ a {
 .item h1 {
     font-weight: 700;
     font-size: 24px;
-    margin-top: 24px;
+    margin-top: 7%;
 }
 .fix-height img {
     display: block;
@@ -709,6 +714,10 @@ nav {
         float: none;
         width: 100%;
         margin: 0 auto 56px auto;
+    }
+    .preview-image {
+        width: 100%;
+        margin-bottom: 24px;
     }
 }
 

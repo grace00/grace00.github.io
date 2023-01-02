@@ -16,9 +16,9 @@ function Meta() {
     <div className="project">
       <div className="overlay gray full-width no-border-radius cover">
         <h1 className="project-title">
-          Meta Internship
+          Meta Product Design Internship
         </h1>
-        <p className="subtitle">Helping users make the most of their product.</p>
+        <p className="subtitle">Helping businesses get more value from their inbox after onboarding.</p>
         <img src={Preview} />
       </div>
       <div className="row details-container">
@@ -31,7 +31,7 @@ function Meta() {
         </div>
         <div className="column">
           <h4>Role</h4><span className="proj-detail">Product Design Intern</span>
-          <h4>Teammates</h4><span className="proj-detail">5 product designers, 2 content designers, 1 PM, 1 product marketing manager, 2 engineers, 2 user researchers</span>
+          <h4>Collaborators</h4><span className="proj-detail">2 content designers, 1 PM, 1 product marketing manager, 2 engineers, 2 user researchers</span>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ function Meta() {
         <div className="project">
           <h3>Introduction</h3>
           <p>
-            Once upon a summer 2022, I interned at Meta as a product designer on the Business Messaging Tools team. <b>I designed an experience and end-to-end flows to help users make the most of their product.</b> I can't show the details of my work because of NDAs, but I can share my learnings and experiences along the way.
+            Once upon a summer 2022, I interned at Meta as a product designer on the Business Messaging Tools team. <b>I designed an experience and end-to-end flows to guide users to make the most of their product after onboarding.</b> I can't show the details of my work because of NDAs, but I can share my learnings and experiences along the way.
           </p>
         </div>
       </div>
