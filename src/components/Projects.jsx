@@ -24,18 +24,6 @@ function Projects() {
 					</div>
 				</div>
 				<div className="all-projects">
-				<div class="item">
-						<Link to="/meta-internship">
-							<div>
-								<span class="vertical-helper"></span>
-								<img src={meta} className="preview-image" />
-							</div>
-							<h1>Meta</h1>
-							<div className="small-text">INTERNSHIP • PRODUCT DESIGN</div>
-							<p>Designing an experience to help users get more value from their product.</p>
-						</Link>
-					</div>
-					<div class="item">
 						<Link to="/journie">
 							<div>
 								<span class="vertical-helper"></span>
@@ -57,6 +45,18 @@ function Projects() {
 							<p>Redesigning a government site to help biomedical researchers share highlights of their work.</p>
 						</Link>
 					</div>
+					<div class="item">
+						<Link to="/meta-internship">
+							<div>
+								<span class="vertical-helper"></span>
+								<img src={meta} className="preview-image" />
+							</div>
+							<h1>Meta</h1>
+							<div className="small-text">INTERNSHIP • PRODUCT DESIGN</div>
+							<p>Designing an experience to help users get more value from their product.</p>
+						</Link>
+					</div>
+					<div class="item">
 					<div class="item">
 						<Link to="/leaflet">
 							<div>
