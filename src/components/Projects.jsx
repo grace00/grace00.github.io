@@ -17,13 +17,14 @@ function Projects() {
 					<div className="flex-container">
 						{/*<img src={art} /> <img src={code} />*/}
 						<p className="sub-header">I'm a product designer who previously interned at <a href="https://about.facebook.com/" target="_blank" className="meta-color">Meta</a>, <a href="https://www.amazon.com/" target="_blank" className="amazon-color">Amazon</a>, and <a href="https://interns.latimes.com/technology/" target="_blank" className="lat-color">LA Times</a>.
-						<br/>I also occasionally contribute humor to <a href="https://www.mcsweeneys.net/authors/grace-zhou" target="_blank" className="mcsweeneys-color">
-							 McSweeney's
+							<br />I also occasionally contribute humor to <a href="https://www.mcsweeneys.net/authors/grace-zhou" target="_blank" className="mcsweeneys-color">
+								McSweeney's
 							</a>.
 						</p>
 					</div>
 				</div>
 				<div className="all-projects">
+					<div class="item">
 						<Link to="/journie">
 							<div>
 								<span class="vertical-helper"></span>
@@ -34,7 +35,7 @@ function Projects() {
 							<p>Designing an app that matches Stanford commuters with carpools.</p>
 						</Link>
 					</div>
-				<div class="item">
+					<div class="item">
 						<Link to="/imag">
 							<div>
 								<span class="vertical-helper"></span>
@@ -57,7 +58,6 @@ function Projects() {
 						</Link>
 					</div>
 					<div class="item">
-					<div class="item">
 						<Link to="/leaflet">
 							<div>
 								<span class="vertical-helper"></span>
@@ -68,7 +68,7 @@ function Projects() {
 							<p>Designing and developing a transcription application for journalists.</p>
 						</Link>
 					</div>
-					</div>
+				</div>
 			</FadeIn>
 		</div>
 	);
