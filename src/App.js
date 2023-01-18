@@ -6,6 +6,7 @@ import './components/styles.css';
 import NavBar from './components/NavBar';
 import Leaflet from './components/Leaflet.jsx';
 import Meta from './components/Meta.jsx';
+import Handshake from './components/Handshake.jsx';
 import Imag from './components/Imag.jsx';
 import Journie from './components/Journie.jsx';
 import Projects from './components/Projects';
@@ -34,6 +35,7 @@ class App extends React.Component {
               <Route exact path='/journie' component={Journie} />
               <Route exact path='/leaflet' component={Leaflet} />
               <Route exact path='/about' component={About} />
+              <Route exact path='/handshake-events-redesign' component={Handshake} />
               <Route path='*' component={Projects} />
             </Switch>
             </div >
