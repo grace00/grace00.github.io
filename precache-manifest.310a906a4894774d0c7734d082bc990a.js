@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "057b4defa42ac88d06e587bf40c993fb",
+    "revision": "6ded3212fbe1216aadae116a88412fc6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c9338a0e230a7ac39d7a",
-    "url": "/portfolio/static/css/main.de260853.chunk.css"
+    "revision": "908f556f410f5af4da2b",
+    "url": "/portfolio/static/css/main.f8a15299.chunk.css"
   },
   {
-    "revision": "25476ea579f5487a4c88",
-    "url": "/portfolio/static/js/2.b3ed3840.chunk.js"
+    "revision": "3f9ba2d91df45777290d",
+    "url": "/portfolio/static/js/2.1494ab82.chunk.js"
   },
   {
-    "revision": "c9338a0e230a7ac39d7a",
-    "url": "/portfolio/static/js/main.8eba6188.chunk.js"
+    "revision": "908f556f410f5af4da2b",
+    "url": "/portfolio/static/js/main.8dae0ced.chunk.js"
   },
   {
     "revision": "9916aa5016a36c80a421",
@@ -58,6 +58,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6f89d75da0a8ea7b1b95bd0f78c53ba",
     "url": "/portfolio/static/media/fandom.b6f89d75.png"
+  },
+  {
+    "revision": "3b03a353849ae392cd824b077e884386",
+    "url": "/portfolio/static/media/handshake-before.3b03a353.png"
+  },
+  {
+    "revision": "e8223363dd8fff2ac3aba15c4dd591fa",
+    "url": "/portfolio/static/media/handshake-mock.e8223363.png"
+  },
+  {
+    "revision": "affb2db84e28431c5219a0a20800280e",
+    "url": "/portfolio/static/media/handshake-project-preview.affb2db8.png"
   },
   {
     "revision": "e2a199131a2e9eae58994a401baee267",
@@ -346,6 +358,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1f5cfb363c93c39368c29750fbb628d2",
     "url": "/portfolio/static/media/valueeffort.1f5cfb36.png"
+  },
+  {
+    "revision": "790ea0b70e092fac53ce5668e8bd5c1f",
+    "url": "/portfolio/static/media/var1.790ea0b7.JPG"
+  },
+  {
+    "revision": "77ea216f8c725330ecb51fc7b51dbf78",
+    "url": "/portfolio/static/media/var2.77ea216f.JPG"
+  },
+  {
+    "revision": "b84d2f0de13f67c24e59224fe4555488",
+    "url": "/portfolio/static/media/var3.b84d2f0d.JPG"
   },
   {
     "revision": "d451e7b1661d71fc68ca02b19137497b",
