@@ -111,7 +111,7 @@ function Journie() {
             In order to understand how we could improve Stanford Rideshare, we each interviewed two Stanford employees about their rideshare experiences, needs, and frustrations. Our <b>8 interviewees</b> included carpool coordinators, riders, and an employee who was unsuccessful in finding a carpool.
       </p>
           <p>
-            We created an affinity map and journey maps (or should I say Journie<sup>TM</sup> maps) to synthesize our findings and identify pain points.
+            We created an affinity map and journey maps to synthesize our findings and identify pain points.
       </p>
 
           <img src={JourneyMap} style={{ width: "100%", height: "auto" }} />

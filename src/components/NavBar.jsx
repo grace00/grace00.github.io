@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <div id="top">
         <nav>
-          <NavLink to="/" className="name">Grace Zhou</NavLink>
+          <NavLink to="/" className="name">GRACE ZHOU</NavLink>
           <ul>
             <li><NavLink to="/" className="underline" exact={true} activeClassName='is-active'>Work</NavLink></li>
             {/*<li><Link to="/writing">writing</Link></li>*/}

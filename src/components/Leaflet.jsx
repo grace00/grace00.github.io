@@ -26,7 +26,7 @@ function Leaflet() {
     <div className="project">
       <div className="overlay leaflet full-width cover">
         <h1 className="project-title">Leaflet</h1>
-        <p className="subtitle">A transcription web app for journalists.</p>
+        <p className="subtitle">Building a transcription tool for journalists.</p>
         <img src={leaflet} />
       </div>
 

@@ -48,9 +48,9 @@ function Journie() {
 
       <div className="overlay imag full-width no-border-radius cover">
         <h1 className="project-title">
-          IMAG
+          IMAG Redesign
         </h1>
-        <p className="subtitle">Redesigning a government site.</p>
+        <p className="subtitle">Redesigning a government site for biomedical researchers to share their work.</p>
         <img src={Preview} />
       </div>
 

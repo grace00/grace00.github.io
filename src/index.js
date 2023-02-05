@@ -5,11 +5,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 /* font code from http://skyentific.me/adding-fonts-to-create-react-app/*/
-import './fonts/ProximaNova-Regular.ttf';
-import './fonts/ProximaNova-Reg-It.otf';
-import './fonts/ProximaNova-Semibold.ttf';
-import './fonts/ProximaNova-Bold.otf';
-import './fonts/ProximaNova-Extrabld.ttf';
+import './fonts/WorkSans-Italic-VariableFont_wght.ttf';
+import './fonts/WorkSans-VariableFont_wght.ttf';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

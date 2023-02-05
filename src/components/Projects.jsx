@@ -65,7 +65,7 @@ function Projects() {
 							</div>
 							<h1>Leaflet</h1>
 							<div className="small-text">PROJECT • FULLSTACK DEVELOPMENT • DESIGN </div>
-							<p>Designing and developing a transcription application for journalists.</p>
+							<p>Building a transcription tool for journalists to aid their workflows.</p>
 						</Link>
 					</div>
 				</div>
