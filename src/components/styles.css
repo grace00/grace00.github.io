@@ -26,7 +26,7 @@ body {
     margin: 0 auto;
 }
 .main-container {
-    width: 980px;
+    width: 880px;
     margin: 0 auto;
 }
 .full-width {
@@ -61,7 +61,7 @@ h4 {
     margin-top: 36px;
 }
 h5 { /* capital letters heading */
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: -20px;
     /* margin-top: 48px; */
     letter-spacing: 0.03em;
@@ -254,7 +254,7 @@ nav ul li {
     font-size: 40px;
 }
 .sub-header {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     width: 90%;
     line-height: 150%;
@@ -556,9 +556,9 @@ img.reduce-size {
 }
 
 .large-overflow {
-    width: 90vw;
+    width: 80vw;
     position: relative;
-    left: calc(-45vw + 50%);
+    left: calc(-40vw + 50%);
 }
 .medium-overflow {
     width: 76vw;

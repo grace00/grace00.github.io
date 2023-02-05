@@ -366,7 +366,7 @@ function Journie() {
       </p>
       <p>The process of adding a model (and content in general) to the wiki is extremely unintuitive to users. I simplified it by providing an “Add” button on the page (and similar pages), which fit users’ expectations.
 </p>
-      <div className="large-overflow">
+      <div className="medium-overflow">
         <img src={Models} />
       </div>
       <blockquote>
