@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1dd304b383fa9e57446d1a9f6105960",
+    "revision": "87ccb434634843ca8fb262f634a547e4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "9dbf76d186ed1892b5f4",
-    "url": "/portfolio/static/css/main.38ebf054.chunk.css"
+    "revision": "b767db954231b32f4492",
+    "url": "/portfolio/static/css/main.9e2bcd27.chunk.css"
   },
   {
-    "revision": "4bd7e27d3bae9b6c6e3d",
-    "url": "/portfolio/static/js/2.2ea18ff7.chunk.js"
+    "revision": "89d8b2b68bf27a788db8",
+    "url": "/portfolio/static/js/2.800271ce.chunk.js"
   },
   {
-    "revision": "9dbf76d186ed1892b5f4",
-    "url": "/portfolio/static/js/main.1feea23b.chunk.js"
+    "revision": "b767db954231b32f4492",
+    "url": "/portfolio/static/js/main.1d084891.chunk.js"
   },
   {
     "revision": "9916aa5016a36c80a421",
@@ -32,24 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/NIBIB.3c8f3636.png"
   },
   {
-    "revision": "62d4d7d369292a9bf23762465ec6d704",
-    "url": "/portfolio/static/media/ProximaNova-Bold.62d4d7d3.otf"
+    "revision": "1cf15bedf5445dc764afd6c5d2304522",
+    "url": "/portfolio/static/media/WorkSans-Italic-VariableFont_wght.1cf15bed.ttf"
   },
   {
-    "revision": "51563919fd1af7376fac14b1194a8e4e",
-    "url": "/portfolio/static/media/ProximaNova-Extrabld.51563919.ttf"
-  },
-  {
-    "revision": "c8708c7ae9f1ccfd893ee01efdf0ac51",
-    "url": "/portfolio/static/media/ProximaNova-Reg-It.c8708c7a.otf"
-  },
-  {
-    "revision": "7ce6760d17685c466ba04d1b2c63c38b",
-    "url": "/portfolio/static/media/ProximaNova-Regular.7ce6760d.ttf"
-  },
-  {
-    "revision": "df8c626474a73ab7a8b511655597c7c4",
-    "url": "/portfolio/static/media/ProximaNova-Semibold.df8c6264.ttf"
+    "revision": "941a3b79279574b223a8ae8524585954",
+    "url": "/portfolio/static/media/WorkSans-VariableFont_wght.941a3b79.ttf"
   },
   {
     "revision": "dd970b474ff0a25e882476a6b7612304",

@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.38ebf054.chunk.css",
-    "main.js": "/portfolio/static/js/main.1feea23b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1feea23b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9e2bcd27.chunk.css",
+    "main.js": "/portfolio/static/js/main.1d084891.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1d084891.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f84e4eb0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f84e4eb0.js.map",
-    "static/js/2.2ea18ff7.chunk.js": "/portfolio/static/js/2.2ea18ff7.chunk.js",
-    "static/js/2.2ea18ff7.chunk.js.map": "/portfolio/static/js/2.2ea18ff7.chunk.js.map",
+    "static/js/2.800271ce.chunk.js": "/portfolio/static/js/2.800271ce.chunk.js",
+    "static/js/2.800271ce.chunk.js.map": "/portfolio/static/js/2.800271ce.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.5fff742fe66cd02361f80d78e716f9d5.js": "/portfolio/precache-manifest.5fff742fe66cd02361f80d78e716f9d5.js",
+    "precache-manifest.a91f1b7c0bcb612eaab4b48acbff3da4.js": "/portfolio/precache-manifest.a91f1b7c0bcb612eaab4b48acbff3da4.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.38ebf054.chunk.css.map": "/portfolio/static/css/main.38ebf054.chunk.css.map",
+    "static/css/main.9e2bcd27.chunk.css.map": "/portfolio/static/css/main.9e2bcd27.chunk.css.map",
     "static/media/CS206_Paper.pdf": "/portfolio/static/media/CS206_Paper.14af5942.pdf",
     "static/media/Final_Demo.mp4": "/portfolio/static/media/Final_Demo.7753d8fc.mp4",
     "static/media/NIBIB.png": "/portfolio/static/media/NIBIB.3c8f3636.png",
-    "static/media/ProximaNova-Bold.otf": "/portfolio/static/media/ProximaNova-Bold.62d4d7d3.otf",
-    "static/media/ProximaNova-Extrabld.ttf": "/portfolio/static/media/ProximaNova-Extrabld.51563919.ttf",
-    "static/media/ProximaNova-Reg-It.otf": "/portfolio/static/media/ProximaNova-Reg-It.c8708c7a.otf",
-    "static/media/ProximaNova-Regular.ttf": "/portfolio/static/media/ProximaNova-Regular.7ce6760d.ttf",
-    "static/media/ProximaNova-Semibold.ttf": "/portfolio/static/media/ProximaNova-Semibold.df8c6264.ttf",
+    "static/media/WorkSans-Italic-VariableFont_wght.ttf": "/portfolio/static/media/WorkSans-Italic-VariableFont_wght.1cf15bed.ttf",
+    "static/media/WorkSans-VariableFont_wght.ttf": "/portfolio/static/media/WorkSans-VariableFont_wght.941a3b79.ttf",
     "static/media/audio.png": "/portfolio/static/media/audio.dd970b47.png",
     "static/media/fandom.png": "/portfolio/static/media/fandom.b6f89d75.png",
     "static/media/handshake-before-after.png": "/portfolio/static/media/handshake-before-after.541eed9e.png",
@@ -106,8 +103,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f84e4eb0.js",
-    "static/js/2.2ea18ff7.chunk.js",
-    "static/css/main.38ebf054.chunk.css",
-    "static/js/main.1feea23b.chunk.js"
+    "static/js/2.800271ce.chunk.js",
+    "static/css/main.9e2bcd27.chunk.css",
+    "static/js/main.1d084891.chunk.js"
   ]
 }
